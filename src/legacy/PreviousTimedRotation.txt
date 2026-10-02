@@ -1,0 +1,197 @@
+                team = 0;
+                if (original_team_is(recognized, "Aemeath", "Linnai", "Mornye")) team = 1;
+                else if (original_team_is(recognized, "Hiyuki", "Lucilla", "Chisa")) team = 2;
+                else if (original_team_is(recognized, "Qingxiao", "Denia", "ShoreKeeper")) team = 3;
+                std::cout << "selected_team=" << team << '\n';
+                if (requested_team && team != requested_team) {
+                    std::cout << "requested_team=" << requested_team
+                              << " does not match detected_team=" << team
+                              << "; no combat rotation was sent\n";
+                    status = MaaStatus_Failed;
+                    return status;
+                }
+                if (team < 1 || team > 3) {
+                    std::cout << "unrecognized squad; no fallback rotation was sent\n";
+                    status = MaaStatus_Failed;
+                    return status;
+                }
+                const int slots[] = {3, 2, 1};
+                const int team1_ms[] = {11000, 14500, 12000};
+                const int team2_ms[] = {3500, 26000, 16000};
+                const int team3_ms[] = {11000, 3500, 18000};
+                const int* phase_ms = team == 1 ? team1_ms : team == 2 ? team2_ms : team3_ms;
+                bool denia_lib1_casted = false;
+                std::array<RoleState, 3> role_states{};
+                CombatAxis axis;
+                axis.team = team;
+                std::array<OriginalSwitchCharacter, 3> original_chars{};
+                for (int i = 0; i < 3; ++i) {
+                    original_chars[i].definition = recognized[i].definition;
+                    original_chars[i].index = i;
+                }
+                int first_slot = -1;
+                for (int attempt = 0; attempt < 5 && first_slot < 0; ++attempt) {
+                    first_slot = active_slot();
+                    if (first_slot < 0) Sleep(120);
+                }
+                if (first_slot < 1 || first_slot > 3) {
+                    std::cout << "active character label not reliable; stop without blind switch\n";
+                    status = MaaStatus_Failed;
+                    return status;
+                }
+                checker.set_ring_index(static_cast<int>(recognized[first_slot - 1].definition->element) - 1);
+                axis.current_role = 3 - first_slot;
+                axis.last_entry[axis.current_role] = seconds();
+                original_chars[first_slot - 1].is_current_char = true;
+                original_chars[first_slot - 1].last_switch_in_time = seconds();
+                std::cout << "initial_active_slot=" << first_slot
+                          << " role=" << axis.current_role << '\n';
+                for (int phase = 0; seconds() < 300 && !stop_requested(); ++phase) {
+                    if (challenge_ended()) {
+                        result_seen = true;
+                        std::cout << "challenge result detected before phase=" << phase << '\n';
+                        break;
+                    }
+                    auto before_switch = frame();
+                    bool previous_full = before_switch.concerto_full;
+                    if (phase > 0 && before_switch.concerto_coverage > 0.8 && !previous_full) {
+                        Sleep(50);
+                        before_switch = frame();
+                        previous_full = before_switch.concerto_full;
+                    }
+                    const int prior_index = 2 - axis.current_role;
+                    const int target_index = phase == 0 ? prior_index :
+                        choose_original_switch_target(original_chars, prior_index,
+                            previous_full, false, seconds(),
+                            [&](const OriginalSwitchCharacter& candidate,
+                                const OriginalSwitchCharacter& from, bool intro,
+                                bool low_con, double now) {
+                                return original_priority_for_ported_character(candidate, from,
+                                    intro, low_con, now, original_chars);
+                            });
+                    const int role = target_index < 0 ? -1 : 2 - target_index;
+                    if (role < 0 || role > 2) {
+                        std::cout << "axis returned invalid role; stop without blind switch\n";
+                        status = MaaStatus_Failed;
+                        break;
+                    }
+                    const int slot = slots[role];
+                    bool switched = phase == 0 && role == axis.current_role;
+                    if (phase == 0) {
+                        std::cout << "starting current active character without switching\n";
+                    } else if (role == axis.current_role) {
+                        std::cout << "axis selected current character; short wait then re-evaluate\n";
+                        if (!click()) throw std::runtime_error("Maa no-switch recovery attack failed");
+                        Sleep(200);
+                        continue;
+                    } else {
+                        switched = select(slot);
+                        if (!switched && challenge_ended()) {
+                            result_seen = true;
+                            std::cout << "challenge result detected after switch attempt\n";
+                            break;
+                        }
+                    }
+                    std::cout << "phase=" << phase << " slot=" << slot
+                              << " active_label_confirm=" << switched << '\n';
+                    if (!switched) {
+                        std::cout << "switch not confirmed; skip this role\n";
+                        continue;
+                    }
+                    checker.set_ring_index(static_cast<int>(recognized[slot - 1].definition->element) - 1);
+                    current_slot_for_cd = slot;
+                    if (phase > 0) {
+                        original_chars[prior_index].current_con = before_switch.concerto_coverage;
+                        original_chars[prior_index].switch_out(seconds(), previous_full);
+                        original_chars[slot - 1].has_intro = previous_full;
+                        original_chars[slot - 1].has_sub_dps_intro = previous_full &&
+                            original_chars[prior_index].is_sub_dps();
+                        original_chars[slot - 1].is_current_char = true;
+                        original_chars[slot - 1].last_switch_in_time = seconds();
+                        axis.switched(role, seconds(), previous_full);
+                    }
+                    std::cout << "axis role=" << role << " intro=" << axis.intro
+                              << " concerto_before=" << before_switch.concerto_coverage
+                              << " healer_buff=" << axis.buff_active(0, seconds())
+                              << " sub_buff=" << axis.buff_active(1, seconds()) << '\n';
+                    ++rotations;
+                    if (!retarget()) throw std::runtime_error("Maa target input failed");
+                    auto phase_start = std::chrono::steady_clock::now();
+                    int tick = 0;
+                    double peak_concerto = 0;
+                    RoleState& role_state = role_states[role];
+                    role_state.has_intro = original_chars[slot - 1].has_intro;
+                    role_state.has_all_buff = role_state.has_intro;
+                    for (int member = 0; member < 3; ++member)
+                        if (member != slot - 1)
+                            role_state.has_all_buff &= original_chars[member].has_buff(seconds());
+                    const int role_duration = team == 2 && role == 0
+                        ? (axis.intro && !axis.buff_active(0, seconds()) ? 12000 :
+                           axis.intro ? 3200 : 1200)
+                        : team == 3 && role == 1 && denia_lib1_casted
+                        ? 5700 : (role == 2 && (!axis.intro || !role_state.has_all_buff)
+                            ? 3000 : phase_ms[role]);
+                    while (std::chrono::duration_cast<std::chrono::milliseconds>(
+                               std::chrono::steady_clock::now() - phase_start).count() < role_duration &&
+                           seconds() < 300 && !stop_requested()) {
+                        auto s = frame();
+                        peak_concerto = std::max(peak_concerto, s.concerto_coverage);
+                        const bool locked = target_locked() == 1;
+                        bool combat = in_combat(s) || locked;
+                        if (!combat) {
+                            if (challenge_ended()) {
+                                result_seen = true;
+                                std::cout << "challenge result detected during phase=" << phase << '\n';
+                                break;
+                            }
+                            if (lost_since < 0) lost_since = seconds();
+                            if (seconds() - lost_since > 2) {
+                                if (seconds() - lost_since > 10) break;
+                            }
+                            if (tick % 4 == 0) {
+                                if (!retarget())
+                                    throw std::runtime_error("Maa target scan input failed");
+                            }
+                            Sleep(180);
+                            ++tick;
+                            continue;
+                        }
+                        lost_since = -1;
+                        const double now = seconds();
+                        const int phase_elapsed_ms = static_cast<int>(std::chrono::duration_cast<
+                            std::chrono::milliseconds>(std::chrono::steady_clock::now() - phase_start).count());
+                        if (role < 2 && s.concerto_full && phase_elapsed_ms >= 1200) {
+                            std::cout << "axis support concerto full; handoff at="
+                                      << phase_elapsed_ms << "ms\n";
+                            break;
+                        }
+                        CombatOps ops{s, now, tick, phase_elapsed_ms, role_state, denia_lib1_casted,
+                                      locked,
+                                      seconds, cast,
+                                      [&](const char* name, int x, int y, int width, int height,
+                                          double threshold) {
+                                          return feature(name, x, y, width, height, threshold);
+                                      },
+                                      heavy, hold_key, hold_liberation, click, right_click,
+                                      send_key, cooldown_remaining, stop_requested};
+                        if (!perform_character_tick(team, role, ops))
+                            break;
+                        ++tick;
+                        Sleep(160);
+                    }
+                    std::cout << "phase_end=" << phase << " lost_since=" << lost_since
+                              << " peak_concerto=" << peak_concerto
+                              << " elapsed=" << seconds() << '\n';
+                    if (result_seen || (lost_since >= 0 && seconds() - lost_since > 10)) break;
+                }
+                auto final_frame = frame();
+                const bool field_cleared = lost_since >= 0 && seconds() - lost_since > 10;
+                std::cout << "combat_seen=" << combat_seen << " rotations=" << rotations
+                          << " final_red=" << final_frame.red_run << " final_boss="
+                          << final_frame.boss_run << " result_seen=" << result_seen
+                          << " field_cleared=" << field_cleared
+                          << " elapsed=" << seconds() << '\n';
+                // A missing health bar can mean the next challenge area,
+                // not a completed run. Only the result panel proves success.
+                status = result_seen ? MaaStatus_Succeeded : MaaStatus_Failed;
+                if (stop_requested()) std::cout << "Stopped by user request\n";
