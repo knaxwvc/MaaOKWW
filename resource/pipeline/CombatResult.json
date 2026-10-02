@@ -1,0 +1,18 @@
+{
+  "NativeCombatResult": {
+    "recognition": "TemplateMatch",
+    "template": "combat_result.png",
+    "threshold": 0.78,
+    "roi": [
+      820,
+      600,
+      420,
+      110
+    ],
+    "action": "DoNothing",
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  }
+}

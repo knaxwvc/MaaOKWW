@@ -1,0 +1,21 @@
+{
+  "NativeReplay": {
+    "recognition": "DirectHit",
+    "action": "Click",
+    "target": [
+      1045,
+      660
+    ],
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "NativeBegin": {
+    "recognition": "DirectHit",
+    "action": "ClickKey",
+    "key": 70,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  }
+}

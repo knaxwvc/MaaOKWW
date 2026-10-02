@@ -1,0 +1,18 @@
+{
+  "NativeChallengeEnded": {
+    "recognition": "TemplateMatch",
+    "template": "challenge_ended.png",
+    "threshold": 0.82,
+    "roi": [
+      430,
+      160,
+      430,
+      120
+    ],
+    "action": "DoNothing",
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  }
+}

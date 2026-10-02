@@ -1,0 +1,9 @@
+{
+  "NativeSmoke": {
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  }
+}

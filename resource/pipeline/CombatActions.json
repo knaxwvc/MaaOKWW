@@ -1,0 +1,181 @@
+{
+  "Native_Attack": {
+    "recognition": "DirectHit",
+    "action": "Click",
+    "target": [
+      640,
+      360
+    ],
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "Native_ClickKey": {
+    "recognition": "DirectHit",
+    "action": "ClickKey",
+    "key": 69,
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "Native_HoldKey": {
+    "recognition": "DirectHit",
+    "action": "LongPressKey",
+    "key": 69,
+    "duration": 20,
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "Native_HoldLiberation": {
+    "recognition": "DirectHit",
+    "action": "LongPressKey",
+    "key": 82,
+    "duration": 10,
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "Native_Heavy": {
+    "recognition": "DirectHit",
+    "action": "LongPress",
+    "target": [
+      640,
+      360
+    ],
+    "duration": 600,
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "Native_RightClick": {
+    "recognition": "DirectHit",
+    "action": "Click",
+    "contact": 1,
+    "target": [
+      640,
+      360
+    ],
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "Native_TargetLock": {
+    "recognition": "DirectHit",
+    "action": "TouchDown",
+    "contact": 2,
+    "target": [
+      640,
+      360
+    ],
+    "auto_up": true,
+    "next": [
+      "Native_TargetLockRelease"
+    ],
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 10,
+    "rate_limit": 0
+  },
+  "Native_TargetLockRelease": {
+    "recognition": "DirectHit",
+    "action": "TouchUp",
+    "contact": 2,
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "NativeHasTarget": {
+    "recognition": "TemplateMatch",
+    "template": "159_97.png",
+    "roi": [
+      805,
+      600,
+      230,
+      100
+    ],
+    "threshold": 0.6,
+    "action": "DoNothing",
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "NativeNoTarget": {
+    "recognition": "TemplateMatch",
+    "template": "190_80.png",
+    "roi": [
+      805,
+      600,
+      230,
+      100
+    ],
+    "threshold": 0.6,
+    "action": "DoNothing",
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "NativeTargetStateCompare": {
+    "recognition": "TemplateMatch",
+    "template": [
+      "159_97.png",
+      "190_80.png"
+    ],
+    "roi": [
+      946,
+      629,
+      40,
+      40
+    ],
+    "threshold": [
+      0.6,
+      0.6
+    ],
+    "order_by": "Score",
+    "action": "DoNothing",
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "NativeCooldownOCR": {
+    "recognition": "OCR",
+    "roi": [
+      1049,
+      619,
+      192,
+      51
+    ],
+    "expected": "\\d+(\\.\\d+)?",
+    "threshold": 0.25,
+    "action": "DoNothing",
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  },
+  "NativeOCRProbe": {
+    "recognition": "OCR",
+    "roi": [
+      805,
+      320,
+      290,
+      80
+    ],
+    "threshold": 0.15,
+    "action": "DoNothing",
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
+  }
+}
