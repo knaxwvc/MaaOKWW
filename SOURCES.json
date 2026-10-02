@@ -1,0 +1,427 @@
+{
+  "version": "20261002-hsin-local-rotations-4",
+  "local_root": "C:\\ok-ww222\\data\\apps\\ok-ww\\working",
+  "upstream_commit": "36c557437de745cdef506bcfa148569d3e09cfcf",
+  "characters": [
+    {
+      "character": "YangYangSp",
+      "native_file": "src/char/YangYangSpOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\YangYangSp.py",
+      "sha256": "84ddab01e2dedb801c4d9e9d58f7bd1983a59049f8302517b22961489ea9f209"
+    },
+    {
+      "character": "Yinlin",
+      "native_file": "src/char/Yinlin.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Yinlin.py",
+      "sha256": "dfc01544b6da492763e9ce2ff854d5806c2f9ab3ef1bf2961468c876ad019396"
+    },
+    {
+      "character": "Verina",
+      "native_file": "src/char/Verina.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Verina.py",
+      "sha256": "8ad0ec9d4f2ec38907f6ac2672a3bae268cab9db46399569c03ff0c46e96dcd9"
+    },
+    {
+      "character": "ShoreKeeper",
+      "native_file": "src/char/OriginalShoreKeeper.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\ShoreKeeper.py",
+      "sha256": "b6d5e5eb934dfe60559920d0f01afa46845cc43005e8a0e4ed12dc880556e2d7"
+    },
+    {
+      "character": "Suisui",
+      "native_file": "src/char/SuisuiOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Suisui.py",
+      "sha256": "130b0fa724186c911f6376b16e1912e0234dabe0839169bd58019044d3434f86"
+    },
+    {
+      "character": "Taoqi",
+      "native_file": "src/char/Taoqi.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Taoqi.py",
+      "sha256": "ec447aa3b4eef65fcc304f9f9f296eb5134cb9d496cf932037fd22a38c3e3ca9"
+    },
+    {
+      "character": "Rover",
+      "native_file": "src/char/RoverOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Rover.py",
+      "sha256": "1feeaea5bdc308713f3fc19e41417ac49476af0ce9b7e0975944c742877189c7"
+    },
+    {
+      "character": "Encore",
+      "native_file": "src/char/Encore.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Encore.py",
+      "sha256": "7367d9d89c888782472491913b799a465eb6ca448fe1d327c79d0b47bcd11a7a"
+    },
+    {
+      "character": "Jianxin",
+      "native_file": "src/char/Jianxin.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jianxin.py",
+      "sha256": "9078752d79b735f71ff43a0681a3b85e1d871b670262d46b398c35ff8603b45a"
+    },
+    {
+      "character": "Sanhua",
+      "native_file": "src/char/Sanhua.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Sanhua.py",
+      "sha256": "162b40dede895c2e586498ecf8f21ca07ad453b4626f82db520f3b8fea41c75f"
+    },
+    {
+      "character": "Jinhsi",
+      "native_file": "src/char/JinhsiOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jinhsi.py",
+      "sha256": "6986997fdbc2a8eecf02594e7667374afeb042fa183cdfe625b9fb63565bd5fb"
+    },
+    {
+      "character": "Yuanwu",
+      "native_file": "src/char/Yuanwu.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Yuanwu.py",
+      "sha256": "d1c417b082a854e186bdfe7c63ebe3eb21643730b2eb85817d0d068a1fe0fa56"
+    },
+    {
+      "character": "Changli",
+      "native_file": "src/char/ChangliOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Changli.py",
+      "sha256": "23e07be4e550221f1d74d28d4cfd82c421b820b5fe595f5bebd73880945fdd67"
+    },
+    {
+      "character": "Chixia",
+      "native_file": "src/char/Chixia.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Chixia.py",
+      "sha256": "ffe0b8d1e20a15203331da47e6a77b5b2c46248a7bd32cbb4d5b546ddf60a847"
+    },
+    {
+      "character": "Danjin",
+      "native_file": "src/char/Danjin.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Danjin.py",
+      "sha256": "296bd3babc3b4304a3fea25854cb6e5856cacb53e22d6befb1ccd883e3f35cc9"
+    },
+    {
+      "character": "Baizhi",
+      "native_file": "src/char/Baizhi.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Baizhi.py",
+      "sha256": "80d7c23797087f0684c7cf7079aa9c24dd9f58a1a5ddb27da4b88a91fc56ecbf"
+    },
+    {
+      "character": "Calcharo",
+      "native_file": "src/char/Calcharo.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Calcharo.py",
+      "sha256": "e987a65c3923a719a0cda3625b86ddbba987e54a73b34a7d6225134960270198"
+    },
+    {
+      "character": "Jiyan",
+      "native_file": "src/char/Jiyan.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jiyan.py",
+      "sha256": "13a5d3b4db73f91e856f72179e9794777c1e5021e04a8fb25e5133983d97f470"
+    },
+    {
+      "character": "Mortefi",
+      "native_file": "src/char/Mortefi.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Mortefi.py",
+      "sha256": "ae95f94ab840573912f9fbf9712fa141d845c499a8b369154ee0a999c0f6de9f"
+    },
+    {
+      "character": "Zhezhi",
+      "native_file": "src/char/ZhezhiOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Zhezhi.py",
+      "sha256": "e5ed714c305a40632201153236cd74a5c2a4eb29b9d35a1a4290d4e842cd5629"
+    },
+    {
+      "character": "Xiangliyao",
+      "native_file": "src/char/Xiangliyao.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Xiangliyao.py",
+      "sha256": "13c25587cc5541306ac8e048bb4bf09731a7f43cee28878702c0b3f07c75ef28"
+    },
+    {
+      "character": "Camellya",
+      "native_file": "src/char/CamellyaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Camellya.py",
+      "sha256": "c05fb2a0724f0f3b7f6b5f5e8c6cbaf814cfc7572f0f1d0ec27be91c3e3f682b"
+    },
+    {
+      "character": "Youhu",
+      "native_file": "src/char/Youhu.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Youhu.py",
+      "sha256": "07e40ec38486ef92c5fad067a41398c04503997d4619145b2cf036a820f30785"
+    },
+    {
+      "character": "Carlotta",
+      "native_file": "src/char/CarlottaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Carlotta.py",
+      "sha256": "087becb3cff20a2d9180efb6cf22b0168f39356c8dd02cd370acf691ecec4a6d"
+    },
+    {
+      "character": "Roccia",
+      "native_file": "src/char/Roccia.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Roccia.py",
+      "sha256": "04ebe3bc301fbf4733ba3e7317ac480ad095d7bbb72724476090506a855b9bd1"
+    },
+    {
+      "character": "Phoebe",
+      "native_file": "src/char/PhoebeOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Phoebe.py",
+      "sha256": "d01a622879724feebf4ed6d6fcb3762120e4aa9b4c04d6e0db4aba9f94f0eb1c"
+    },
+    {
+      "character": "Brant",
+      "native_file": "src/char/BrantOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Brant.py",
+      "sha256": "41e1ac2dd797be7352dfe864cc63defe0c83bf18157c83e7d243be8b2eb3d1b3"
+    },
+    {
+      "character": "Cantarella",
+      "native_file": "src/char/CantarellaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Cantarella.py",
+      "sha256": "268196b005e3c969690b3e2bf509e28eaede1bc0c8e514ab3d9f4cb8c8a0cc44"
+    },
+    {
+      "character": "Zani",
+      "native_file": "src/char/ZaniOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Zani.py",
+      "sha256": "fab21a467c00a7ad2d259add9e51a3ef097d653f4b42b06ed88e92f0976c82e7"
+    },
+    {
+      "character": "Ciaccona",
+      "native_file": "src/char/CiacconaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Ciaccona.py",
+      "sha256": "5d5be8237c7c63350aa4dddc964431be7c2a20ecf976bde44789c3572f2a2c6b"
+    },
+    {
+      "character": "Cartethyia",
+      "native_file": "src/char/CartethyiaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Cartethyia.py",
+      "sha256": "344b4b5ceb51b286ce9b782105d9c5c7954efe27c799693dbc57aef620910d2e"
+    },
+    {
+      "character": "Lupa",
+      "native_file": "src/char/LupaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lupa.py",
+      "sha256": "df66950099eaf2ca055beb7bbeefaa2805f4903fd9e355f3410d4d63d01976a0"
+    },
+    {
+      "character": "Phrolova",
+      "native_file": "src/char/Phrolova.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Phrolova.py",
+      "sha256": "a3e584d03a0a845903edc4cf5031471e3bdbb6e1427668a62ddd3ed128a7b92a"
+    },
+    {
+      "character": "Augusta",
+      "native_file": "src/char/AugustaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Augusta.py",
+      "sha256": "b7bcd3d51a63fe062ca77f187a3d34e5dbb5d29aa6d353dafd865527edef4948"
+    },
+    {
+      "character": "Iuno",
+      "native_file": "src/char/IunoOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Iuno.py",
+      "sha256": "b25c5bb96ad7d5461036efe3af508e400ce84b859e7f2da8339b77bca38b676c"
+    },
+    {
+      "character": "Galbrena",
+      "native_file": "src/char/Galbrena.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Galbrena.py",
+      "sha256": "fc7aba89e26bd4550d155da6592bb4e99ee779ade1f95033630631ff5ae0949a"
+    },
+    {
+      "character": "Qiuyuan",
+      "native_file": "src/char/Qiuyuan.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Qiuyuan.py",
+      "sha256": "34b5f8e2899e4dfeba3fdd1b16ee2d6fe4a66ac55cbafae861dd4fb9d946e014"
+    },
+    {
+      "character": "Chisa",
+      "native_file": "src/char/ChisaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Chisa.py",
+      "sha256": "b292bb1a6ada69bc29df61ce8f75306d068c5b8358b21cd424552720bb74091d"
+    },
+    {
+      "character": "Denia",
+      "native_file": "src/char/DeniaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Denia.py",
+      "sha256": "9aa04c01c32ea2d8a4f23336f0a8d87a14f85130b76a9a406db501af7f8ec9fb"
+    },
+    {
+      "character": "Douling",
+      "native_file": "src/char/DoulingOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Douling.py",
+      "sha256": "d95db938cd5de4f578c8db8263feaf332e858d679e4c19300b20e85454d0de94"
+    },
+    {
+      "character": "Linnai",
+      "native_file": "src/char/LinnaiOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Linnai.py",
+      "sha256": "b73576f00e90bf1044f7febb9be7458422cc0f9f1da96a257f42a771b721b67a"
+    },
+    {
+      "character": "Mornye",
+      "native_file": "src/char/MornyeOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Mornye.py",
+      "sha256": "af8ccf62850004d51a8e8f4b0ca1dcc640b8e86597c3013585de055aeddd2de4"
+    },
+    {
+      "character": "Aemeath",
+      "native_file": "src/char/AemeathOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Aemeath.py",
+      "sha256": "32416a70a583ac9245f0a08951b33eafe50910cd37e0bf3a53b663c09927f1a6"
+    },
+    {
+      "character": "Xigelika",
+      "native_file": "src/char/XigelikaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Xigelika.py",
+      "sha256": "41e04be60c4561156634404f0158566d6be0ac84fa01aea5107ec02ea28b231a"
+    },
+    {
+      "character": "Luhesi",
+      "native_file": "src/char/LuhesiOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Luhesi.py",
+      "sha256": "d3e77331aa2c98c16036d0ed7ab65d71c96a4de4b6a7e31570eff4e5b3fc016e"
+    },
+    {
+      "character": "Hiyuki",
+      "native_file": "src/char/HiyukiOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Hiyuki.py",
+      "sha256": "66fbe3804e12d37902546bacad4581b0283fd952b6c9d8605d9ca87a363e788e"
+    },
+    {
+      "character": "Lucilla",
+      "native_file": "src/char/LucillaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lucilla.py",
+      "sha256": "81aab1deac4e03db9e97d7eaa52f0bc9adf93c59f43e74651d6725f524f8b9ab"
+    },
+    {
+      "character": "Lucy",
+      "native_file": "src/char/LucyOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lucy.py",
+      "sha256": "cb4bc26a2c72b77feaeb945ea17b1fad908e76e2cb081f65f581978d2ec4e4e2"
+    },
+    {
+      "character": "Rebecca",
+      "native_file": "src/char/RebeccaOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Rebecca.py",
+      "sha256": "eecf6992571363f8d0f0fb1d90f0aeffd4450b18b030e37040275761344de7d4"
+    },
+    {
+      "character": "Qingxiao",
+      "native_file": "src/char/QingxiaoOriginal.h",
+      "source_kind": "local",
+      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Qingxiao.py",
+      "sha256": "51cfc8e55b0d3b753feb1294fc6c17eb79d986ca02ebc8b06d7af0edabd0f268"
+    },
+    {
+      "character": "Hsin",
+      "native_file": "src/char/HsinOriginal.h",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/36c557437de745cdef506bcfa148569d3e09cfcf/src/char/Hsin.py",
+      "sha256": "4bef74d4e4d5ecdcac77e1ec3ff14eaa690aba217e9e316c5badfdc71530a26f",
+      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+    }
+  ],
+  "hsin_features": [
+    {
+      "name": "char_hsin",
+      "template": "hsin_282_183.png",
+      "source_image": "images/35.png",
+      "bbox": [
+        3552,
+        442,
+        77,
+        86
+      ],
+      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+    },
+    {
+      "name": "hsin_lib1",
+      "template": "hsin_283_185.png",
+      "source_image": "images/6.png",
+      "bbox": [
+        3588,
+        1894,
+        83,
+        80
+      ],
+      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+    },
+    {
+      "name": "hsin_h1",
+      "template": "hsin_284_188.png",
+      "source_image": "images/6.png",
+      "bbox": [
+        2826,
+        1893,
+        82,
+        79
+      ],
+      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+    },
+    {
+      "name": "hsin_h2",
+      "template": "hsin_285_189.png",
+      "source_image": "images/7.png",
+      "bbox": [
+        2825,
+        1890,
+        87,
+        79
+      ],
+      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+    },
+    {
+      "name": "hsin_lib2",
+      "template": "hsin_286_190.png",
+      "source_image": "images/7.png",
+      "bbox": [
+        3587,
+        1891,
+        90,
+        93
+      ],
+      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+    }
+  ]
+}

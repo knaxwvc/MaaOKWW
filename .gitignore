@@ -1,0 +1,28 @@
+# Build products and downloaded runtime
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+bin/
+dist/
+.cache/
+
+# Per-user settings and live observations
+config.ini
+configs/
+backup/
+logs/
+*.log
+stop.flag
+native_capture.png
+DELIVERY.json
+
+# Editor and temporary files
+.vs/
+.vscode/
+*.tmp
+__pycache__/
+*.pyc
