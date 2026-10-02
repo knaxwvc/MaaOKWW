@@ -1,0 +1,31 @@
+name: Windows build
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build native core and GUI
+        shell: cmd
+        run: build.cmd
+      - name: Install pinned MaaFramework runtime
+        shell: pwsh
+        run: ./scripts/setup-runtime.ps1
+      - name: Package Windows release
+        shell: pwsh
+        run: ./scripts/package.ps1 -Version 0.1.0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MaaOKWW-win-x64
+          path: dist/*.zip
+          if-no-files-found: error
