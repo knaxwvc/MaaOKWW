@@ -1,0 +1,42 @@
+name: 戰鬥問題
+description: 回報辨識、技能手法、時間或切人問題
+title: "[戰鬥] "
+labels: []
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      placeholder: v0.1.0 / commit
+    validations:
+      required: true
+  - type: input
+    id: team
+    attributes:
+      label: 角色隊伍與位置
+      placeholder: 第 1 / 2 / 3 位角色
+    validations:
+      required: true
+  - type: input
+    id: screen
+    attributes:
+      label: 遊戲視窗與解析度
+      placeholder: 1920×1080，視窗化
+  - type: textarea
+    id: expected
+    attributes:
+      label: 原碼預期手法
+      description: 說明應有的技能、等待、條件或切人順序。
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 實際結果與重現步驟
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 相關紀錄與截圖
+      description: 可貼上問題時間附近的 native_run.log 片段和截圖。
