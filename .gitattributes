@@ -1,12 +1,5 @@
-* text=auto
-*.cpp text eol=lf
-*.h text eol=lf
-*.md text eol=lf
-*.yml text eol=lf
-*.json text eol=lf
-*.ps1 text eol=crlf
-*.cmd text eol=crlf
-*.bat text eol=crlf
+# Preserve imported Windows source bytes and the hashes in FILES.sha256.
+* -text
 *.png binary
 *.onnx binary
 # Original source bytes must match SOURCES.json, including line endings.
