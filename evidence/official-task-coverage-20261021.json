@@ -1,0 +1,97 @@
+{
+  "commit": "0b37b5b79e771297536ff1155db1c23131297558",
+  "source_sha256": "62f9e476a0703c4fc94c560ba755f5a61a639083f94d5620d7db1d50aa9140f5",
+  "methods": [
+    {
+      "name": "_oldest_switch_target",
+      "official_line": 428,
+      "official_end": 432,
+      "statements": 4
+    },
+    {
+      "name": "_unbuffed_support_target",
+      "official_line": 434,
+      "official_end": 443,
+      "statements": 6
+    },
+    {
+      "name": "_switch_rule_3_target",
+      "official_line": 445,
+      "official_end": 454,
+      "statements": 7
+    },
+    {
+      "name": "_target_has_switch_cd",
+      "official_line": 456,
+      "official_end": 457,
+      "statements": 1
+    },
+    {
+      "name": "_log_switch_candidate",
+      "official_line": 459,
+      "official_end": 467,
+      "statements": 4
+    },
+    {
+      "name": "_log_switch_choice",
+      "official_line": 469,
+      "official_end": 473,
+      "statements": 2
+    },
+    {
+      "name": "_buff_remaining",
+      "official_line": 475,
+      "official_end": 478,
+      "statements": 3
+    },
+    {
+      "name": "_lowest_buff_remaining_target",
+      "official_line": 480,
+      "official_end": 484,
+      "statements": 4
+    },
+    {
+      "name": "_unbuffed_non_main_target",
+      "official_line": 486,
+      "official_end": 494,
+      "statements": 4
+    },
+    {
+      "name": "_choose_intro_switch_target",
+      "official_line": 496,
+      "official_end": 506,
+      "statements": 9
+    },
+    {
+      "name": "_choose_switch_target_by_buff_time",
+      "official_line": 508,
+      "official_end": 526,
+      "statements": 14
+    },
+    {
+      "name": "_choose_switch_target",
+      "official_line": 528,
+      "official_end": 587,
+      "statements": 42
+    },
+    {
+      "name": "_apply_intro_flags",
+      "official_line": 589,
+      "official_end": 591,
+      "statements": 2
+    },
+    {
+      "name": "switch_next_char",
+      "official_line": 593,
+      "official_end": 696,
+      "statements": 82
+    },
+    {
+      "name": "update_lib_portrait_icon",
+      "official_line": 1114,
+      "official_end": 1124,
+      "statements": 9
+    }
+  ],
+  "errors": []
+}

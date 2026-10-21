@@ -1,0 +1,497 @@
+{
+  "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/compare/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71...0b37b5b79e771297536ff1155db1c23131297558",
+  "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/compare/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71...0b37b5b79e771297536ff1155db1c23131297558",
+  "permalink_url": "https://github.com/ok-oldking/ok-wuthering-waves/compare/ok-oldking:20a43c4...ok-oldking:0b37b5b",
+  "diff_url": "https://github.com/ok-oldking/ok-wuthering-waves/compare/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71...0b37b5b79e771297536ff1155db1c23131297558.diff",
+  "patch_url": "https://github.com/ok-oldking/ok-wuthering-waves/compare/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71...0b37b5b79e771297536ff1155db1c23131297558.patch",
+  "base_commit": {
+    "sha": "20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+    "node_id": "C_kwDOMGlPsNoAKDIwYTQzYzQ0YzQ3OWI4NmZhZWY1ZWVlMWM3MGFkNGNlMmQ1ZmJkNzE",
+    "commit": {
+      "author": {
+        "name": "ok-oldking",
+        "email": "154002444+ok-oldking@users.noreply.github.com",
+        "date": "2026-10-20T13:39:45Z"
+      },
+      "committer": {
+        "name": "ok-oldking",
+        "email": "154002444+ok-oldking@users.noreply.github.com",
+        "date": "2026-10-20T13:39:45Z"
+      },
+      "message": "Add English translations for character task metadata",
+      "tree": {
+        "sha": "e3ebc968bc2260c2de190db6baf22867530c1823",
+        "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/trees/e3ebc968bc2260c2de190db6baf22867530c1823"
+      },
+      "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/commits/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+    "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+    "comments_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71/comments",
+    "author": {
+      "login": "ok-oldking",
+      "id": 154002444,
+      "node_id": "U_kgDOCS3kDA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ok-oldking",
+      "html_url": "https://github.com/ok-oldking",
+      "followers_url": "https://api.github.com/users/ok-oldking/followers",
+      "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+      "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+      "repos_url": "https://api.github.com/users/ok-oldking/repos",
+      "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ok-oldking",
+      "id": 154002444,
+      "node_id": "U_kgDOCS3kDA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ok-oldking",
+      "html_url": "https://github.com/ok-oldking",
+      "followers_url": "https://api.github.com/users/ok-oldking/followers",
+      "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+      "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+      "repos_url": "https://api.github.com/users/ok-oldking/repos",
+      "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9f625e86cf7d45df143e7a1c083e172abdd2998d",
+        "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/9f625e86cf7d45df143e7a1c083e172abdd2998d",
+        "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/9f625e86cf7d45df143e7a1c083e172abdd2998d"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+    "node_id": "C_kwDOMGlPsNoAKDIwYTQzYzQ0YzQ3OWI4NmZhZWY1ZWVlMWM3MGFkNGNlMmQ1ZmJkNzE",
+    "commit": {
+      "author": {
+        "name": "ok-oldking",
+        "email": "154002444+ok-oldking@users.noreply.github.com",
+        "date": "2026-10-20T13:39:45Z"
+      },
+      "committer": {
+        "name": "ok-oldking",
+        "email": "154002444+ok-oldking@users.noreply.github.com",
+        "date": "2026-10-20T13:39:45Z"
+      },
+      "message": "Add English translations for character task metadata",
+      "tree": {
+        "sha": "e3ebc968bc2260c2de190db6baf22867530c1823",
+        "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/trees/e3ebc968bc2260c2de190db6baf22867530c1823"
+      },
+      "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/commits/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+    "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+    "comments_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71/comments",
+    "author": {
+      "login": "ok-oldking",
+      "id": 154002444,
+      "node_id": "U_kgDOCS3kDA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ok-oldking",
+      "html_url": "https://github.com/ok-oldking",
+      "followers_url": "https://api.github.com/users/ok-oldking/followers",
+      "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+      "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+      "repos_url": "https://api.github.com/users/ok-oldking/repos",
+      "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ok-oldking",
+      "id": 154002444,
+      "node_id": "U_kgDOCS3kDA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ok-oldking",
+      "html_url": "https://github.com/ok-oldking",
+      "followers_url": "https://api.github.com/users/ok-oldking/followers",
+      "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+      "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+      "repos_url": "https://api.github.com/users/ok-oldking/repos",
+      "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9f625e86cf7d45df143e7a1c083e172abdd2998d",
+        "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/9f625e86cf7d45df143e7a1c083e172abdd2998d",
+        "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/9f625e86cf7d45df143e7a1c083e172abdd2998d"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 3,
+  "behind_by": 0,
+  "total_commits": 3,
+  "commits": [
+    {
+      "sha": "d590b6bdcb814f2d0418767e8a1cf532afc5407c",
+      "node_id": "C_kwDOMGlPsNoAKGQ1OTBiNmJkY2I4MTRmMmQwNDE4NzY3ZThhMWNmNTMyYWZjNTQwN2M",
+      "commit": {
+        "author": {
+          "name": "ok-oldking",
+          "email": "154002444+ok-oldking@users.noreply.github.com",
+          "date": "2026-10-20T14:58:37Z"
+        },
+        "committer": {
+          "name": "ok-oldking",
+          "email": "154002444+ok-oldking@users.noreply.github.com",
+          "date": "2026-10-20T14:58:37Z"
+        },
+        "message": "Reset auto-combat state safely across disable and restart",
+        "tree": {
+          "sha": "529ebf86a2ae2ce28a20cc32871fe2f656d46bfe",
+          "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/trees/529ebf86a2ae2ce28a20cc32871fe2f656d46bfe"
+        },
+        "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/commits/d590b6bdcb814f2d0418767e8a1cf532afc5407c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/d590b6bdcb814f2d0418767e8a1cf532afc5407c",
+      "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/d590b6bdcb814f2d0418767e8a1cf532afc5407c",
+      "comments_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/d590b6bdcb814f2d0418767e8a1cf532afc5407c/comments",
+      "author": {
+        "login": "ok-oldking",
+        "id": 154002444,
+        "node_id": "U_kgDOCS3kDA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ok-oldking",
+        "html_url": "https://github.com/ok-oldking",
+        "followers_url": "https://api.github.com/users/ok-oldking/followers",
+        "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+        "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+        "repos_url": "https://api.github.com/users/ok-oldking/repos",
+        "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ok-oldking",
+        "id": 154002444,
+        "node_id": "U_kgDOCS3kDA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ok-oldking",
+        "html_url": "https://github.com/ok-oldking",
+        "followers_url": "https://api.github.com/users/ok-oldking/followers",
+        "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+        "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+        "repos_url": "https://api.github.com/users/ok-oldking/repos",
+        "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+          "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71",
+          "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/20a43c44c479b86faef5eee1c70ad4ce2d5fbd71"
+        }
+      ]
+    },
+    {
+      "sha": "f4a47972749d8c36e9ea272b5bd040685af905b6",
+      "node_id": "C_kwDOMGlPsNoAKGY0YTQ3OTcyNzQ5ZDhjMzZlOWVhMjcyYjViZDA0MDY4NWFmOTA1YjY",
+      "commit": {
+        "author": {
+          "name": "ok-oldking",
+          "email": "154002444+ok-oldking@users.noreply.github.com",
+          "date": "2026-10-20T16:51:13Z"
+        },
+        "committer": {
+          "name": "ok-oldking",
+          "email": "154002444+ok-oldking@users.noreply.github.com",
+          "date": "2026-10-20T16:51:13Z"
+        },
+        "message": "Run main scripts in the terminal by default",
+        "tree": {
+          "sha": "264c56bc44987c63b7d9b2f12ad21ebe62097165",
+          "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/trees/264c56bc44987c63b7d9b2f12ad21ebe62097165"
+        },
+        "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/commits/f4a47972749d8c36e9ea272b5bd040685af905b6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/f4a47972749d8c36e9ea272b5bd040685af905b6",
+      "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/f4a47972749d8c36e9ea272b5bd040685af905b6",
+      "comments_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/f4a47972749d8c36e9ea272b5bd040685af905b6/comments",
+      "author": {
+        "login": "ok-oldking",
+        "id": 154002444,
+        "node_id": "U_kgDOCS3kDA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ok-oldking",
+        "html_url": "https://github.com/ok-oldking",
+        "followers_url": "https://api.github.com/users/ok-oldking/followers",
+        "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+        "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+        "repos_url": "https://api.github.com/users/ok-oldking/repos",
+        "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ok-oldking",
+        "id": 154002444,
+        "node_id": "U_kgDOCS3kDA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ok-oldking",
+        "html_url": "https://github.com/ok-oldking",
+        "followers_url": "https://api.github.com/users/ok-oldking/followers",
+        "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+        "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+        "repos_url": "https://api.github.com/users/ok-oldking/repos",
+        "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d590b6bdcb814f2d0418767e8a1cf532afc5407c",
+          "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/d590b6bdcb814f2d0418767e8a1cf532afc5407c",
+          "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/d590b6bdcb814f2d0418767e8a1cf532afc5407c"
+        }
+      ]
+    },
+    {
+      "sha": "0b37b5b79e771297536ff1155db1c23131297558",
+      "node_id": "C_kwDOMGlPsNoAKDBiMzdiNWI3OWU3NzEyOTc1MzZmZjExNTVkYjFjMjMxMzEyOTc1NTg",
+      "commit": {
+        "author": {
+          "name": "ok-oldking",
+          "email": "154002444+ok-oldking@users.noreply.github.com",
+          "date": "2026-10-21T02:36:26Z"
+        },
+        "committer": {
+          "name": "ok-oldking",
+          "email": "154002444+ok-oldking@users.noreply.github.com",
+          "date": "2026-10-21T02:36:26Z"
+        },
+        "message": "Run app entry points through PowerShell launcher",
+        "tree": {
+          "sha": "057362cf04e9ecda22fb5bf58841590ff33a87e1",
+          "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/trees/057362cf04e9ecda22fb5bf58841590ff33a87e1"
+        },
+        "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/git/commits/0b37b5b79e771297536ff1155db1c23131297558",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/0b37b5b79e771297536ff1155db1c23131297558",
+      "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/0b37b5b79e771297536ff1155db1c23131297558",
+      "comments_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/0b37b5b79e771297536ff1155db1c23131297558/comments",
+      "author": {
+        "login": "ok-oldking",
+        "id": 154002444,
+        "node_id": "U_kgDOCS3kDA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ok-oldking",
+        "html_url": "https://github.com/ok-oldking",
+        "followers_url": "https://api.github.com/users/ok-oldking/followers",
+        "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+        "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+        "repos_url": "https://api.github.com/users/ok-oldking/repos",
+        "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ok-oldking",
+        "id": 154002444,
+        "node_id": "U_kgDOCS3kDA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/154002444?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ok-oldking",
+        "html_url": "https://github.com/ok-oldking",
+        "followers_url": "https://api.github.com/users/ok-oldking/followers",
+        "following_url": "https://api.github.com/users/ok-oldking/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ok-oldking/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ok-oldking/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ok-oldking/subscriptions",
+        "organizations_url": "https://api.github.com/users/ok-oldking/orgs",
+        "repos_url": "https://api.github.com/users/ok-oldking/repos",
+        "events_url": "https://api.github.com/users/ok-oldking/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ok-oldking/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f4a47972749d8c36e9ea272b5bd040685af905b6",
+          "url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/commits/f4a47972749d8c36e9ea272b5bd040685af905b6",
+          "html_url": "https://github.com/ok-oldking/ok-wuthering-waves/commit/f4a47972749d8c36e9ea272b5bd040685af905b6"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "417db68f4170dffcca7d5335140cbee9c653c0cf",
+      "filename": ".codex/environments/environment.toml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/.codex%2Fenvironments%2Fenvironment.toml",
+      "raw_url": "https://github.com/ok-oldking/ok-wuthering-waves/raw/0b37b5b79e771297536ff1155db1c23131297558/.codex%2Fenvironments%2Fenvironment.toml",
+      "contents_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/contents/.codex%2Fenvironments%2Fenvironment.toml?ref=0b37b5b79e771297536ff1155db1c23131297558",
+      "patch": "@@ -7,11 +7,11 @@ script = \"\"\n [[actions]]\n name = \"Run main_debug.py\"\n icon = \"run\"\n-command = 'Start-Process -FilePath (Join-Path $PWD.Path \".venv\\Scripts\\pythonw.exe\") -ArgumentList \".\\main_debug.py\" -WorkingDirectory $PWD.Path -Verb RunAs'\n+command = 'powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\.codex\\run.ps1 -EntryPoint main_debug.py'\n platform = \"win32\"\n \n [[actions]]\n name = \"Run main.py\"\n icon = \"run\"\n-command = 'Start-Process -FilePath (Join-Path $PWD.Path \".venv\\Scripts\\pythonw.exe\") -ArgumentList \".\\main.py\" -WorkingDirectory $PWD.Path -Verb RunAs'\n+command = 'powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\.codex\\run.ps1 -EntryPoint main.py'\n platform = \"win32\""
+    },
+    {
+      "sha": "e28bd64cef91b9ef8d6819a4888d9a47c7a86624",
+      "filename": ".codex/run.ps1",
+      "status": "added",
+      "additions": 93,
+      "deletions": 0,
+      "changes": 93,
+      "blob_url": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/.codex%2Frun.ps1",
+      "raw_url": "https://github.com/ok-oldking/ok-wuthering-waves/raw/0b37b5b79e771297536ff1155db1c23131297558/.codex%2Frun.ps1",
+      "contents_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/contents/.codex%2Frun.ps1?ref=0b37b5b79e771297536ff1155db1c23131297558",
+      "patch": "@@ -0,0 +1,93 @@\n+param(\n+    [ValidateSet('main_debug.py', 'main.py')]\n+    [string]$EntryPoint = 'main_debug.py',\n+    [string]$LogPath\n+)\n+\n+$ErrorActionPreference = 'Stop'\n+[Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)\n+$projectPath = Split-Path -Parent $PSScriptRoot\n+$pythonPath = Join-Path $projectPath '.venv\\Scripts\\python.exe'\n+Set-Location -LiteralPath $projectPath\n+if (-not (Test-Path -LiteralPath $pythonPath)) {\n+    throw \"Project Python was not found: $pythonPath\"\n+}\n+\n+# The elevated launcher merges stdout and stderr into a file the terminal can read.\n+if ($LogPath) {\n+    $captureCode = @'\n+import os\n+import subprocess\n+import sys\n+import time\n+\n+with open(sys.argv[1], 'ab', buffering=0) as output:\n+    process = subprocess.Popen(\n+        [sys.executable, '-X', 'utf8', '-u', sys.argv[2]],\n+        stdout=output, stderr=subprocess.STDOUT,\n+    )\n+    try:\n+        while process.poll() is None:\n+            if os.path.exists(sys.argv[1] + '.stop'):\n+                process.terminate()\n+                break\n+            time.sleep(0.1)\n+        result = process.wait()\n+    finally:\n+        if process.poll() is None:\n+            process.terminate()\n+            process.wait()\n+sys.exit(result)\n+'@\n+    & $pythonPath -X utf8 -u -c $captureCode $LogPath $EntryPoint\n+    exit $LASTEXITCODE\n+}\n+\n+$identity = [Security.Principal.WindowsIdentity]::GetCurrent()\n+$principal = [Security.Principal.WindowsPrincipal]::new($identity)\n+if ($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {\n+    & $pythonPath -X utf8 -u (Join-Path $projectPath $EntryPoint)\n+    exit $LASTEXITCODE\n+}\n+\n+$outputPath = [IO.Path]::GetTempFileName()\n+$reader = $null\n+$elevatedProcess = $null\n+$exitCode = 1\n+try {\n+    # Encode the command so paths with spaces and quotes survive UAC relaunch.\n+    $quotedScript = $PSCommandPath.Replace(\"'\", \"''\")\n+    $quotedOutput = $outputPath.Replace(\"'\", \"''\")\n+    $command = \"& '$quotedScript' -EntryPoint '$EntryPoint' -LogPath '$quotedOutput'; exit `$LASTEXITCODE\"\n+    $encodedCommand = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($command))\n+    Write-Host 'Requesting administrator access; app logs will appear here.'\n+    $powershellPath = (Get-Command powershell.exe -CommandType Application).Source\n+    $elevatedProcess = Start-Process -FilePath $powershellPath `\n+        -ArgumentList '-NoProfile', '-ExecutionPolicy', 'Bypass', '-EncodedCommand', $encodedCommand `\n+        -WorkingDirectory $projectPath -Verb RunAs -WindowStyle Hidden -PassThru\n+\n+    $stream = [IO.File]::Open($outputPath, [IO.FileMode]::Open,\n+        [IO.FileAccess]::Read, [IO.FileShare]::ReadWrite)\n+    $reader = [IO.StreamReader]::new($stream, [Text.Encoding]::UTF8)\n+    while (-not $elevatedProcess.HasExited) {\n+        [Console]::Write($reader.ReadToEnd())\n+        Start-Sleep -Milliseconds 100\n+    }\n+    [Console]::Write($reader.ReadToEnd())\n+    $elevatedProcess.WaitForExit()\n+    $exitCode = $elevatedProcess.ExitCode\n+}\n+finally {\n+    # Let the elevated wrapper stop its own child when Ctrl+C stops this launcher.\n+    if ($elevatedProcess -and -not $elevatedProcess.HasExited) {\n+        [IO.File]::WriteAllText(\"$outputPath.stop\", '')\n+        $null = $elevatedProcess.WaitForExit(5000)\n+    }\n+    if ($reader) { $reader.Dispose() }\n+    if (-not $elevatedProcess -or $elevatedProcess.HasExited) {\n+        [IO.File]::Delete($outputPath)\n+        [IO.File]::Delete(\"$outputPath.stop\")\n+    }\n+    if ($elevatedProcess) { $elevatedProcess.Dispose() }\n+}\n+exit $exitCode"
+    },
+    {
+      "sha": "8477611c4c7689ea2129fcb51a2c2df19ae3ed4a",
+      "filename": "src/char/BaseChar.py",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "changes": 7,
+      "blob_url": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src%2Fchar%2FBaseChar.py",
+      "raw_url": "https://github.com/ok-oldking/ok-wuthering-waves/raw/0b37b5b79e771297536ff1155db1c23131297558/src%2Fchar%2FBaseChar.py",
+      "contents_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/contents/src%2Fchar%2FBaseChar.py?ref=0b37b5b79e771297536ff1155db1c23131297558",
+      "patch": "@@ -356,10 +356,13 @@ def switch_next_char(self, post_action=None, free_intro=False, target_low_con=Fa\n                                    target_low_con=target_low_con)\n \n     def sleep(self, sec, check_combat=True):\n+        previous_skip_combat_check = getattr(self.task, 'skip_combat_check', False)\n         if not check_combat:\n             self.task.skip_combat_check = True\n-        self.task.sleep(sec)\n-        self.task.skip_combat_check = False\n+        try:\n+            self.task.sleep(sec)\n+        finally:\n+            self.task.skip_combat_check = previous_skip_combat_check\n \n     def alert_skill_failed(self):\n         self.task.log_error(f'Click skill failed, check if the keybinding is correct in ok-ww settings!',"
+    },
+    {
+      "sha": "1110e9cc48a77dfccdfae182d94cdadd6224c9f7",
+      "filename": "src/combat/CombatCheck.py",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "changes": 5,
+      "blob_url": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src%2Fcombat%2FCombatCheck.py",
+      "raw_url": "https://github.com/ok-oldking/ok-wuthering-waves/raw/0b37b5b79e771297536ff1155db1c23131297558/src%2Fcombat%2FCombatCheck.py",
+      "contents_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/contents/src%2Fcombat%2FCombatCheck.py?ref=0b37b5b79e771297536ff1155db1c23131297558",
+      "patch": "@@ -3,7 +3,7 @@\n \n import win32api\n \n-from ok import find_boxes_by_name, Logger, calculate_color_percentage\n+from ok import find_boxes_by_name, Logger, calculate_color_percentage, TaskDisabledException\n from ok import find_color_rectangles, get_mask_in_color_range, is_pure_black\n from src import text_white_color\n from src.Labels import Labels\n@@ -63,6 +63,7 @@ def reset_to_false(self, reason=\"\"):\n     def do_reset_to_false(self):\n         self.cds = {}\n         self._in_combat = False\n+        self.skip_combat_check = False\n         self.boss_lv_mask = None\n         self.esc_count = 0\n         self.boss_lv_template = None\n@@ -188,6 +189,8 @@ def in_combat(self, target=False):\n         self.in_sleep_check = True\n         try:\n             return self.do_check_in_combat(target)\n+        except TaskDisabledException:\n+            raise\n         except Exception as e:\n             logger.error(f'do_check_in_combat:', e)\n         finally:"
+    },
+    {
+      "sha": "d5f5dfb25f64bfb56fa00d66a52c1db2f6a6a082",
+      "filename": "src/task/AutoCombatTask.py",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "changes": 24,
+      "blob_url": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src%2Ftask%2FAutoCombatTask.py",
+      "raw_url": "https://github.com/ok-oldking/ok-wuthering-waves/raw/0b37b5b79e771297536ff1155db1c23131297558/src%2Ftask%2FAutoCombatTask.py",
+      "contents_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/contents/src%2Ftask%2FAutoCombatTask.py?ref=0b37b5b79e771297536ff1155db1c23131297558",
+      "patch": "@@ -1,6 +1,6 @@\n import time\n \n-from ok import TriggerTask, Logger\n+from ok import TriggerTask, Logger, TaskDisabledException\n from src.char.CharFactory import char_names\n from src.scene.WWScene import WWScene\n from src.task.BaseCombatTask import BaseCombatTask, NotInCombatException, CharDeadException\n@@ -10,6 +10,7 @@\n \n class AutoCombatTask(BaseCombatTask, TriggerTask):\n     owns_switch_healer_config = True\n+    _reset_combat_on_run = False\n \n     def __init__(self, *args, **kwargs):\n         super().__init__(*args, **kwargs)\n@@ -33,6 +34,17 @@ def __init__(self, *args, **kwargs):\n         self.op_index = 0\n         self.char_features_warmed_up = False\n \n+    def disable(self):\n+        # The UI thread only invalidates state; the executor performs the reset.\n+        self._reset_combat_on_run = True\n+        super().disable()\n+\n+    def reset_auto_combat(self, reason):\n+        self._reset_combat_on_run = False\n+        self.reset_to_false(reason)\n+        self.chars = [None, None, None]\n+        self.freeze_durations = []\n+\n     def warm_up_char_features(self):\n         if self.char_features_warmed_up:\n             return\n@@ -46,9 +58,19 @@ def warm_up_char_features(self):\n         logger.info(f'warm_up_char_features loaded {len(char_names)} character templates')\n \n     def run(self):\n+        if self._reset_combat_on_run:\n+            self.reset_auto_combat('auto combat restarted')\n+        try:\n+            return self.run_auto_combat()\n+        except TaskDisabledException:\n+            self.reset_auto_combat('auto combat disabled')\n+            raise\n+\n+    def run_auto_combat(self):\n         self.warm_up_char_features()\n         ret = False\n         if not self.scene.in_team(self.in_team_and_world):\n+            self.reset_auto_combat('not in team and world')\n             return ret\n         self.use_liberation = self.config.get('Use Liberation')\n         if not self.use_liberation and not self.in_world():  # 仅大世界生效"
+    },
+    {
+      "sha": "901408d94fa576ae12b0055c192e9d47e0596477",
+      "filename": "tests/TestAutoCombatTask.py",
+      "status": "added",
+      "additions": 163,
+      "deletions": 0,
+      "changes": 163,
+      "blob_url": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/tests%2FTestAutoCombatTask.py",
+      "raw_url": "https://github.com/ok-oldking/ok-wuthering-waves/raw/0b37b5b79e771297536ff1155db1c23131297558/tests%2FTestAutoCombatTask.py",
+      "contents_url": "https://api.github.com/repos/ok-oldking/ok-wuthering-waves/contents/tests%2FTestAutoCombatTask.py?ref=0b37b5b79e771297536ff1155db1c23131297558",
+      "patch": "@@ -0,0 +1,163 @@\n+import unittest\n+from unittest.mock import Mock, patch\n+\n+from ok import TaskDisabledException\n+from src.char.BaseChar import BaseChar\n+from src.char.CharFactory import get_char_by_pos\n+from src.scene.WWScene import WWScene\n+from src.task.AutoCombatTask import AutoCombatTask\n+\n+\n+class TestAutoCombatTask(unittest.TestCase):\n+    def setUp(self):\n+        self.scene = WWScene()\n+        self.executor = Mock(scene=self.scene, debug=False)\n+        self.task = AutoCombatTask(self.executor, None)\n+        self.task.scene = self.scene\n+        self.task.config = dict(self.task.default_config)\n+        self.task.char_config = {}\n+        self.task.warm_up_char_features = Mock()\n+        self.task.in_team_and_world = Mock(return_value=True)\n+        self.task.in_world = Mock(return_value=True)\n+        self.task.switch_healer = Mock()\n+        self.task.combat_end = Mock()\n+\n+    def seed_combat(self):\n+        old_char = BaseChar(self.task, 0, char_name='old_team')\n+        old_char.is_current_char = True\n+        old_char.perform = Mock(side_effect=TaskDisabledException)\n+        self.task.chars = [old_char, None, None]\n+        self.task._in_combat = True\n+        self.task.in_liberation = True\n+        self.task.skip_combat_check = True\n+        self.task.cds = {'resonance': 12}\n+        self.task.freeze_durations = [(1, 2, 0.1)]\n+        self.scene.set_in_combat()\n+        return old_char\n+\n+    def assert_combat_cleared(self):\n+        self.assertFalse(self.task._in_combat)\n+        self.assertFalse(self.task.in_liberation)\n+        self.assertFalse(self.task.skip_combat_check)\n+        self.assertFalse(self.task.in_sleep_check)\n+        self.assertEqual(self.task.chars, [None, None, None])\n+        self.assertEqual(self.task.cds, {})\n+        self.assertEqual(self.task.freeze_durations, [])\n+        self.assertFalse(self.scene.in_combat())\n+\n+    def test_disable_during_rotation_cleans_up_and_propagates(self):\n+        old_char = self.seed_combat()\n+\n+        with self.assertRaises(TaskDisabledException):\n+            self.task.run()\n+\n+        old_char.perform.assert_called_once()\n+        self.assert_combat_cleared()\n+        self.task.combat_end.assert_not_called()\n+        self.task.switch_healer.assert_called_once()\n+\n+    def test_disable_inside_combat_check_cleans_up_and_propagates(self):\n+        old_char = self.seed_combat()\n+        self.task.in_liberation = False\n+        self.scene.reset()\n+        self.task.check_f_break = Mock()\n+        self.task.on_combat_check = Mock(return_value=True)\n+        self.task.has_target = Mock(side_effect=TaskDisabledException)\n+\n+        with self.assertRaises(TaskDisabledException):\n+            self.task.run()\n+\n+        self.assert_combat_cleared()\n+        old_char.perform.assert_not_called()\n+        self.task.combat_end.assert_not_called()\n+        self.task.switch_healer.assert_not_called()\n+\n+    def test_disable_between_runs_invalidates_chars_before_reentry(self):\n+        old_char = self.seed_combat()\n+        self.task._in_combat = False\n+        self.task.in_liberation = False\n+        self.task._enabled = True\n+        self.task.disable()\n+        self.task.enable()\n+        self.scene.reset()\n+        self.task.load_hotkey = Mock()\n+        self.task.in_team = Mock(return_value=(True, 0, 3))\n+        self.task.get_box_by_name = Mock()\n+        self.task.has_target = Mock(return_value=True)\n+        self.task.find_one = Mock(return_value=None)\n+        # Simulate an obscured portrait: no match must not revive an old char.\n+        self.task.find_best_match_in_box = Mock(return_value=None)\n+        recognized_chars = []\n+\n+        def recognize(task, box, index, previous):\n+            self.assertIsNone(previous)\n+            char = get_char_by_pos(task, box, index, previous)\n+            char.perform = Mock(side_effect=TaskDisabledException)\n+            recognized_chars.append(char)\n+            return char\n+\n+        with patch('src.task.BaseCombatTask.get_char_by_pos', side_effect=recognize):\n+            with self.assertRaises(TaskDisabledException):\n+                self.task.run()\n+\n+        self.assertEqual([char.char_name for char in recognized_chars], ['unknown'] * 3)\n+        old_char.perform.assert_not_called()\n+        recognized_chars[0].perform.assert_called_once()\n+        self.assert_combat_cleared()\n+\n+    def test_leaving_world_invalidates_combat_and_chars(self):\n+        old_char = self.seed_combat()\n+        self.task.in_team_and_world.return_value = False\n+\n+        self.assertFalse(self.task.run())\n+\n+        self.assert_combat_cleared()\n+        old_char.perform.assert_not_called()\n+        self.task.switch_healer.assert_not_called()\n+\n+    def test_normal_polling_preserves_character_cache(self):\n+        char = BaseChar(self.task, 0, char_name='same_team')\n+        self.task.chars = [char, None, None]\n+        self.task.in_combat = Mock(return_value=False)\n+\n+        self.assertFalse(self.task.run())\n+        self.scene.reset()\n+        self.assertFalse(self.task.run())\n+\n+        self.assertIs(self.task.chars[0], char)\n+\n+    def test_sleep_restores_skip_flag_after_disable(self):\n+        char = BaseChar(self.task, 0)\n+        for previous in (False, True):\n+            for check_combat in (False, True):\n+                with self.subTest(previous=previous, check_combat=check_combat):\n+                    self.task.skip_combat_check = previous\n+\n+                    def interrupt_sleep(seconds):\n+                        self.assertEqual(self.task.skip_combat_check, previous or not check_combat)\n+                        raise TaskDisabledException()\n+\n+                    self.task.sleep = interrupt_sleep\n+                    with self.assertRaises(TaskDisabledException):\n+                        char.sleep(0.1, check_combat=check_combat)\n+                    self.assertEqual(self.task.skip_combat_check, previous)\n+\n+    def test_nested_sleep_keeps_outer_combat_check_suppressed(self):\n+        char = BaseChar(self.task, 0)\n+        flags = []\n+\n+        def sleep(seconds):\n+            flags.append(self.task.skip_combat_check)\n+            if seconds == 1:\n+                char.sleep(0.1)\n+                flags.append(self.task.skip_combat_check)\n+\n+        self.task.sleep = sleep\n+        char.sleep(1, check_combat=False)\n+\n+        self.assertEqual(flags, [True, True, True])\n+        self.assertFalse(self.task.skip_combat_check)\n+\n+\n+if __name__ == '__main__':\n+    unittest.main()"
+    }
+  ]
+}

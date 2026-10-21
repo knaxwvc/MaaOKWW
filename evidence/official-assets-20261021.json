@@ -1,0 +1,3728 @@
+{
+  "commit": "0b37b5b79e771297536ff1155db1c23131297558",
+  "official_annotations": 286,
+  "checked": 286,
+  "equal": 286,
+  "errors": [],
+  "images": [
+    {
+      "name": "gray_start_battle",
+      "template": "157_0.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3579,
+        1875,
+        98,
+        184
+      ],
+      "sha256": "4222863e8dd4ae8706a51a264db8ae41cfd7cef70c55c3d67a6710cf280bc5b3",
+      "pixels_equal": true
+    },
+    {
+      "name": "account_drop_down",
+      "template": "221_1.png",
+      "source_image": "images/48.png",
+      "bbox": [
+        1273,
+        496,
+        60,
+        58
+      ],
+      "sha256": "ef38b2ce831a20462f1419a75bb528d8f15b178b84dd95779a7ccea68fae47a9",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_merge",
+      "template": "134_2.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        149,
+        1967,
+        60,
+        63
+      ],
+      "sha256": "dbbc8d0a0b5a412ae82dc68ff74032c6ca4c7aeafd9681911f545a3fa46b3fc1",
+      "pixels_equal": true
+    },
+    {
+      "name": "message",
+      "template": "222_3.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        409,
+        46,
+        37,
+        26
+      ],
+      "sha256": "41cd9e96c29fc928c3342840515608d2e174769be991da31f7388a683cdda71b",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_forte_1",
+      "template": "31_4.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1693,
+        1993,
+        34,
+        30
+      ],
+      "sha256": "08b4e5313817f68d6a9f5918e56e8ff3b1d77352c5fc353bfdea8e2506f01759",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_forte_2",
+      "template": "32_5.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1888,
+        1991,
+        35,
+        28
+      ],
+      "sha256": "83d6b8bd0af069eff82b282b7b6f525838e9bcc7354b14c9c264ae840fb73023",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_forte_3",
+      "template": "33_6.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2072,
+        1991,
+        36,
+        31
+      ],
+      "sha256": "c1401e9ea0141e60f490c832afa17ec5b499220074fb439bdb12e06d7e543993",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_book_boss_highlight",
+      "template": "20_7.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        42,
+        289,
+        68,
+        70
+      ],
+      "sha256": "8e7f1f8a7cf6e97fe182c87eddc020dc139790ccf7e1861ccbfecfa5ef806259",
+      "pixels_equal": true
+    },
+    {
+      "name": "boss_proceed",
+      "template": "149_8.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1781,
+        404,
+        33,
+        60
+      ],
+      "sha256": "7d00ff014360e6f86ba7a2964feecc049512f97a6fc19560c7adbf83bdc1a006",
+      "pixels_equal": true
+    },
+    {
+      "name": "login_close",
+      "template": "187_9.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1553,
+        159,
+        51,
+        55
+      ],
+      "sha256": "7ae4ec9cbca23b49fe15e2fc074932f6877a434210051234d1ea2c2df4ba8f7c",
+      "pixels_equal": true
+    },
+    {
+      "name": "login_account",
+      "template": "177_10.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3567,
+        1188,
+        130,
+        103
+      ],
+      "sha256": "1ea85ad9b9a8a005d26f4bf3b5a7fffc5232981f095efbc16f3603d13673dbd8",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_phoebe",
+      "template": "86_11.png",
+      "source_image": "images/19.png",
+      "bbox": [
+        3543,
+        473,
+        89,
+        86
+      ],
+      "sha256": "91ac054948ede1e045748fa366ce100aaf704235c745ea0fbc4e1f74ba54f2cc",
+      "pixels_equal": true
+    },
+    {
+      "name": "custom_teleport_hcenter_vcenter",
+      "template": "122_12.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        1909,
+        1038,
+        35,
+        69
+      ],
+      "sha256": "d178886a6a23e130708553907bfb690323203814ce768387f09aba015e575385",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_spectro",
+      "template": "118_13.png",
+      "source_image": "images/19.png",
+      "bbox": [
+        1465,
+        1975,
+        61,
+        64
+      ],
+      "sha256": "3893508c33155738d1f021849a115595e65ded8f646b527bfb40c5b86b14d802",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_jinhsi",
+      "template": "78_14.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3543,
+        733,
+        81,
+        65
+      ],
+      "sha256": "1c03666bce6d30345744d6e11105da5d1425f2ac0962d48bc424f136d4a0a14c",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_concerto_last_dot",
+      "template": "28_15.png",
+      "source_image": "images/14.png",
+      "bbox": [
+        2169,
+        1996,
+        4,
+        12
+      ],
+      "sha256": "73abebfba22f5223fde12e9ecd14b4a8e0a55ea3deaa7c1ce3fa46fadfd49d6d",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_jianxin",
+      "template": "77_16.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3554,
+        734,
+        76,
+        60
+      ],
+      "sha256": "a40675b386c45ecd54d856c8eeb401df1988bab14bc6c32f9bee7f3dac4ebe9d",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_sanhua",
+      "template": "91_17.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3534,
+        1004,
+        75,
+        42
+      ],
+      "sha256": "68060994fb91d152d243e2c50790e19ad5096b97b3588e2d4102063d84137331",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_encore",
+      "template": "74_18.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3541,
+        477,
+        72,
+        48
+      ],
+      "sha256": "8605cd6bc5e193664c1f67e575ca9546c8bcaf5ab5c1d92e8b718b36794565a7",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_verina",
+      "template": "95_19.png",
+      "source_image": "images/14.png",
+      "bbox": [
+        3534,
+        745,
+        70,
+        57
+      ],
+      "sha256": "73ef8f7998a704b21ef26b3b80faf571fa7eafd53f8a70391189b41b49073fec",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_yinlin",
+      "template": "98_20.png",
+      "source_image": "images/14.png",
+      "bbox": [
+        3541,
+        485,
+        68,
+        50
+      ],
+      "sha256": "938bafbedd322e4031bfdb634b1a42898facaeaab5c4fc3daf524ed657a82e5d",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_taoqi",
+      "template": "94_21.png",
+      "source_image": "images/14.png",
+      "bbox": [
+        3541,
+        977,
+        74,
+        71
+      ],
+      "sha256": "3af541676e469291ed8d17995be81167314ea8e0bf91aec62aa16dce1cf0aa66",
+      "pixels_equal": true
+    },
+    {
+      "name": "gem_add_stamina",
+      "template": "146_22.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2174,
+        824,
+        180,
+        203
+      ],
+      "sha256": "98981f4ab2a578838580729cbf49e03c7c262cfd2704a112109a71fdc74395fb",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_3_lib_check_mark",
+      "template": "55_23.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3649,
+        1005,
+        28,
+        21
+      ],
+      "sha256": "d3581beae445ad1978883abd3bcbffe960e94918abf35d49f22bfb13612b772d",
+      "pixels_equal": true
+    },
+    {
+      "name": "set_name_13",
+      "template": "204_24.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1467,
+        378,
+        44,
+        41
+      ],
+      "sha256": "3616133943839548cb56503bbd6d4d308dc994bd84c5ed831e0f902e445624b1",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_electric",
+      "template": "105_25.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        1465,
+        1973,
+        60,
+        63
+      ],
+      "sha256": "2d6f877cee3d33509b2e6d4777106f27f4a56bd5e71d732fefd330ad6e1e9d00",
+      "pixels_equal": true
+    },
+    {
+      "name": "confirm_btn_hcenter_vcenter",
+      "template": "120_26.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1390,
+        639,
+        57,
+        77
+      ],
+      "sha256": "eac1660348b72b900331cb0611f621060761dd43e67208a2954b7e951d7cfd0b",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_2_text",
+      "template": "52_27.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1738,
+        345,
+        15,
+        18
+      ],
+      "sha256": "bd99b2c9184cb79bd8b6cbe28bcb70fba3308a0bcc4f81f2e9123f06d1e5e983",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_zani",
+      "template": "101_28.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3549,
+        462,
+        88,
+        88
+      ],
+      "sha256": "52ddbc152b7e0b6e3a3bc76662118e787945a7ad9eba6d763d0bb3e15e0fb4e3",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_ready_spectro",
+      "template": "175_29.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3653,
+        1006,
+        25,
+        23
+      ],
+      "sha256": "1b0065d0f1980a2ef37f237ce16dbee0ecd86de60c4b423b57e9b311d1095ccd",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_full_spectro",
+      "template": "111_30.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3651,
+        1054,
+        26,
+        22
+      ],
+      "sha256": "a16f45bc7443b12d1a606cc333ffc7e3f860fd476610644dac9c40467d0509c5",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_mark_char_3",
+      "template": "117_31.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3643,
+        1044,
+        43,
+        42
+      ],
+      "sha256": "ae964af3fcf07aa11feb79bd05b7a6dd23eb949275b26f02b89a95fdbf2fe9d2",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_mark_char_3",
+      "template": "170_32.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3647,
+        998,
+        38,
+        39
+      ],
+      "sha256": "774447fc6f794b103070162eaf66a22a6a8b7333a16ce40abffca910fdc2634c",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_3_text",
+      "template": "54_33.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1737,
+        477,
+        16,
+        18
+      ],
+      "sha256": "923a6081b9a4b4de64413da95dd37a6ae76fc07a6c78c6579502b8680158cba2",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_1_text",
+      "template": "56_34.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1738,
+        214,
+        14,
+        16
+      ],
+      "sha256": "54273a1784a04166c28b41f776ce210abdf0a7965ee500ff6e7c800608580cbc",
+      "pixels_equal": true
+    },
+    {
+      "name": "boss_check_mark_minimap",
+      "template": "18_35.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        365,
+        169,
+        23,
+        22
+      ],
+      "sha256": "bc194f5bc8fc2f88e0194bc5ccf281ae4f75245c764d762e360754b24641e91b",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_ready_fire",
+      "template": "172_36.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3654,
+        742,
+        24,
+        19
+      ],
+      "sha256": "f20a934f0e960031097fef153fc93bf94ebca0f93d99835f4c118ad8a259dc71",
+      "pixels_equal": true
+    },
+    {
+      "name": "cancel_button_hcenter_vcenter",
+      "template": "49_37.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        455,
+        644,
+        41,
+        70
+      ],
+      "sha256": "10f8caeeb6d8c226fb623130c07b5dde10f85074da254c4af1bb931dfc8d04e6",
+      "pixels_equal": true
+    },
+    {
+      "name": "boss_break_shield",
+      "template": "16_38.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1203,
+        95,
+        54,
+        60
+      ],
+      "sha256": "ef12cb9187681720702a0396a58c40fb9d794b227875252a60163aa7f596a3f1",
+      "pixels_equal": true
+    },
+    {
+      "name": "f_break",
+      "template": "139_39.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1694,
+        1514,
+        36,
+        43
+      ],
+      "sha256": "856e4b314e1cfac3d8889d05f949590689de29b60d6ef6a568a8a3214f290342",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_confirm_exit_button",
+      "template": "138_40.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1392,
+        643,
+        59,
+        75
+      ],
+      "sha256": "a2fdf0c477f76dc614d33e0eaa9c8d883df91dd216a7ce6cbbb2655dc1655f61",
+      "pixels_equal": true
+    },
+    {
+      "name": "fast_travel_custom",
+      "template": "141_41.png",
+      "source_image": "images/5.png",
+      "bbox": [
+        3220,
+        1930,
+        86,
+        158
+      ],
+      "sha256": "4611b3e1b2acff20d3f5f4f577ab254fed90a624530b80f5f84b8fd062dd27a2",
+      "pixels_equal": true
+    },
+    {
+      "name": "map_way_point",
+      "template": "182_42.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1711,
+        1044,
+        31,
+        57
+      ],
+      "sha256": "34828d8c76100415f191cc9b201d7b40815333a053db24b1f909e7136646fc69",
+      "pixels_equal": true
+    },
+    {
+      "name": "map_way_point_big",
+      "template": "183_43.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1316,
+        817,
+        37,
+        68
+      ],
+      "sha256": "cfc4e8725bf787167f60ffe6add11fe1831a4a8bfdb0439589822d8c40a3fa23",
+      "pixels_equal": true
+    },
+    {
+      "name": "map_way_point_pop_up_box",
+      "template": "184_44.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2439,
+        837,
+        200,
+        542
+      ],
+      "sha256": "e4d2580ea9a9a96125975a1591645794df640311a20aaeb00f73cf230b5bd6c5",
+      "pixels_equal": true
+    },
+    {
+      "name": "remove_custom",
+      "template": "199_45.png",
+      "source_image": "images/5.png",
+      "bbox": [
+        3084,
+        1924,
+        89,
+        182
+      ],
+      "sha256": "c5f75cdd1a8f8539f52562faf907753d1b0763a1e47c6a2b9673d07430b53ec3",
+      "pixels_equal": true
+    },
+    {
+      "name": "mouse_forte",
+      "template": "154_46.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1141,
+        978,
+        21,
+        29
+      ],
+      "sha256": "c0c443c3868c74041309718899ad048017a1bb1ba9297813f136e0aa2d02abb0",
+      "pixels_equal": true
+    },
+    {
+      "name": "claim_cancel_button_hcenter_vcenter",
+      "template": "104_47.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        454,
+        623,
+        42,
+        104
+      ],
+      "sha256": "198f8182e7863d0cc9b4c3a8d6c8900f20a0e1bd2adc3c3885dc84d7584b1a16",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_2_lib_check_mark",
+      "template": "53_48.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3649,
+        739,
+        28,
+        23
+      ],
+      "sha256": "6ac92a21d438240540569e6bf7f7d127666fea6e1dbb9fae84a2758e59a61beb",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_1_lib_check_mark",
+      "template": "51_49.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3650,
+        474,
+        27,
+        25
+      ],
+      "sha256": "6c995b05654dd402e3a3b9c7217a45347534aae49be2f371d9aa6d99f1b04967",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_book_boss",
+      "template": "147_50.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        43,
+        283,
+        65,
+        75
+      ],
+      "sha256": "8974e37cc89174a0f5332ab13742b5f3a47813f87f0d5b45e78ff48746fdb105",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_book_weekly",
+      "template": "34_51.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        42,
+        426,
+        63,
+        66
+      ],
+      "sha256": "851c50362d95d1e514f1c8b3d202ab23f7c58c9344439695619494de2f6d97a1",
+      "pixels_equal": true
+    },
+    {
+      "name": "Augusta_lib1",
+      "template": "3_52.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3585,
+        1890,
+        95,
+        82
+      ],
+      "sha256": "d762169f115992a39b7ffd114d09258f1a7fdeac33112d7c59c8e0ae84ee5399",
+      "pixels_equal": true
+    },
+    {
+      "name": "Augusta",
+      "template": "1_53.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3554,
+        464,
+        71,
+        65
+      ],
+      "sha256": "e86e2dcbf0a9d1545548bb956c38c808feb341ba958ace2fcef3e66e48c92630",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_book_all_monsters",
+      "template": "148_54.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        39,
+        695,
+        70,
+        69
+      ],
+      "sha256": "04e739033498da41d55fc2317cd4cbace0534721b4174a5a88f5271a4386aaa7",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_gray_book",
+      "template": "150_55.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        14,
+        115,
+        131,
+        812
+      ],
+      "sha256": "40ddc1445b8bd8d0d75438b373bbe73c178fd37a012a1761262b32c6cf7e5e89",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_changli2",
+      "template": "67_56.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3539,
+        455,
+        72,
+        66
+      ],
+      "sha256": "4ae9e14c362bf7aa2fe223c8794da4f1930658a09349559998d91dca77391149",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_teleport",
+      "template": "151_57.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2619,
+        1939,
+        164,
+        151
+      ],
+      "sha256": "ee9f19504a6a51a586af51ab7e7e41ae5ed6b11c4a4390489dd8dcf86a03d372",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_jinhsi2",
+      "template": "79_58.png",
+      "source_image": "images/4.png",
+      "bbox": [
+        3541,
+        454,
+        90,
+        71
+      ],
+      "sha256": "db61588478848069ce50ea59a03ae379af5f123a3f516d5bff307c77241d2b70",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_book_quest",
+      "template": "158_59.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        48,
+        156,
+        57,
+        67
+      ],
+      "sha256": "d4bae9bbedf1adf16a199a76b524f9e93749d30a32ad17777ffb24eede7b7a30",
+      "pixels_equal": true
+    },
+    {
+      "name": "monthly_card",
+      "template": "186_60.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        841,
+        582,
+        260,
+        88
+      ],
+      "sha256": "293c52d589dd4d78a7c6cdf42ae28772a202946cf0bf1147d46bd6cc12d01525",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_locked",
+      "template": "128_61.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        631,
+        152,
+        23,
+        26
+      ],
+      "sha256": "6aa821781a49c626415548bc1de224122d52e5d33a997131ef1f9653cd7a23dd",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_not_dropped",
+      "template": "133_62.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        534,
+        153,
+        27,
+        25
+      ],
+      "sha256": "36bd537b9de6fcb597bc9149c894aa7ad03f2d886d1e3150fe8feca95b7f0ce2",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_not_locked",
+      "template": "135_63.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        631,
+        151,
+        24,
+        29
+      ],
+      "sha256": "88074cd14879e5cf46794fd276310a3242d590fd894a1661afc73f3917aa46cc",
+      "pixels_equal": true
+    },
+    {
+      "name": "star",
+      "template": "210_64.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        139,
+        187,
+        63,
+        60
+      ],
+      "sha256": "8195eba1b3affab98dd88b7d8b87556e2dcae5aa751c64f2e41d24c617bf4b17",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_minimap",
+      "template": "37_65.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        72,
+        57,
+        372,
+        370
+      ],
+      "sha256": "fe69237f29fe59003c6f8bae7fd2ad10a2ca0be627700fc203f6aeac8a5f410e",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_arrow",
+      "template": "21_66.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        178,
+        152,
+        178,
+        171
+      ],
+      "sha256": "4774fb2c411cd1212e89a192112ff737fb4f62ed409bc1e35c0766350e191ca8",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_havoc",
+      "template": "113_67.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1465,
+        1978,
+        62,
+        58
+      ],
+      "sha256": "d88a0c82d01b1214c1515a5dd4f19f45cedaea28f4204047f6a9f49df6fbfa4a",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_dropped",
+      "template": "136_68.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        534,
+        152,
+        28,
+        26
+      ],
+      "sha256": "58fd2b4e925a49fed51abfb9c9a270006e9dbef4bc423caf63556183edd95801",
+      "pixels_equal": true
+    },
+    {
+      "name": "skip_quest_confirm_new",
+      "template": "209_69.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1106,
+        683,
+        32,
+        48
+      ],
+      "sha256": "22448fc989d3c9250a918effa935e76fea66cba671ed64a2ad6b5f83b83ff073",
+      "pixels_equal": true
+    },
+    {
+      "name": "skip_quest_confirm",
+      "template": "208_70.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1157,
+        734,
+        48,
+        59
+      ],
+      "sha256": "7a5c908d06da4e38726a737e322c86388903fb7c5398630de87ee9a4a11f236a",
+      "pixels_equal": true
+    },
+    {
+      "name": "skip_dialog_confirm",
+      "template": "223_71.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1073,
+        645,
+        55,
+        71
+      ],
+      "sha256": "22658ddd6ccc309b8978a302006916d3673a26b3b8451f569c8235e629683dd3",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_linnai",
+      "template": "81_72.png",
+      "source_image": "images/5.png",
+      "bbox": [
+        3547,
+        441,
+        81,
+        80
+      ],
+      "sha256": "aab95da91364eef262329ebd6395898a614dc8b48e38754bbc2d857bdf09a811",
+      "pixels_equal": true
+    },
+    {
+      "name": "skip_dialog_check",
+      "template": "224_73.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        830,
+        570,
+        44,
+        58
+      ],
+      "sha256": "b3046bf5e9c5d1d9376728c63f573a47f7fd4bf43a8b1def666c6cbdeb3a9519",
+      "pixels_equal": true
+    },
+    {
+      "name": "skip_dialog",
+      "template": "206_74.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        179,
+        104,
+        55,
+        58
+      ],
+      "sha256": "62de9158c49bd74c496817f5775b7ab73c1d40733d4fca8beddfb067cacead41",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_hiyuki",
+      "template": "225_75.png",
+      "source_image": "images/32.png",
+      "bbox": [
+        3554,
+        463,
+        82,
+        67
+      ],
+      "sha256": "54b58f50248d5cdef50c5580a7d77bd862bf77862b4338d5cf942934c2ca19f4",
+      "pixels_equal": true
+    },
+    {
+      "name": "hiyuki_right",
+      "template": "227_76.png",
+      "source_image": "images/32.png",
+      "bbox": [
+        2819,
+        1893,
+        96,
+        82
+      ],
+      "sha256": "b859c8de34afd9ae8d9f57a1308b9464d87d7a2ddabd990b609fffaacedde56f",
+      "pixels_equal": true
+    },
+    {
+      "name": "hiyuki_left",
+      "template": "226_77.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        2628,
+        1891,
+        91,
+        87
+      ],
+      "sha256": "0a6ad7fe331ce5f62b4833643f4a040578bd133d4fd483ccf9d295254171421a",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_button_challenge",
+      "template": "152_78.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2413,
+        1859,
+        210,
+        197
+      ],
+      "sha256": "3c63037b97813fee03f768c8d291ef186eead0e3c88b79714a8315b621a22fa3",
+      "pixels_equal": true
+    },
+    {
+      "name": "hiyuki_lib_forte",
+      "template": "228_79.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2295,
+        1976,
+        34,
+        31
+      ],
+      "sha256": "473658a2b6468ab36bb7af357a5ad1d9966f98754dcc08832e8e7cea6ee81c5c",
+      "pixels_equal": true
+    },
+    {
+      "name": "no_target",
+      "template": "190_80.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2868,
+        1917,
+        61,
+        58
+      ],
+      "sha256": "fe06a327fca1217a666c83f3e0e0f4f789f07a103021f7e15545c7ebe712fb6e",
+      "pixels_equal": true
+    },
+    {
+      "name": "q",
+      "template": "196_81.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3613,
+        2014,
+        31,
+        32
+      ],
+      "sha256": "7562059aa2ec05d090c98cbf019e2396084d2722e349ea8e31d3b43f9c1b8e2e",
+      "pixels_equal": true
+    },
+    {
+      "name": "e",
+      "template": "126_82.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3230,
+        2016,
+        30,
+        27
+      ],
+      "sha256": "761ff83c500c9f842a9083de9495c7b445132b70d1bbbbf19b6fa585908890d4",
+      "pixels_equal": true
+    },
+    {
+      "name": "t",
+      "template": "211_83.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3039,
+        2015,
+        28,
+        30
+      ],
+      "sha256": "2ff4fd42579c7e7d33a4b268e88f49ef6a403cb30779058c50b17152c29c7f10",
+      "pixels_equal": true
+    },
+    {
+      "name": "r",
+      "template": "197_84.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3421,
+        2015,
+        31,
+        30
+      ],
+      "sha256": "35ef3c924603d66c6b11d3ffb5e4c9505f2b6a9a4d6244b0421f49f202a9c7a8",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_moning_new",
+      "template": "229_85.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1775,
+        482,
+        43,
+        43
+      ],
+      "sha256": "73738135700d66ee697f10b9c7d3bcdb685f2ac00c8baf56748b36b9e5d50874",
+      "pixels_equal": true
+    },
+    {
+      "name": "message_dialog",
+      "template": "230_86.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        434,
+        637,
+        50,
+        36
+      ],
+      "sha256": "c4a59fa0fddb3432a3e2fb3b1010949aebc32d88fbff464a1849668a548a1a30",
+      "pixels_equal": true
+    },
+    {
+      "name": "account_close",
+      "template": "231_87.png",
+      "source_image": "images/48.png",
+      "bbox": [
+        1307,
+        359,
+        53,
+        60
+      ],
+      "sha256": "edae2c010f820042b9361ad015d4bbf66c23b8fa74bca560dbf5155dccc8c973",
+      "pixels_equal": true
+    },
+    {
+      "name": "esc_setting",
+      "template": "232_88.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1738,
+        998,
+        75,
+        47
+      ],
+      "sha256": "afd624719577fe23595f8cffbb2d10b9ebd51d1f21840ca0dd31922caf2cb391",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_denia",
+      "template": "233_89.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1771,
+        232,
+        39,
+        31
+      ],
+      "sha256": "a4db9a2a7932867005fbdec5bee2bf1474aad96fbc8d2c0952d594256c70036d",
+      "pixels_equal": true
+    },
+    {
+      "name": "edge_levitator",
+      "template": "137_90.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3015,
+        1887,
+        82,
+        82
+      ],
+      "sha256": "3fce54dfbdf2bca251875763f7ec5d99973dca74a87999484ff56dbdd1cfd40a",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_target_enemy_inner",
+      "template": "40_91.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        2884,
+        1936,
+        27,
+        23
+      ],
+      "sha256": "624c77578b282b25fefa675e4396a7bf4a601a1d19febee0b5c891e93f582707",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_target_enemy",
+      "template": "39_92.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        2867,
+        1913,
+        65,
+        66
+      ],
+      "sha256": "95c56b70ce60c004ce0e5510d004480ccde59c599ce7cbb212b2cbe62b36dcfa",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_target_mouse",
+      "template": "42_93.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        2876,
+        1985,
+        47,
+        50
+      ],
+      "sha256": "8206b80ed7f5dbb4737ad69f74da4fb8c3257fc28385fb17600552e8e890b895",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_liberation",
+      "template": "35_94.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3572,
+        1877,
+        126,
+        113
+      ],
+      "sha256": "f7823c2bf7eeaa728b8fe9c6c8da559ff93796d7b77ab1024e60f1d1e5341c2c",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_echo",
+      "template": "29_95.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3371,
+        1877,
+        135,
+        117
+      ],
+      "sha256": "3052ed1b630c73266051a52a6e325df72c28fbeae6f05233302c2155297e73f8",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_resonance",
+      "template": "38_96.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3185,
+        1877,
+        135,
+        113
+      ],
+      "sha256": "844ee9fe527fa835d1e41edc0b0b89398dab2c7015aac1c4c5d144182ef8ffb7",
+      "pixels_equal": true
+    },
+    {
+      "name": "has_target",
+      "template": "159_97.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        2868,
+        1917,
+        61,
+        58
+      ],
+      "sha256": "c7faf6a198c284ecf1f9bed657597e43f6b7ce089c4447640f7b056946a2de5e",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_lucilla",
+      "template": "234_98.png",
+      "source_image": "images/38.png",
+      "bbox": [
+        1779,
+        229,
+        36,
+        52
+      ],
+      "sha256": "bc43c46874569a158bb07a10de4ef886cdb1a94cb23ff8ba7ad336dcc23962fd",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_new_stage",
+      "template": "235_99.png",
+      "source_image": "images/38.png",
+      "bbox": [
+        1311,
+        653,
+        91,
+        131
+      ],
+      "sha256": "c1be8bbb3dc7a200317fec27afbe96a3a52aa4e0649c80ab1118267dc70431f5",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_confirm",
+      "template": "236_100.png",
+      "source_image": "images/38.png",
+      "bbox": [
+        1079,
+        658,
+        99,
+        119
+      ],
+      "sha256": "e04431db12e3e9e36e933789d188bcf45cf01b04061039aa0cf31c3d46b3c1ec",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_shop_close",
+      "template": "237_101.png",
+      "source_image": "images/39.png",
+      "bbox": [
+        1595,
+        54,
+        38,
+        37
+      ],
+      "sha256": "66bbf65f33d99f39fc50625b919bd1ac709538a4c1f27f1c449c51ddbffaca26",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_shop_buy",
+      "template": "238_102.png",
+      "source_image": "images/39.png",
+      "bbox": [
+        1400,
+        694,
+        43,
+        95
+      ],
+      "sha256": "3d189b04746656cd55e30c4c5301a2848d369b922b21a5a87a5252bc5d8e8560",
+      "pixels_equal": true
+    },
+    {
+      "name": "book_wuyin",
+      "template": "239_103.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        209,
+        493,
+        63,
+        70
+      ],
+      "sha256": "96b352ca079c2de14bbcf3dff5a48b0718dc6550fe3061d5369a3c169b2095eb",
+      "pixels_equal": true
+    },
+    {
+      "name": "aemeath_e2",
+      "template": "8_104.png",
+      "source_image": "images/4.png",
+      "bbox": [
+        3199,
+        1884,
+        101,
+        89
+      ],
+      "sha256": "741b211db9711cfe02130ce167c7065ce2894e24884d20042952453307b3be73",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_aemeath",
+      "template": "58_105.png",
+      "source_image": "images/4.png",
+      "bbox": [
+        3545,
+        986,
+        72,
+        97
+      ],
+      "sha256": "0717fed6dba44e5885e89614e2093e059b9e6b65ac19754ac601889ccf7630c5",
+      "pixels_equal": true
+    },
+    {
+      "name": "btn_dialog_3dots",
+      "template": "44_106.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2523,
+        1221,
+        101,
+        82
+      ],
+      "sha256": "6641575bd070133e5bc7a8551c30d914b6ca51a5f29f7319866a613e952fb46d",
+      "pixels_equal": true
+    },
+    {
+      "name": "btn_dialog_arrow",
+      "template": "45_107.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2525,
+        1384,
+        104,
+        81
+      ],
+      "sha256": "021b98ef82e3b56a1a9f29198dfc586d80fbaee0fec0204b05d3720bee9d2137",
+      "pixels_equal": true
+    },
+    {
+      "name": "btn_auto_play_dialog",
+      "template": "43_108.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3381,
+        107,
+        58,
+        46
+      ],
+      "sha256": "a21f72c3f21a58388880f885b4ecb7d93cfaed2a591ae8a0c1e1e57b74a5bd8b",
+      "pixels_equal": true
+    },
+    {
+      "name": "btn_dialog_eye",
+      "template": "47_109.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3565,
+        111,
+        63,
+        38
+      ],
+      "sha256": "585927cad032cc931fa2c0f145631407f73f6b690c14574e577edb0959fa919e",
+      "pixels_equal": true
+    },
+    {
+      "name": "aemeath_lib2",
+      "template": "9_110.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1795,
+        945,
+        42,
+        42
+      ],
+      "sha256": "47afe5172d522bfe7880d546740e9c1f1de2f320c0acec66f443b657d0b52e7a",
+      "pixels_equal": true
+    },
+    {
+      "name": "switch_account",
+      "template": "240_111.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1796,
+        533,
+        43,
+        42
+      ],
+      "sha256": "e99025a9a5a9770155db6e0a3c4bfd9ef83effcfef2d86e68cb79d6872701a28",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_lucy",
+      "template": "243_112.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1783,
+        226,
+        30,
+        38
+      ],
+      "sha256": "60bb7f88c79510513fbc22b7c410997d05ef02e1362e09fdec6e76e09d0be4f4",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_rebecca",
+      "template": "241_113.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1776,
+        365,
+        41,
+        40
+      ],
+      "sha256": "8d0b370a8428f40ab05ebd07e72ec45b371043aed034f8cd395dc83f8f0babc6",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_chouyuan",
+      "template": "70_114.png",
+      "source_image": "images/6.png",
+      "bbox": [
+        3538,
+        439,
+        81,
+        75
+      ],
+      "sha256": "1e56b9bdb03314a08b20527729312f74d2947c66c1ec7f4915fd7bf75e200a62",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_next_day",
+      "template": "242_115.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1614,
+        963,
+        20,
+        49
+      ],
+      "sha256": "607a0011b3cbc67749b48614c32100ec28b0bb0a72db0a43e93d08ce02b64f4e",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_get_skip",
+      "template": "244_116.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        997,
+        835,
+        50,
+        63
+      ],
+      "sha256": "4cc916a8b756cf32465654a138e5cb20d0f10de76f15c1f1ce1c2aa100e5c8e5",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_get_confirm_gray",
+      "template": "245_117.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1319,
+        837,
+        43,
+        58
+      ],
+      "sha256": "8e2fa304a2aadb00070cbe373164a48b5d61b8977c589b2f5906b4f88866e077",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_not_interested",
+      "template": "246_118.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        775,
+        293,
+        18,
+        19
+      ],
+      "sha256": "73d63db36230afd544b26727bd26640f84353ce4294fd2a4c83fde128e7de4bf",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_not_interested_confirm",
+      "template": "247_119.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1555,
+        628,
+        86,
+        102
+      ],
+      "sha256": "210118c7c6bbf08ff05ec177ced22bbb074b8339db57e5008459206af679640c",
+      "pixels_equal": true
+    },
+    {
+      "name": "a_garden_restart",
+      "template": "250_120.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        772,
+        863,
+        85,
+        114
+      ],
+      "sha256": "2c0909122c7b7303aa481af88d738121b606d8588794154acd91287f9db77497",
+      "pixels_equal": true
+    },
+    {
+      "name": "a_garden_back",
+      "template": "249_121.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1067,
+        860,
+        74,
+        117
+      ],
+      "sha256": "16f30ab7fda69bb6274b083941f163e270cd0a89f1b14def0aec1a829b4b1656",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_roccia",
+      "template": "88_122.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3549,
+        991,
+        89,
+        96
+      ],
+      "sha256": "5ce2f3935a73254de5f5249c922bda25cf43e73284c27b1e0aa611c5c9be9a46",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_tip_close",
+      "template": "248_123.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1541,
+        176,
+        42,
+        39
+      ],
+      "sha256": "6fc58df4f294472b5d852fc9ede08a42355194104ed5552fb35395c6e6604cf2",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_shorekeeper",
+      "template": "93_124.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3543,
+        991,
+        94,
+        81
+      ],
+      "sha256": "ce633c0abfb27bb3308dfe07fff74aa4fda745a71310d7212eecdd73cc018e0c",
+      "pixels_equal": true
+    },
+    {
+      "name": "multiplayer_world_mark",
+      "template": "188_125.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        77,
+        69,
+        26,
+        25
+      ],
+      "sha256": "fb311c9f1d303096400c0667c96048245684c81ab8023d4f221ae4955a2df1e6",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_get_gold",
+      "template": "251_126.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        619,
+        179,
+        35,
+        60
+      ],
+      "sha256": "0fefb3367cb05ae0b1cb3b94c86dfe5083592586a00e86cd647a9c1b5f9373c5",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_get_purple",
+      "template": "252_127.png",
+      "source_image": "images/38.png",
+      "bbox": [
+        1506,
+        173,
+        63,
+        77
+      ],
+      "sha256": "3d94c1305ceea2004152d7398aef1e1f2b3ae2a9a0cef5bc2ba091a70a9c7414",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_carlotta2",
+      "template": "65_128.png",
+      "source_image": "images/7.png",
+      "bbox": [
+        3550,
+        465,
+        81,
+        88
+      ],
+      "sha256": "0fc6063b1bfc53ca79745640357328c7b95fb6c6579087b0e6c23699d852a608",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_start_game",
+      "template": "253_129.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1570,
+        969,
+        58,
+        58
+      ],
+      "sha256": "1b6d11f7a705e7823f8738796666f28facd2135a7564b4eafd3f5a0776819b95",
+      "pixels_equal": true
+    },
+    {
+      "name": "ww",
+      "template": "220_130.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        790,
+        246,
+        379,
+        295
+      ],
+      "sha256": "f741c01fce1b18ce6728bac3d52ed714baa464feec1404ce82bc74e8d210f676",
+      "pixels_equal": true
+    },
+    {
+      "name": "target_box_short",
+      "template": "254_131.png",
+      "source_image": "images/38.png",
+      "bbox": [
+        1526,
+        956,
+        40,
+        38
+      ],
+      "sha256": "0e86fb64923a36d955a3fc79a4e858a273297c8afc493ae3d720701ea61237c0",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_galbrena",
+      "template": "75_132.png",
+      "source_image": "images/8.png",
+      "bbox": [
+        3537,
+        439,
+        86,
+        85
+      ],
+      "sha256": "ff4d5cc307e28044755c3b41c58cbf3b23e1143784fb926973db46521e497e52",
+      "pixels_equal": true
+    },
+    {
+      "name": "the_garden_max",
+      "template": "255_133.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1227,
+        43,
+        71,
+        38
+      ],
+      "sha256": "e34955775f442b9330119961bb2e60fd5aa7e36ecae74d8337219f8be7086768",
+      "pixels_equal": true
+    },
+    {
+      "name": "skip_dialog_new",
+      "template": "207_134.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        136,
+        350,
+        42,
+        37
+      ],
+      "sha256": "4138f49c116818c96e158c4c1e7c4ba7d4c1126e994f9e92e146ed6ec37dc723",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_unpause",
+      "template": "256_135.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1360,
+        455,
+        68,
+        78
+      ],
+      "sha256": "34c6ce331bb69664f552fa02e7db961fe7a2c395a9c476b1c4d0162d9164702d",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_brant",
+      "template": "60_136.png",
+      "source_image": "images/9.png",
+      "bbox": [
+        3540,
+        454,
+        92,
+        63
+      ],
+      "sha256": "114a6a6124b02ee444ef71b2caf47ca752a11a09ccf9d02acd3022c7373db354",
+      "pixels_equal": true
+    },
+    {
+      "name": "garden_continue_game",
+      "template": "257_137.png",
+      "source_image": "images/40.png",
+      "bbox": [
+        1345,
+        622,
+        97,
+        114
+      ],
+      "sha256": "3a3beedf8daec378d26483d21e8817ccc0f442b800f6d2225f15b491debdbaee",
+      "pixels_equal": true
+    },
+    {
+      "name": "lupa_wolf_icon2",
+      "template": "180_138.png",
+      "source_image": "images/10.png",
+      "bbox": [
+        2034,
+        1970,
+        48,
+        43
+      ],
+      "sha256": "b70de6f821e39f7a6e16c40dad7b9795bef2f4a34f4d88582230c98dc0aeae44",
+      "pixels_equal": true
+    },
+    {
+      "name": "lupa_wolf_icon1",
+      "template": "179_139.png",
+      "source_image": "images/10.png",
+      "bbox": [
+        1746,
+        1971,
+        45,
+        42
+      ],
+      "sha256": "a799a456556ce3cb4cdaf852a521cab4bf7a9abb80245aac1bf4b36ca3d5dde6",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_lupa",
+      "template": "83_140.png",
+      "source_image": "images/10.png",
+      "bbox": [
+        3547,
+        450,
+        75,
+        84
+      ],
+      "sha256": "4c38b9d8189b6fa4638f1502684671c94eaaa200628b1971130fd3fc3a98f6c2",
+      "pixels_equal": true
+    },
+    {
+      "name": "yangyang_sp",
+      "template": "258_141.png",
+      "source_image": "images/40.png",
+      "bbox": [
+        1774,
+        227,
+        40,
+        54
+      ],
+      "sha256": "29ded2ff01703dcdb498ec0eed176d7d1da0a351c83b310d23cda716690bf96c",
+      "pixels_equal": true
+    },
+    {
+      "name": "team_start_challenge",
+      "template": "259_142.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1754,
+        950,
+        74,
+        87
+      ],
+      "sha256": "bac7d40addd5d8f1d792afb20f001ac78f714f87043c68431fa5a2623d9ec8a3",
+      "pixels_equal": true
+    },
+    {
+      "name": "team_close",
+      "template": "260_143.png",
+      "source_image": "images/37.png",
+      "bbox": [
+        1780,
+        30,
+        66,
+        63
+      ],
+      "sha256": "9be2d390d79848054a8d7922526ac262a6a25f9bc1e1fd936d4aba624fb46f36",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_enhance_confirm",
+      "template": "130_144.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2322,
+        1421,
+        152,
+        247
+      ],
+      "sha256": "7b0094236e025bbfc9c514949211a4a5597e043968eb3f4c893e36a364dac24d",
+      "pixels_equal": true
+    },
+    {
+      "name": "claim_stamina_sign",
+      "template": "261_145.png",
+      "source_image": "images/36.png",
+      "bbox": [
+        1284,
+        324,
+        62,
+        57
+      ],
+      "sha256": "206900aa23974e29687b94819ca26a2b896f478ba0abd325b17f481f50f10348",
+      "pixels_equal": true
+    },
+    {
+      "name": "new_realm_4",
+      "template": "189_146.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3473,
+        1218,
+        33,
+        33
+      ],
+      "sha256": "53b6cb3360b9a87cc97409ba5bc2b561fb154a3fbb790ce9a87f5817b8439587",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_full_havoc",
+      "template": "109_147.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3652,
+        1052,
+        25,
+        24
+      ],
+      "sha256": "de43dbfd8e8cf276b38d289765de34ae8692567307732257d4b0cf93a2a60de7",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_ready_havoc",
+      "template": "173_148.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3653,
+        1003,
+        25,
+        25
+      ],
+      "sha256": "ed06e826097bfdd87a89e2c95ec26b6ec37693f05159fb575728074d2fde54c2",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_full_fire",
+      "template": "108_149.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3654,
+        788,
+        24,
+        23
+      ],
+      "sha256": "517770625b54786f06601f698f23db5a58b2333080d40bb061350ac3663842c3",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_linnai2",
+      "template": "262_150.png",
+      "source_image": "images/41.png",
+      "bbox": [
+        1774,
+        221,
+        41,
+        43
+      ],
+      "sha256": "42f8fa009e46fdf6c232192a6b7de1bab4a15cc009051b82b156feb3845f09b5",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_chisa2",
+      "template": "263_151.png",
+      "source_image": "images/42.png",
+      "bbox": [
+        1776,
+        227,
+        42,
+        41
+      ],
+      "sha256": "4ad1ca14e2e1b441024d37e5867fb595baee5048b56cca9936901ce6ad3528ee",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_suisui",
+      "template": "264_152.png",
+      "source_image": "images/39.png",
+      "bbox": [
+        1773,
+        231,
+        43,
+        40
+      ],
+      "sha256": "1dabc7634094479d65e4be9979fb3830176afacb090e45b4811ca1709cd55888",
+      "pixels_equal": true
+    },
+    {
+      "name": "suisui_forte3",
+      "template": "265_153.png",
+      "source_image": "images/39.png",
+      "bbox": [
+        1036,
+        981,
+        17,
+        22
+      ],
+      "sha256": "58ebc0b0fc86ec0488da591d24d8cd538105f1f311db7b9f2376c8addc9c0aff",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_camellya",
+      "template": "62_154.png",
+      "source_image": "images/11.png",
+      "bbox": [
+        3546,
+        449,
+        77,
+        79
+      ],
+      "sha256": "d2ac84d443653fd82c998840c0fdee3f7244a957005f9d1cfa02b69fc792a12f",
+      "pixels_equal": true
+    },
+    {
+      "name": "confirm_btn_highlight_hcenter_vcenter",
+      "template": "121_155.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2807,
+        1236,
+        112,
+        220
+      ],
+      "sha256": "e987a459205e2f3bbdec48fc0dd90297418ce890bf715a04614a2de90340e0ba",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_cartethyia_big",
+      "template": "167_156.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3592,
+        1888,
+        88,
+        84
+      ],
+      "sha256": "abb4bb1ec0a1a547192a53558e16b01e74f733ad030ebaddcd37b4e1806ced3a",
+      "pixels_equal": true
+    },
+    {
+      "name": "cancel_button_highlight_hcenter_vcenter",
+      "template": "266_157.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        914,
+        1255,
+        82,
+        209
+      ],
+      "sha256": "b3ddfa20bf04e79ad1ca30b531af04139ef7d37ad6bceb4f8fde83e0bfdb92b5",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_zhezhi",
+      "template": "103_158.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3542,
+        723,
+        80,
+        85
+      ],
+      "sha256": "9f300750b5ca439fe8ddc414f31f3295863c4c42f6c37bad5c0a81686e3e9b31",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_rover_male",
+      "template": "90_159.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3552,
+        979,
+        70,
+        75
+      ],
+      "sha256": "ab8f1f1bdec69675f368bc8daea0ec76dc5d75734dfba1cbb6c503815f8e2b6c",
+      "pixels_equal": true
+    },
+    {
+      "name": "suisui_forte2",
+      "template": "271_160.png",
+      "source_image": "images/39.png",
+      "bbox": [
+        947,
+        986,
+        11,
+        19
+      ],
+      "sha256": "8c73e9cf0a48df60d0ab518d8546bcaaa6b5822876216077cd697bd4835b7375",
+      "pixels_equal": true
+    },
+    {
+      "name": "suisui_e1",
+      "template": "270_161.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3211,
+        1896,
+        69,
+        78
+      ],
+      "sha256": "4a98389d19bfbfb84364cb3b060cf95f5c192c046f7f28afd0a69d904e22b678",
+      "pixels_equal": true
+    },
+    {
+      "name": "arrow",
+      "template": "11_162.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        200,
+        188,
+        113,
+        113
+      ],
+      "sha256": "b9c66b67f9a62ee4bd2abd92100abd02f5cd5f044dcf6b54dccc1a9816647dca",
+      "pixels_equal": true
+    },
+    {
+      "name": "denia_end_lib",
+      "template": "272_163.png",
+      "source_image": "images/5.png",
+      "bbox": [
+        3593,
+        1886,
+        70,
+        87
+      ],
+      "sha256": "c4e164bc5d51ffcffd6631c692b5751c9860d51bd7617384ed1ebef90e9cc43a",
+      "pixels_equal": true
+    },
+    {
+      "name": "forte_cartethyia_space",
+      "template": "142_164.png",
+      "source_image": "images/12.png",
+      "bbox": [
+        2296,
+        1992,
+        64,
+        25
+      ],
+      "sha256": "4b39b4ed91f0511d30c2fce74cb05d522993087b0b6c4482170735263227ea78",
+      "pixels_equal": true
+    },
+    {
+      "name": "forte_cartethyia_sword1",
+      "template": "143_165.png",
+      "source_image": "images/12.png",
+      "bbox": [
+        1694,
+        1980,
+        42,
+        47
+      ],
+      "sha256": "6abd7a314713d2010004a13db1b4608c662e229010e753880ca1a04062152096",
+      "pixels_equal": true
+    },
+    {
+      "name": "forte_cartethyia_sword2",
+      "template": "144_166.png",
+      "source_image": "images/12.png",
+      "bbox": [
+        1879,
+        1984,
+        47,
+        39
+      ],
+      "sha256": "b50b235c1edf8fae7b4ae865eed6486194445c9e65117e1b771fa1da5e878a76",
+      "pixels_equal": true
+    },
+    {
+      "name": "forte_cartethyia_sword3",
+      "template": "145_167.png",
+      "source_image": "images/12.png",
+      "bbox": [
+        2068,
+        1981,
+        44,
+        42
+      ],
+      "sha256": "6bcb1ad719fc434de38d923e8d3ac2fdef822aa0f52c82275bd186680b4503ae",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_cartethyia",
+      "template": "66_168.png",
+      "source_image": "images/12.png",
+      "bbox": [
+        3547,
+        465,
+        92,
+        92
+      ],
+      "sha256": "a88258e8e22f686dd01fa51934ca7f653ffa357c4ef4701e25e1e1fb4b0cfae4",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_select_all",
+      "template": "273_169.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1060,
+        1948,
+        70,
+        76
+      ],
+      "sha256": "ba363440910f010b9ee68b4a367b7db312ceccb434e845e7cecfa036db4570e9",
+      "pixels_equal": true
+    },
+    {
+      "name": "qingxiao_h1",
+      "template": "274_170.png",
+      "source_image": "images/33.png",
+      "bbox": [
+        2822,
+        1887,
+        87,
+        90
+      ],
+      "sha256": "f4644c43eb3aadefbf00dbded7739cb173cb38517004c802135dc443345582de",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_qingxiao",
+      "template": "275_171.png",
+      "source_image": "images/33.png",
+      "bbox": [
+        3554,
+        454,
+        83,
+        100
+      ],
+      "sha256": "084566298eec2b3d2d227a36d65ef6b79561094db06eed24622e676f0e48d6f0",
+      "pixels_equal": true
+    },
+    {
+      "name": "qingxiao_e",
+      "template": "276_172.png",
+      "source_image": "images/6.png",
+      "bbox": [
+        3205,
+        1892,
+        86,
+        80
+      ],
+      "sha256": "70d997987fd1e54896046fa3c7b04ec1cdc21a1b900bea42fa9ffedc30be70fa",
+      "pixels_equal": true
+    },
+    {
+      "name": "qingxiao_h2",
+      "template": "277_173.png",
+      "source_image": "images/5.png",
+      "bbox": [
+        2818,
+        1892,
+        90,
+        89
+      ],
+      "sha256": "607c03d5cfb613dac64812c3e829d2961355eb8e6fece6b63ceb8f8d8b0caeb2",
+      "pixels_equal": true
+    },
+    {
+      "name": "Augusta_lib2",
+      "template": "4_174.png",
+      "source_image": "images/4.png",
+      "bbox": [
+        3585,
+        1890,
+        85,
+        82
+      ],
+      "sha256": "86338175484eaa25876f7c351379c84d82d5170599a129d6a313f36d78bfd68a",
+      "pixels_equal": true
+    },
+    {
+      "name": "Augusta_jump_attack",
+      "template": "2_175.png",
+      "source_image": "images/4.png",
+      "bbox": [
+        2826,
+        1890,
+        79,
+        85
+      ],
+      "sha256": "3e81f39638d82154a2695510cca37742d04f225c6592d68c40a74229909cf806",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_aalto",
+      "template": "278_176.png",
+      "source_image": "images/43.png",
+      "bbox": [
+        1770,
+        224,
+        42,
+        51
+      ],
+      "sha256": "c54b00b8d5f56c09993a49da8b5a5dcd529801f5bacd13b24f7a568c53eed1be",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_lumi",
+      "template": "279_177.png",
+      "source_image": "images/43.png",
+      "bbox": [
+        1767,
+        357,
+        50,
+        53
+      ],
+      "sha256": "23864f4f768cf2c87c54bc30b02cdb0c2b3372b437cddb342d4b987105a45510",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_carlotta",
+      "template": "64_178.png",
+      "source_image": "images/13.png",
+      "bbox": [
+        3551,
+        464,
+        70,
+        100
+      ],
+      "sha256": "a56fc6bf3bc5f0611fc01db3a311b04586c8467c0a68c0c8d4bf9a9eb0a8ec6a",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_ice",
+      "template": "114_179.png",
+      "source_image": "images/13.png",
+      "bbox": [
+        1465,
+        1975,
+        61,
+        59
+      ],
+      "sha256": "5b1eb70863a0ffbf48397f63ffcd0bd75beb3cab85e5db185dfb677075364381",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_yangyang",
+      "template": "280_180.png",
+      "source_image": "images/43.png",
+      "bbox": [
+        1770,
+        493,
+        51,
+        50
+      ],
+      "sha256": "d598647487661dad5062afb7215bacc857f560b6d1ad41f1c08cb20830202524",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_jingran",
+      "template": "jingran_281_181.png",
+      "source_image": "images/34.png",
+      "bbox": [
+        3542,
+        464,
+        85,
+        61
+      ],
+      "sha256": "8e73234ea691e72628308e7aa4a2464f9e40cce7d0475870b8dde5ce8d6d61fc",
+      "pixels_equal": true
+    },
+    {
+      "name": "btn_dialog_close",
+      "template": "46_182.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3560,
+        65,
+        114,
+        114
+      ],
+      "sha256": "53e592d7d30699506f676f202eef435027d2c2715f402f295e5cb9eee2b763af",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_hsin",
+      "template": "hsin_282_183.png",
+      "source_image": "images/35.png",
+      "bbox": [
+        3552,
+        442,
+        77,
+        86
+      ],
+      "sha256": "232b31a887eda4de66a69298ad63181231b732f187f29bed7b5a033633b1c06e",
+      "pixels_equal": true
+    },
+    {
+      "name": "wheel_levitator",
+      "template": "218_184.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2218,
+        1370,
+        190,
+        180
+      ],
+      "sha256": "870eb2104f865930ce6c277210e617448e3c45bf4aba3ab31bd27da75a48f0f4",
+      "pixels_equal": true
+    },
+    {
+      "name": "hsin_lib1",
+      "template": "hsin_283_185.png",
+      "source_image": "images/6.png",
+      "bbox": [
+        3588,
+        1894,
+        83,
+        80
+      ],
+      "sha256": "9b94efda804794de326bf3f877429306a2d2848a98e60a7585e36d453fd40f5c",
+      "pixels_equal": true
+    },
+    {
+      "name": "teleport_port",
+      "template": "215_186.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1827,
+        1155,
+        76,
+        57
+      ],
+      "sha256": "ec4ee2364ba1c3eda502699a56dc07023dc4edc3ff870811ae2c6075e371c11d",
+      "pixels_equal": true
+    },
+    {
+      "name": "big_map_star",
+      "template": "14_187.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        764,
+        1022,
+        60,
+        56
+      ],
+      "sha256": "6fc816db0ec1b91d9a17c635d493d0522fd0d6e337c4d03dfd23544df1be6b4b",
+      "pixels_equal": true
+    },
+    {
+      "name": "hsin_h1",
+      "template": "hsin_284_188.png",
+      "source_image": "images/6.png",
+      "bbox": [
+        2826,
+        1893,
+        82,
+        79
+      ],
+      "sha256": "f43ea3e98db78ef242bda409d200015a616d51241bdb0f9ce81acf85973f765e",
+      "pixels_equal": true
+    },
+    {
+      "name": "hsin_h2",
+      "template": "hsin_285_189.png",
+      "source_image": "images/7.png",
+      "bbox": [
+        2825,
+        1890,
+        87,
+        79
+      ],
+      "sha256": "1c77c1c5f31d599c2ea5a237ed4849d7c7bf019b76f690166498c4436130d6ee",
+      "pixels_equal": true
+    },
+    {
+      "name": "hsin_lib2",
+      "template": "hsin_286_190.png",
+      "source_image": "images/7.png",
+      "bbox": [
+        3587,
+        1891,
+        90,
+        93
+      ],
+      "sha256": "d99f8a95a90a7fc341704b8cae7ac4c58f4472d22828f4ad42984fed90dad62f",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_custom_way_point",
+      "template": "156_198.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        2513,
+        1239,
+        58,
+        100
+      ],
+      "sha256": "08a5b6389d4dc17dd8d957c288ecd52543ac2f28496e49235d25784c4fd22782",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_wind",
+      "template": "119_200.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        1467,
+        1974,
+        58,
+        61
+      ],
+      "sha256": "85bacdcae1218714a94493b8f261ebd9519b06822b08d346290734acfc048fcf",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_full_wind",
+      "template": "112_201.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3653,
+        524,
+        24,
+        23
+      ],
+      "sha256": "2d2c301c78a8fe08c9c6eb8d9ad8942441b5cba0a8deb525281f0ee049e114d3",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_ready_wind",
+      "template": "176_202.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3653,
+        475,
+        26,
+        27
+      ],
+      "sha256": "1351be46b2989b339ac9e1bdafd89d7f4190c36167acde218545e12262d07b98",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_full_electric",
+      "template": "107_203.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3654,
+        788,
+        23,
+        25
+      ],
+      "sha256": "6d08d00bf424225186f34bae378fcd348ee3d6359ce60c3c92ae7428db5ffe50",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_ready_electric",
+      "template": "171_204.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3655,
+        740,
+        24,
+        24
+      ],
+      "sha256": "85272828d9554fb92ea1c12e29d5dd5b82ec0a9e2240d53776f148b3a9840166",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_mark_char_1",
+      "template": "115_205.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3646,
+        516,
+        39,
+        39
+      ],
+      "sha256": "5fdbb39fdd7a8f24aab6e93cda865f6d2b5c7cb5ac92a863b4d2cbf08bafa097",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_mark_char_2",
+      "template": "116_206.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3643,
+        777,
+        46,
+        46
+      ],
+      "sha256": "46cd1f8880d1aaaa8310ec7f9ab8b6e14589aff2b978981a9bfc52116e22a176",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_mark_char_1",
+      "template": "168_207.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3648,
+        469,
+        35,
+        37
+      ],
+      "sha256": "e6bb911429a8e99665146f7de5ecee84e3552d56c5413ca82cde5d8b05486070",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_mark_char_2",
+      "template": "169_208.png",
+      "source_image": "images/3.png",
+      "bbox": [
+        3648,
+        733,
+        37,
+        38
+      ],
+      "sha256": "5bfe3af034e678313c43221fd356f5f5e6a6910fea719c0d27b44ef490e220bc",
+      "pixels_equal": true
+    },
+    {
+      "name": "target_enemy_white",
+      "template": "214_228.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1688,
+        983,
+        23,
+        23
+      ],
+      "sha256": "76d8da777f57402f0a10ac2263ad621b7ba68af8b9cedea30500baad466e0944",
+      "pixels_equal": true
+    },
+    {
+      "name": "data_merge_hcenter_vcenter",
+      "template": "123_230.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1978,
+        366,
+        115,
+        120
+      ],
+      "sha256": "8d1aa5f118094e4d2a0bb4854c6dcf015fa1bbfdfe9305a84809dbfcf4a55113",
+      "pixels_equal": true
+    },
+    {
+      "name": "chang_changli",
+      "template": "50_236.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3537,
+        723,
+        69,
+        65
+      ],
+      "sha256": "c1e758c0eadd5fd1b7bbe26a2f076abeb629750e758f2d1f6c3bffd855efa614",
+      "pixels_equal": true
+    },
+    {
+      "name": "world_earth_icon",
+      "template": "219_237.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        26,
+        97,
+        73,
+        41
+      ],
+      "sha256": "f0c9715f43ac4f3150a5da6e9921c4d46ee591dd8d6bac79ebc87f738e7a2477",
+      "pixels_equal": true
+    },
+    {
+      "name": "absorb_zh_CN",
+      "template": "6_244.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2681,
+        1080,
+        104,
+        60
+      ],
+      "sha256": "41e216a0100bd34da22f3bd678a29ae911fead1a7afc8360d3ab2ae1053cba2e",
+      "pixels_equal": true
+    },
+    {
+      "name": "revive_confirm_hcenter_vcenter",
+      "template": "200_246.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2887,
+        1405,
+        213,
+        282
+      ],
+      "sha256": "307693e99b92ea204529945e79fcf895a36f35810d7507585713a5f7cf53a7ff",
+      "pixels_equal": true
+    },
+    {
+      "name": "pick_up_f_hcenter_vcenter",
+      "template": "194_248.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2441,
+        1090,
+        39,
+        39
+      ],
+      "sha256": "b1c0813441dc2199f6b1ec0d9cffe6ab2e689a2b8edeadca067ca108ad273bd6",
+      "pixels_equal": true
+    },
+    {
+      "name": "dialog_3_dots",
+      "template": "124_249.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2600,
+        1098,
+        36,
+        23
+      ],
+      "sha256": "a80aaf6447c13bfe81ba88f5f87cf4715d2c8fd810299ed722bfdf2285ff83d4",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_xiangliyao",
+      "template": "96_252.png",
+      "source_image": "images/15.png",
+      "bbox": [
+        3548,
+        453,
+        74,
+        76
+      ],
+      "sha256": "e70148df6d9bf6c28398f775e0e72c28849c4864f389468aafd6e23455ee8014",
+      "pixels_equal": true
+    },
+    {
+      "name": "absorb_en_US",
+      "template": "5_254.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2680,
+        1081,
+        174,
+        61
+      ],
+      "sha256": "17417fd1343ebadc5a29d7e3f5df820aaa62b89c881ee29c2636abf7e00874bb",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_fire",
+      "template": "106_255.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        1473,
+        1977,
+        50,
+        62
+      ],
+      "sha256": "a8f55bd373be6116873a3582c71439a6cae224697425dc66b1cd598eb555b8b3",
+      "pixels_equal": true
+    },
+    {
+      "name": "purple_target_distance_icon",
+      "template": "195_258.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        2090,
+        867,
+        82,
+        81
+      ],
+      "sha256": "2d44f475ae21f8ae386c312e4fa77aff8cbe6dccc1199b53d312ef09a85d6d57",
+      "pixels_equal": true
+    },
+    {
+      "name": "illusive_realm_exit",
+      "template": "162_259.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        29,
+        63,
+        78,
+        86
+      ],
+      "sha256": "104ad463f81e4fd569fd6f553811ba82848615d2e6b5666ff00c3cb59f8c7e5c",
+      "pixels_equal": true
+    },
+    {
+      "name": "illusive_realm_menu",
+      "template": "163_260.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        217,
+        70,
+        64,
+        71
+      ],
+      "sha256": "59f7f8144ae1277e99a075e65f56c49260c560ef1f1486fe9dc8b58fd084e7ea",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_baizhi",
+      "template": "59_270.png",
+      "source_image": "images/16.png",
+      "bbox": [
+        3557,
+        991,
+        63,
+        58
+      ],
+      "sha256": "39bcddbe1105c38600b084b5177d396d7fd06b874a4a5350e7e651bf8e4ff736",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_calcharo",
+      "template": "61_271.png",
+      "source_image": "images/16.png",
+      "bbox": [
+        3550,
+        733,
+        78,
+        53
+      ],
+      "sha256": "c1da9a6ea327ef2c8cd12356d6b65d34259a197d05ab11efde0c071a5c364f3c",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_jiyan",
+      "template": "80_272.png",
+      "source_image": "images/16.png",
+      "bbox": [
+        3538,
+        456,
+        54,
+        61
+      ],
+      "sha256": "d91a870b593625f5cde324c4d392458cd7dfe62c17632b50fcea7efc1ef0754e",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_chisa",
+      "template": "68_276.png",
+      "source_image": "images/17.png",
+      "bbox": [
+        3550,
+        457,
+        85,
+        68
+      ],
+      "sha256": "b0546d3909bdf159d85e5984df0710208637950db5e1f9245d8ba88bd6b9481b",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_zani2",
+      "template": "102_278.png",
+      "source_image": "images/18.png",
+      "bbox": [
+        3547,
+        452,
+        69,
+        71
+      ],
+      "sha256": "57b81efd5ac120115e336392b914aadefdc976f9aedd5183c379821f65345b51",
+      "pixels_equal": true
+    },
+    {
+      "name": "aemeath_e1",
+      "template": "7_282.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3187,
+        1879,
+        120,
+        90
+      ],
+      "sha256": "20234945befd35a8bb5bb63c5e3864b610bbb43f48f8a7b5ec48419a92da6219",
+      "pixels_equal": true
+    },
+    {
+      "name": "aemeath_human_heavy",
+      "template": "10_283.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2818,
+        1881,
+        90,
+        102
+      ],
+      "sha256": "145d760d216bc2c9fa642628e897a8d212dbde15c38cbcbe34a88dea6efbcb89",
+      "pixels_equal": true
+    },
+    {
+      "name": "big_map_skull",
+      "template": "13_296.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1916,
+        901,
+        96,
+        76
+      ],
+      "sha256": "5373a424a85878195d79c68aa5a8dee56d11f42ccd005d6dd90d547b93440854",
+      "pixels_equal": true
+    },
+    {
+      "name": "big_map_diamond",
+      "template": "12_297.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1878,
+        1046,
+        84,
+        72
+      ],
+      "sha256": "618b52b4f9091d3bb9c7d0c76b82153313361808bcea3391775246d0ee7f27d9",
+      "pixels_equal": true
+    },
+    {
+      "name": "no_target_169",
+      "template": "191_300.png",
+      "source_image": "images/44.png",
+      "bbox": [
+        1198,
+        799,
+        21,
+        22
+      ],
+      "sha256": "894c67377b56188e133119ccfa41f35496ad35c22176778935c3c9e6a48ddc6a",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_char_3",
+      "template": "27_308.png",
+      "source_image": "images/20.png",
+      "bbox": [
+        3516,
+        954,
+        133,
+        149
+      ],
+      "sha256": "00a93b3a5d1ac792fe6e2ac5a4b2a35a3a2561a6c00fdf6114f9ad66306875af",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_char_1",
+      "template": "25_309.png",
+      "source_image": "images/20.png",
+      "bbox": [
+        3515,
+        418,
+        129,
+        157
+      ],
+      "sha256": "52bdbbf52eea2fb7dd06e3abad32af75a475830e4874eb8a1747e62975322e7e",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_char_2",
+      "template": "26_310.png",
+      "source_image": "images/20.png",
+      "bbox": [
+        3515,
+        686,
+        126,
+        151
+      ],
+      "sha256": "2612fb5c5be82df7d27dbf171ef3a033dc6b74f80a1b6ab56d5b730b5fda460c",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_rover",
+      "template": "89_311.png",
+      "source_image": "images/20.png",
+      "bbox": [
+        3541,
+        991,
+        89,
+        73
+      ],
+      "sha256": "5eb2e209f34b4be34578fa3a7b01872577cd33f0bef67a3529dd3e57e9ddbcf3",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_char2_switch_wave",
+      "template": "23_312.png",
+      "source_image": "images/20.png",
+      "bbox": [
+        3347,
+        740,
+        153,
+        72
+      ],
+      "sha256": "3e5102dae382eefda53ffbb16b91bf6cabbba47c0d1ba7b85621b4a05e1599a0",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_yuanwu",
+      "template": "100_313.png",
+      "source_image": "images/20.png",
+      "bbox": [
+        3552,
+        713,
+        61,
+        75
+      ],
+      "sha256": "e1ee5230b5ef824c933ba3ff97f8f33efe855beaa6f4fa6505c74881c2af6845",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_char3_switch_wave",
+      "template": "24_314.png",
+      "source_image": "images/20.png",
+      "bbox": [
+        3348,
+        994,
+        153,
+        72
+      ],
+      "sha256": "3e5102dae382eefda53ffbb16b91bf6cabbba47c0d1ba7b85621b4a05e1599a0",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_char1_switch_wave",
+      "template": "22_315.png",
+      "source_image": "images/20.png",
+      "bbox": [
+        3346,
+        480,
+        153,
+        72
+      ],
+      "sha256": "3e5102dae382eefda53ffbb16b91bf6cabbba47c0d1ba7b85621b4a05e1599a0",
+      "pixels_equal": true
+    },
+    {
+      "name": "has_target_cloud",
+      "template": "161_324.png",
+      "source_image": "images/45.png",
+      "bbox": [
+        1198,
+        799,
+        21,
+        22
+      ],
+      "sha256": "2285dcf5f96f3e7874ef20c84fdfd8fe925b052907118c66480233ca7cafc572",
+      "pixels_equal": true
+    },
+    {
+      "name": "no_target_cloud",
+      "template": "192_326.png",
+      "source_image": "images/46.png",
+      "bbox": [
+        1198,
+        799,
+        21,
+        22
+      ],
+      "sha256": "acb3af65191bc1ebd2426957c1e2d93dd187c7571ee563378afc9d2b1ab68fbc",
+      "pixels_equal": true
+    },
+    {
+      "name": "merge_echo_check",
+      "template": "185_328.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3169,
+        1266,
+        79,
+        82
+      ],
+      "sha256": "f6e4a9040fc2f48d29fb9adb9db41cac8e5783d2cdd8eacaef1e252948a7a1e5",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_target_enemy_long",
+      "template": "41_330.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2668,
+        1900,
+        79,
+        88
+      ],
+      "sha256": "7cfce3716c984fa24c895ee36c63b5290722288a610d724626b6999431d93b24",
+      "pixels_equal": true
+    },
+    {
+      "name": "target_enemy_long_inner",
+      "template": "213_331.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2691,
+        1934,
+        34,
+        27
+      ],
+      "sha256": "5b2998c6f05a22f62ac88634db725cf3b7ace259a758bb2e247d926444797bd1",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_enhance_success",
+      "template": "131_334.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2274,
+        549,
+        565,
+        79
+      ],
+      "sha256": "c7c5aa2e0e8eb40bc73648f9ce633df6a914a2baf6b0f285b66692d0f955bfa2",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_enhance_to",
+      "template": "132_336.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        450,
+        358,
+        54,
+        60
+      ],
+      "sha256": "2e5a01530a25d154e964cb35d925fc0bb6c9dfba39a08643992593a3cfc55739",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_crownless_battle",
+      "template": "155_338.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        272,
+        327,
+        108,
+        108
+      ],
+      "sha256": "266bc6c9a37fa01d980879fec0eba0f9fb17c06fc71da3ee0cf91c057ee6c143",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_douling",
+      "template": "73_340.png",
+      "source_image": "images/21.png",
+      "bbox": [
+        3550,
+        460,
+        91,
+        92
+      ],
+      "sha256": "34d42f43cf0c23a09a306b5b24712eb7bb046f74d2438ea8ab3ee4ea79f557c1",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_iuno",
+      "template": "76_342.png",
+      "source_image": "images/22.png",
+      "bbox": [
+        3547,
+        454,
+        82,
+        91
+      ],
+      "sha256": "10147200c1d54f911054de124b541cee2c0d3f7fca2dc8c882049b8e2cd506a5",
+      "pixels_equal": true
+    },
+    {
+      "name": "iuno_jump",
+      "template": "165_343.png",
+      "source_image": "images/22.png",
+      "bbox": [
+        2624,
+        1893,
+        98,
+        79
+      ],
+      "sha256": "3fbc131e6e6e386b9ca53dd678e8c080283e04027ec4a38cb1e468b0acffd03c",
+      "pixels_equal": true
+    },
+    {
+      "name": "iuno_heavy",
+      "template": "164_344.png",
+      "source_image": "images/22.png",
+      "bbox": [
+        2823,
+        1893,
+        95,
+        76
+      ],
+      "sha256": "606fccc97433ac690b24a89250dca05ed53fd4d65f50920fe9bd6765b4de1ba3",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_extra_action",
+      "template": "30_345.png",
+      "source_image": "images/22.png",
+      "bbox": [
+        2586,
+        1846,
+        375,
+        161
+      ],
+      "sha256": "30920066521c1f151547aecf435b4719557611727e8ab30191256182f2cfc784",
+      "pixels_equal": true
+    },
+    {
+      "name": "target_box_long2",
+      "template": "212_346.png",
+      "source_image": "images/22.png",
+      "bbox": [
+        2482,
+        1909,
+        71,
+        71
+      ],
+      "sha256": "956086dccb45cae4e64906072a99d981fe15254ccda108f4118d4f8e5a72da01",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_moning",
+      "template": "84_352.png",
+      "source_image": "images/23.png",
+      "bbox": [
+        3555,
+        447,
+        80,
+        110
+      ],
+      "sha256": "bb9bb345332651889f1b816295d2a61f37147704100982b33d758fb228a7ed16",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_danjin",
+      "template": "72_354.png",
+      "source_image": "images/24.png",
+      "bbox": [
+        3541,
+        464,
+        86,
+        61
+      ],
+      "sha256": "88881c85dba3a9d7fa767d44bcde75fa78df1bae45a916f03aabfca6d47bf7eb",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_mortefi",
+      "template": "85_355.png",
+      "source_image": "images/24.png",
+      "bbox": [
+        3550,
+        716,
+        72,
+        82
+      ],
+      "sha256": "2cf46b990e68a270ea8756b54b3b88ed6974c0ec0e69dd615feb5d3e7ae94327",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_chixia",
+      "template": "69_356.png",
+      "source_image": "images/24.png",
+      "bbox": [
+        3545,
+        983,
+        78,
+        80
+      ],
+      "sha256": "fbe5e5df4cf2d4be4f5d12a14f370c575327532db0dbe18b272c11686abe6e42",
+      "pixels_equal": true
+    },
+    {
+      "name": "levitator_roccia",
+      "template": "166_360.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        3012,
+        1885,
+        87,
+        96
+      ],
+      "sha256": "e43cac04a532c8469feb4f2c4079a583b19f2b26ee233f7c3f9f0a949ef909d0",
+      "pixels_equal": true
+    },
+    {
+      "name": "map_my_location",
+      "template": "181_362.png",
+      "source_image": "images/25.png",
+      "bbox": [
+        3581,
+        507,
+        54,
+        82
+      ],
+      "sha256": "2160af489e5b374f15dbc768aba30cdf91a608eaece1d5bc5eed03a4ee0e1b5c",
+      "pixels_equal": true
+    },
+    {
+      "name": "boss_check_mark",
+      "template": "17_363.png",
+      "source_image": "images/25.png",
+      "bbox": [
+        925,
+        809,
+        40,
+        32
+      ],
+      "sha256": "a611d5ee00b38a5aeb761832e7751fae91d3cf49c8bc919ff988cbfc8941de00",
+      "pixels_equal": true
+    },
+    {
+      "name": "boss_no_check_mark",
+      "template": "19_364.png",
+      "source_image": "images/25.png",
+      "bbox": [
+        1591,
+        583,
+        28,
+        40
+      ],
+      "sha256": "3f35cb6253d984f28d816f80ac4279d282a8281c670ba73992eb2d2daab22387",
+      "pixels_equal": true
+    },
+    {
+      "name": "douling_heavy",
+      "template": "125_368.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        2822,
+        1896,
+        88,
+        80
+      ],
+      "sha256": "b6e02203ca0759820cd01a91c09f4f32427d15b04d1c130c539f20bad4945ce7",
+      "pixels_equal": true
+    },
+    {
+      "name": "has_target_169",
+      "template": "160_370.png",
+      "source_image": "images/47.png",
+      "bbox": [
+        1198,
+        799,
+        21,
+        22
+      ],
+      "sha256": "a97fdee3af33aec017caf14a416f0655b05110b704958b4ffbf4bbedc366c3c7",
+      "pixels_equal": true
+    },
+    {
+      "name": "gray_combat_count_down",
+      "template": "153_372.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        1747,
+        274,
+        58,
+        54
+      ],
+      "sha256": "ddd6c2c6b37dbd52c5052d1794f68e5150a1ada3020733ef6f52ef1f025e143e",
+      "pixels_equal": true
+    },
+    {
+      "name": "boss_break_lock",
+      "template": "15_374.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        1203,
+        95,
+        54,
+        60
+      ],
+      "sha256": "ff1d8859e857a59b926c487e1987207c7e3a0ce431781f40773923e1b53004d4",
+      "pixels_equal": true
+    },
+    {
+      "name": "echo_enhance_btn",
+      "template": "129_376.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        381,
+        1941,
+        206,
+        105
+      ],
+      "sha256": "5e0dfdf9255cd2105f2a1cbca21bd40b68999b83293ce1de1aacd75066475e6c",
+      "pixels_equal": true
+    },
+    {
+      "name": "red_dot",
+      "template": "198_377.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        221,
+        577,
+        31,
+        32
+      ],
+      "sha256": "033926a19fcf952cc30d13c5754673d9222258808efc47230ca99d0aaae582c6",
+      "pixels_equal": true
+    },
+    {
+      "name": "set_name_9",
+      "template": "205_380.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        934,
+        379,
+        39,
+        40
+      ],
+      "sha256": "7ae042d102ae1c9581bfe657dde598e3e8cb533ef655f92ca4541df73d9f54e3",
+      "pixels_equal": true
+    },
+    {
+      "name": "set_name_10",
+      "template": "201_381.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        398,
+        379,
+        41,
+        40
+      ],
+      "sha256": "1957542d0f3e4df2af5d6d7c116bf78ba01a5384b00bfb4dec1d3040d1e87286",
+      "pixels_equal": true
+    },
+    {
+      "name": "set_name_11",
+      "template": "202_382.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        666,
+        379,
+        40,
+        40
+      ],
+      "sha256": "26f49f3998ee9ed5c43cf3dbf6e4827b7b6c853452de538025f166a452e34df6",
+      "pixels_equal": true
+    },
+    {
+      "name": "set_name_12",
+      "template": "203_383.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        1201,
+        379,
+        40,
+        40
+      ],
+      "sha256": "a812a81a7a7bfe9c3423b45d54445df9c16bf9ae25c3f0951f9e0ddc111bfbdb",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_sanhua2",
+      "template": "92_388.png",
+      "source_image": "images/5.png",
+      "bbox": [
+        3535,
+        986,
+        84,
+        64
+      ],
+      "sha256": "6fa73558262e27362f96ede2714fd65635a4900af268477256fc36c8d969d250",
+      "pixels_equal": true
+    },
+    {
+      "name": "on_the_wall",
+      "template": "193_398.png",
+      "source_image": "images/1.png",
+      "bbox": [
+        3150,
+        1875,
+        105,
+        125
+      ],
+      "sha256": "3cf278049769f6e3dcf680fb10c40a799b8c713ec961749f1514718b855871f1",
+      "pixels_equal": true
+    },
+    {
+      "name": "tool_teleport",
+      "template": "216_400.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3005,
+        1890,
+        98,
+        88
+      ],
+      "sha256": "12575783d34f3276a56743f6ffe1a2896ba6f592ad9016a33a7700adc92990d7",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_4_text",
+      "template": "57_401.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3476,
+        1219,
+        27,
+        29
+      ],
+      "sha256": "c91f7436a9e3a0e9fc476ee84ff3f629f8ad3da2ab68add36730824d7d25b8fe",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_cantarella",
+      "template": "63_404.png",
+      "source_image": "images/26.png",
+      "bbox": [
+        3545,
+        460,
+        97,
+        73
+      ],
+      "sha256": "6670ecdd77ae71e4c275a1454f82b46108abdf66c81853de7ec7c3eb31e641ab",
+      "pixels_equal": true
+    },
+    {
+      "name": "camellya_budding",
+      "template": "48_406.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        1589,
+        1997,
+        28,
+        29
+      ],
+      "sha256": "174c5aa779ab10cf81a035d00aedd3256cfbfd05b99769e62fad7474d6992fbd",
+      "pixels_equal": true
+    },
+    {
+      "name": "con_full_ice",
+      "template": "110_407.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3653,
+        789,
+        23,
+        22
+      ],
+      "sha256": "5729f2c76c06e2460b603a0851e6622d7343f971ac4deb0421a8fe9f30a38483",
+      "pixels_equal": true
+    },
+    {
+      "name": "lib_ready_ice",
+      "template": "174_408.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        3652,
+        742,
+        26,
+        21
+      ],
+      "sha256": "1b2a7a5e590907e2b3f4895419dcd4c42d7d71a248e5ceff34c039b98bd37b01",
+      "pixels_equal": true
+    },
+    {
+      "name": "f_break_full",
+      "template": "140_412.png",
+      "source_image": "images/2.png",
+      "bbox": [
+        1211,
+        75,
+        18,
+        35
+      ],
+      "sha256": "047b8b3968a403e246c578f4cb2f9face3eb7977fcb1ed35e7b10bda29df488e",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_youhu",
+      "template": "99_414.png",
+      "source_image": "images/27.png",
+      "bbox": [
+        3546,
+        465,
+        80,
+        67
+      ],
+      "sha256": "26bf8c43d4863d399c06d2b1f5e09ebfff474953dbdef306ba9996cdc28d6e00",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_phrolova",
+      "template": "87_418.png",
+      "source_image": "images/28.png",
+      "bbox": [
+        3547,
+        459,
+        86,
+        96
+      ],
+      "sha256": "d02da3e1e85b66b297f31d1de1229b0e890e59672b6805ef4e5cadc967f28e42",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_ciaccona",
+      "template": "71_420.png",
+      "source_image": "images/29.png",
+      "bbox": [
+        3543,
+        452,
+        90,
+        90
+      ],
+      "sha256": "b022f795b8e75cbd4eafdadcc0d3e41f89e2c4265451a10570d6b5962d6d60e0",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_luhesi",
+      "template": "82_426.png",
+      "source_image": "images/30.png",
+      "bbox": [
+        3554,
+        441,
+        66,
+        103
+      ],
+      "sha256": "b73ace22c1e6c06435cee680725cf95fc7e1bcc2a247d84237ad3bd9c91a5be7",
+      "pixels_equal": true
+    },
+    {
+      "name": "luhesi_kick",
+      "template": "178_427.png",
+      "source_image": "images/30.png",
+      "bbox": [
+        2810,
+        1891,
+        100,
+        80
+      ],
+      "sha256": "fd94b9fe8430a9f6c9c5c0b413de14f6cf358091cf7263dc6fe510ad2f666dcd",
+      "pixels_equal": true
+    },
+    {
+      "name": "box_luhesi_lib",
+      "template": "36_428.png",
+      "source_image": "images/30.png",
+      "bbox": [
+        3584,
+        1887,
+        92,
+        66
+      ],
+      "sha256": "a005589da000f3265a6cf60bcc5d0182e094a1bba8494e2d7af1d11ea3eaf4ad",
+      "pixels_equal": true
+    },
+    {
+      "name": "treasure_icon",
+      "template": "217_434.png",
+      "source_image": "images/0.png",
+      "bbox": [
+        2925,
+        970,
+        60,
+        54
+      ],
+      "sha256": "11c3a56cf16e716864e51fcd672e340fd24828c6b3d38f79c6a5148a4997c2e5",
+      "pixels_equal": true
+    },
+    {
+      "name": "char_xigelika",
+      "template": "97_435.png",
+      "source_image": "images/31.png",
+      "bbox": [
+        3547,
+        450,
+        91,
+        101
+      ],
+      "sha256": "8409b20cce0ffba0993f1b00c7ecbc83709720ac6152967d6717bca48fea8af2",
+      "pixels_equal": true
+    },
+    {
+      "name": "e_forte",
+      "template": "127_436.png",
+      "source_image": "images/31.png",
+      "bbox": [
+        2279,
+        1994,
+        22,
+        24
+      ],
+      "sha256": "491bc472ceea4339b8b18a9eeb99ce0f0308de4f0608192eebe5905b99b72964",
+      "pixels_equal": true
+    },
+    {
+      "name": "denia_lib2",
+      "template": "267_437.png",
+      "source_image": "images/40.png",
+      "bbox": [
+        1600,
+        945,
+        45,
+        45
+      ],
+      "sha256": "ea520f12d70ec082e3643311e5387c0f6894af6249517e84ec760c2da863d0a7",
+      "pixels_equal": true
+    },
+    {
+      "name": "denia_e1",
+      "template": "268_438.png",
+      "source_image": "images/39.png",
+      "bbox": [
+        1600,
+        945,
+        45,
+        45
+      ],
+      "sha256": "a755ea46111dab9d4b5f8e5b4c3f09d486137ea624de3f7b50febf1b5ef2f64c",
+      "pixels_equal": true
+    },
+    {
+      "name": "chisa_e2",
+      "template": "269_439.png",
+      "source_image": "images/38.png",
+      "bbox": [
+        1600,
+        945,
+        45,
+        45
+      ],
+      "sha256": "dc463eb29445d537abf87dc7ea3b858c3f29beb2f83d41be4f9efcebffd32040",
+      "pixels_equal": true
+    }
+  ],
+  "identical_assets_since": "20a43c44c479b86faef5eee1c70ad4ce2d5fbd71"
+}

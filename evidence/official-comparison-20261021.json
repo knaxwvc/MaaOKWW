@@ -1,0 +1,40 @@
+{
+  "commit": "0b37b5b79e771297536ff1155db1c23131297558",
+  "game_input_sent": 0,
+  "live_combat_verified": false,
+  "comparisons": {
+    "traces": {
+      "cases": 156,
+      "equal": 156,
+      "completed": 149,
+      "matching_reference_interruptions": {
+        "fixture operation budget": 2,
+        "not in_team while switching": 5
+      },
+      "native_sha256": "2cc4e99e6b158a7d3ec740cb2043cffc061cf1f59879764f17b65aa1f5735863",
+      "reference_sha256": "68be02e5c79f31d6c12d5f20f885946916e32a9c015728f670ca6c171b6b4a1a"
+    },
+    "teams": {
+      "cases": 10,
+      "equal": 10,
+      "completed": 10,
+      "matching_reference_interruptions": {},
+      "native_sha256": "b4cd2f433858126ff16a71f11410d331bca3c3a101cbbfd8cc2a82acff079979",
+      "reference_sha256": "9a29f8fe6868a8a07bef6e482903a5f4eb3b4376cbae4596e07ad511203b58e8"
+    },
+    "vision": {
+      "cases": 18,
+      "equal": 18,
+      "completed": 18,
+      "matching_reference_interruptions": {},
+      "native_sha256": "cdc537cef0647dbcd0cfd2764c969d91882534d3cc277ac2877345286fa1bf46",
+      "reference_sha256": "245dfd4f3b88d4c69c3ce53da2c9105b0b3223567d11d84d90ba8680a7214ff2"
+    }
+  },
+  "role_classes": 52,
+  "role_methods": 412,
+  "base_methods": 88,
+  "task_methods": 15,
+  "unmapped_ast": 0,
+  "sleep_restoration_cases": 5
+}

@@ -1,0 +1,3930 @@
+{
+  "commit": "0b37b5b79e771297536ff1155db1c23131297558",
+  "files": [
+    {
+      "character": "BaseChar",
+      "source_sha256": "6d7e3d6af0da5d8642c3262e1353b84853cd881506f5095c49b832cda446dbab",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 68,
+          "official_end": 112,
+          "statements": 37
+        },
+        {
+          "name": "set_char_type",
+          "dispatch": "set_char_type",
+          "official_line": 114,
+          "official_end": 118,
+          "statements": 4
+        },
+        {
+          "name": "get_char_type",
+          "dispatch": "get_char_type",
+          "official_line": 120,
+          "official_end": 121,
+          "statements": 1
+        },
+        {
+          "name": "char_type",
+          "dispatch": "@get:char_type",
+          "official_line": 124,
+          "official_end": 125,
+          "statements": 1
+        },
+        {
+          "name": "set_buff_time",
+          "dispatch": "set_buff_time",
+          "official_line": 127,
+          "official_end": 129,
+          "statements": 2
+        },
+        {
+          "name": "type",
+          "dispatch": "@get:type",
+          "official_line": 132,
+          "official_end": 133,
+          "statements": 1
+        },
+        {
+          "name": "is_healer",
+          "dispatch": "@get:is_healer",
+          "official_line": 136,
+          "official_end": 137,
+          "statements": 1
+        },
+        {
+          "name": "is_main_dps",
+          "dispatch": "@get:is_main_dps",
+          "official_line": 140,
+          "official_end": 141,
+          "statements": 1
+        },
+        {
+          "name": "is_sub_dps",
+          "dispatch": "@get:is_sub_dps",
+          "official_line": 144,
+          "official_end": 145,
+          "statements": 1
+        },
+        {
+          "name": "get_buff_time",
+          "dispatch": "get_buff_time",
+          "official_line": 147,
+          "official_end": 148,
+          "statements": 1
+        },
+        {
+          "name": "buff_time",
+          "dispatch": "@get:buff_time",
+          "official_line": 151,
+          "official_end": 152,
+          "statements": 1
+        },
+        {
+          "name": "has_buff",
+          "dispatch": "has_buff",
+          "official_line": 154,
+          "official_end": 156,
+          "statements": 1
+        },
+        {
+          "name": "has_all_buff",
+          "dispatch": "has_all_buff",
+          "official_line": 158,
+          "official_end": 163,
+          "statements": 5
+        },
+        {
+          "name": "cycle",
+          "dispatch": "cycle",
+          "official_line": 165,
+          "official_end": 174,
+          "statements": 7
+        },
+        {
+          "name": "do_cycle",
+          "dispatch": "do_cycle",
+          "official_line": 176,
+          "official_end": 177,
+          "statements": 1
+        },
+        {
+          "name": "cycle_start",
+          "dispatch": "cycle_start",
+          "official_line": 179,
+          "official_end": 180,
+          "statements": 1
+        },
+        {
+          "name": "cycle_sleep",
+          "dispatch": "cycle_sleep",
+          "official_line": 182,
+          "official_end": 185,
+          "statements": 3
+        },
+        {
+          "name": "flying_based_on_resonance",
+          "dispatch": "flying_based_on_resonance",
+          "official_line": 187,
+          "official_end": 189,
+          "statements": 2
+        },
+        {
+          "name": "skip_combat_check",
+          "dispatch": "skip_combat_check",
+          "official_line": 191,
+          "official_end": 197,
+          "statements": 2
+        },
+        {
+          "name": "use_tool_box",
+          "dispatch": "use_tool_box",
+          "official_line": 199,
+          "official_end": 203,
+          "statements": 4
+        },
+        {
+          "name": "name",
+          "dispatch": "@get:name",
+          "official_line": 206,
+          "official_end": 212,
+          "statements": 2
+        },
+        {
+          "name": "__eq__",
+          "dispatch": "__eq__",
+          "official_line": 214,
+          "official_end": 218,
+          "statements": 4
+        },
+        {
+          "name": "perform",
+          "dispatch": "perform",
+          "official_line": 220,
+          "official_end": 229,
+          "statements": 4
+        },
+        {
+          "name": "wait_down",
+          "dispatch": "wait_down",
+          "official_line": 231,
+          "official_end": 245,
+          "statements": 11
+        },
+        {
+          "name": "wait_intro",
+          "dispatch": "wait_intro",
+          "official_line": 248,
+          "official_end": 256,
+          "statements": 3
+        },
+        {
+          "name": "down",
+          "dispatch": "down",
+          "official_line": 258,
+          "official_end": 265,
+          "statements": 2
+        },
+        {
+          "name": "click_with_interval",
+          "dispatch": "click_with_interval",
+          "official_line": 267,
+          "official_end": 273,
+          "statements": 2
+        },
+        {
+          "name": "click",
+          "dispatch": "click",
+          "official_line": 275,
+          "official_end": 278,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 280,
+          "official_end": 293,
+          "statements": 7
+        },
+        {
+          "name": "has_cd",
+          "dispatch": "has_cd",
+          "official_line": 295,
+          "official_end": 304,
+          "statements": 2
+        },
+        {
+          "name": "is_available",
+          "dispatch": "is_available",
+          "official_line": 306,
+          "official_end": 316,
+          "statements": 2
+        },
+        {
+          "name": "switch_out",
+          "dispatch": "switch_out",
+          "official_line": 318,
+          "official_end": 331,
+          "statements": 13
+        },
+        {
+          "name": "__repr__",
+          "dispatch": "__repr__",
+          "official_line": 333,
+          "official_end": 335,
+          "statements": 2
+        },
+        {
+          "name": "switch_next_char",
+          "dispatch": "switch_next_char",
+          "official_line": 337,
+          "official_end": 356,
+          "statements": 7
+        },
+        {
+          "name": "sleep",
+          "dispatch": "sleep",
+          "official_line": 358,
+          "official_end": 365,
+          "statements": 6
+        },
+        {
+          "name": "alert_skill_failed",
+          "dispatch": "alert_skill_failed",
+          "official_line": 367,
+          "official_end": 370,
+          "statements": 2
+        },
+        {
+          "name": "click_resonance",
+          "dispatch": "click_resonance",
+          "official_line": 372,
+          "official_end": 461,
+          "statements": 71
+        },
+        {
+          "name": "send_resonance_key",
+          "dispatch": "send_resonance_key",
+          "official_line": 463,
+          "official_end": 472,
+          "statements": 3
+        },
+        {
+          "name": "send_echo_key",
+          "dispatch": "send_echo_key",
+          "official_line": 474,
+          "official_end": 483,
+          "statements": 3
+        },
+        {
+          "name": "heavy_click_forte",
+          "dispatch": "heavy_click_forte",
+          "official_line": 485,
+          "official_end": 495,
+          "statements": 9
+        },
+        {
+          "name": "send_liberation_key",
+          "dispatch": "send_liberation_key",
+          "official_line": 497,
+          "official_end": 506,
+          "statements": 3
+        },
+        {
+          "name": "record_resonance_use",
+          "dispatch": "record_resonance_use",
+          "official_line": 508,
+          "official_end": 510,
+          "statements": 2
+        },
+        {
+          "name": "record_liberation_use",
+          "dispatch": "record_liberation_use",
+          "official_line": 512,
+          "official_end": 514,
+          "statements": 2
+        },
+        {
+          "name": "record_echo_use",
+          "dispatch": "record_echo_use",
+          "official_line": 516,
+          "official_end": 518,
+          "statements": 2
+        },
+        {
+          "name": "click_echo",
+          "dispatch": "click_echo",
+          "official_line": 520,
+          "official_end": 569,
+          "statements": 40
+        },
+        {
+          "name": "is_open_world_auto_combat",
+          "dispatch": "is_open_world_auto_combat",
+          "official_line": 571,
+          "official_end": 572,
+          "statements": 1
+        },
+        {
+          "name": "check_combat",
+          "dispatch": "check_combat",
+          "official_line": 574,
+          "official_end": 576,
+          "statements": 2
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 578,
+          "official_end": 592,
+          "statements": 9
+        },
+        {
+          "name": "click_liberation",
+          "dispatch": "click_liberation",
+          "official_line": 594,
+          "official_end": 674,
+          "statements": 64
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 676,
+          "official_end": 682,
+          "statements": 2
+        },
+        {
+          "name": "add_freeze_duration",
+          "dispatch": "add_freeze_duration",
+          "official_line": 684,
+          "official_end": 686,
+          "statements": 2
+        },
+        {
+          "name": "time_elapsed_accounting_for_freeze",
+          "dispatch": "time_elapsed_accounting_for_freeze",
+          "official_line": 688,
+          "official_end": 690,
+          "statements": 2
+        },
+        {
+          "name": "get_liberation_key",
+          "dispatch": "get_liberation_key",
+          "official_line": 692,
+          "official_end": 694,
+          "statements": 2
+        },
+        {
+          "name": "get_echo_key",
+          "dispatch": "get_echo_key",
+          "official_line": 696,
+          "official_end": 698,
+          "statements": 2
+        },
+        {
+          "name": "get_resonance_key",
+          "dispatch": "get_resonance_key",
+          "official_line": 700,
+          "official_end": 702,
+          "statements": 2
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 704,
+          "official_end": 713,
+          "statements": 2
+        },
+        {
+          "name": "healer_full_con_switch_locked",
+          "dispatch": "healer_full_con_switch_locked",
+          "official_line": 715,
+          "official_end": 721,
+          "statements": 1
+        },
+        {
+          "name": "resonance_available",
+          "dispatch": "resonance_available",
+          "official_line": 723,
+          "official_end": 734,
+          "statements": 2
+        },
+        {
+          "name": "available",
+          "dispatch": "available",
+          "official_line": 736,
+          "official_end": 740,
+          "statements": 3
+        },
+        {
+          "name": "echo_available",
+          "dispatch": "echo_available",
+          "official_line": 742,
+          "official_end": 751,
+          "statements": 2
+        },
+        {
+          "name": "extra_action_available",
+          "dispatch": "extra_action_available",
+          "official_line": 753,
+          "official_end": 762,
+          "statements": 2
+        },
+        {
+          "name": "is_con_full",
+          "dispatch": "is_con_full",
+          "official_line": 764,
+          "official_end": 768,
+          "statements": 4
+        },
+        {
+          "name": "get_current_con",
+          "dispatch": "get_current_con",
+          "official_line": 770,
+          "official_end": 775,
+          "statements": 5
+        },
+        {
+          "name": "is_mouse_forte_full",
+          "dispatch": "is_mouse_forte_full",
+          "official_line": 777,
+          "official_end": 782,
+          "statements": 2
+        },
+        {
+          "name": "is_e_forte_full",
+          "dispatch": "is_e_forte_full",
+          "official_line": 784,
+          "official_end": 785,
+          "statements": 1
+        },
+        {
+          "name": "is_forte_full",
+          "dispatch": "is_forte_full",
+          "official_line": 787,
+          "official_end": 808,
+          "statements": 6
+        },
+        {
+          "name": "liberation_available",
+          "dispatch": "liberation_available",
+          "official_line": 810,
+          "official_end": 816,
+          "statements": 2
+        },
+        {
+          "name": "__str__",
+          "dispatch": "__str__",
+          "official_line": 818,
+          "official_end": 820,
+          "statements": 2
+        },
+        {
+          "name": "normal_attack_until_can_switch",
+          "dispatch": "normal_attack_until_can_switch",
+          "official_line": 822,
+          "official_end": 826,
+          "statements": 4
+        },
+        {
+          "name": "need_fast_perform",
+          "dispatch": "need_fast_perform",
+          "official_line": 828,
+          "official_end": 838,
+          "statements": 8
+        },
+        {
+          "name": "wait_switch_cd",
+          "dispatch": "wait_switch_cd",
+          "official_line": 840,
+          "official_end": 844,
+          "statements": 4
+        },
+        {
+          "name": "continues_normal_attack",
+          "dispatch": "continues_normal_attack",
+          "official_line": 846,
+          "official_end": 864,
+          "statements": 10
+        },
+        {
+          "name": "continues_click",
+          "dispatch": "continues_click",
+          "official_line": 866,
+          "official_end": 876,
+          "statements": 4
+        },
+        {
+          "name": "continues_right_click",
+          "dispatch": "continues_right_click",
+          "official_line": 878,
+          "official_end": 893,
+          "statements": 9
+        },
+        {
+          "name": "normal_attack",
+          "dispatch": "normal_attack",
+          "official_line": 895,
+          "official_end": 899,
+          "statements": 4
+        },
+        {
+          "name": "heavy_attack",
+          "dispatch": "heavy_attack",
+          "official_line": 901,
+          "official_end": 913,
+          "statements": 8
+        },
+        {
+          "name": "current_resonance",
+          "dispatch": "current_resonance",
+          "official_line": 915,
+          "official_end": 918,
+          "statements": 2
+        },
+        {
+          "name": "current_echo",
+          "dispatch": "current_echo",
+          "official_line": 920,
+          "official_end": 923,
+          "statements": 2
+        },
+        {
+          "name": "current_liberation",
+          "dispatch": "current_liberation",
+          "official_line": 925,
+          "official_end": 927,
+          "statements": 2
+        },
+        {
+          "name": "flying",
+          "dispatch": "flying",
+          "official_line": 929,
+          "official_end": 934,
+          "statements": 5
+        },
+        {
+          "name": "check_outro",
+          "dispatch": "check_outro",
+          "official_line": 936,
+          "official_end": 953,
+          "statements": 13
+        },
+        {
+          "name": "is_first_engage",
+          "dispatch": "is_first_engage",
+          "official_line": 955,
+          "official_end": 960,
+          "statements": 5
+        },
+        {
+          "name": "wait_switch",
+          "dispatch": "wait_switch",
+          "official_line": 962,
+          "official_end": 964,
+          "statements": 2
+        },
+        {
+          "name": "switch_other_char",
+          "dispatch": "switch_other_char",
+          "official_line": 966,
+          "official_end": 990,
+          "statements": 22
+        },
+        {
+          "name": "has_long_action",
+          "dispatch": "has_long_action",
+          "official_line": 992,
+          "official_end": 994,
+          "statements": 2
+        },
+        {
+          "name": "has_long_action2",
+          "dispatch": "has_long_action2",
+          "official_line": 996,
+          "official_end": 998,
+          "statements": 2
+        },
+        {
+          "name": "has_short_action",
+          "dispatch": "has_short_action",
+          "official_line": 1000,
+          "official_end": 1004,
+          "statements": 4
+        },
+        {
+          "name": "f_break",
+          "dispatch": "f_break",
+          "official_line": 1006,
+          "official_end": 1015,
+          "statements": 6
+        }
+      ],
+      "statement_count": 525,
+      "generated_lines": 1559
+    },
+    {
+      "character": "YangYangSp",
+      "source_sha256": "89b56bea591452baaa1e0111cf34e00f793495a26f43d26c15d6a9b55963704f",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 13,
+          "official_end": 15,
+          "statements": 2
+        },
+        {
+          "name": "display_name",
+          "dispatch": "@get:display_name",
+          "official_line": 18,
+          "official_end": 19,
+          "statements": 1
+        },
+        {
+          "name": "__repr__",
+          "dispatch": "__repr__",
+          "official_line": 21,
+          "official_end": 22,
+          "statements": 1
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 24,
+          "official_end": 56,
+          "statements": 27
+        }
+      ],
+      "statement_count": 31,
+      "generated_lines": 107
+    },
+    {
+      "character": "Yinlin",
+      "source_sha256": "d0cf056ad3c1371ecde1fde1da3ab2d5b8ccb1ae1d0fd993026ce2a145768a25",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 5,
+          "official_end": 20,
+          "statements": 14
+        }
+      ],
+      "statement_count": 14,
+      "generated_lines": 47
+    },
+    {
+      "character": "Verina",
+      "source_sha256": "245f53207768715c617e546da5ed7ed2d2e10406624d8fc532a4758d38718120",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 17,
+          "official_end": 19,
+          "statements": 2
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 21,
+          "official_end": 23,
+          "statements": 2
+        },
+        {
+          "name": "perform_combat",
+          "dispatch": "perform_combat",
+          "official_line": 25,
+          "official_end": 47,
+          "statements": 16
+        },
+        {
+          "name": "cast_resonance",
+          "dispatch": "cast_resonance",
+          "official_line": 49,
+          "official_end": 52,
+          "statements": 3
+        },
+        {
+          "name": "cast_liberation",
+          "dispatch": "cast_liberation",
+          "official_line": 54,
+          "official_end": 57,
+          "statements": 3
+        },
+        {
+          "name": "cast_echo",
+          "dispatch": "cast_echo",
+          "official_line": 59,
+          "official_end": 62,
+          "statements": 3
+        },
+        {
+          "name": "should_stop",
+          "dispatch": "should_stop",
+          "official_line": 64,
+          "official_end": 66,
+          "statements": 2
+        },
+        {
+          "name": "can_heavy_attack",
+          "dispatch": "can_heavy_attack",
+          "official_line": 68,
+          "official_end": 70,
+          "statements": 2
+        },
+        {
+          "name": "field_time_out",
+          "dispatch": "field_time_out",
+          "official_line": 72,
+          "official_end": 74,
+          "statements": 2
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 76,
+          "official_end": 79,
+          "statements": 3
+        }
+      ],
+      "statement_count": 38,
+      "generated_lines": 137
+    },
+    {
+      "character": "ShoreKeeper",
+      "source_sha256": "1471a3b0bdf060c372e605e1d00150bc4c3be4e8ba0390e32733d1d270217ba9",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 7,
+          "official_end": 12,
+          "statements": 5
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 14,
+          "official_end": 19,
+          "statements": 5
+        },
+        {
+          "name": "skip_combat_check",
+          "dispatch": "skip_combat_check",
+          "official_line": 21,
+          "official_end": 22,
+          "statements": 1
+        },
+        {
+          "name": "decide_teammate",
+          "dispatch": "decide_teammate",
+          "official_line": 24,
+          "official_end": 31,
+          "statements": 6
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 33,
+          "official_end": 49,
+          "statements": 14
+        },
+        {
+          "name": "switch_next_char",
+          "dispatch": "switch_next_char",
+          "official_line": 51,
+          "official_end": 55,
+          "statements": 4
+        },
+        {
+          "name": "auto_dodge",
+          "dispatch": "auto_dodge",
+          "official_line": 57,
+          "official_end": 71,
+          "statements": 14
+        }
+      ],
+      "statement_count": 49,
+      "generated_lines": 158
+    },
+    {
+      "character": "Suisui",
+      "source_sha256": "4f0de7edd7254bd0b17c229ab9ed790976678c51b8b035a5f661f9b62fd09985",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 14,
+          "official_end": 17,
+          "statements": 3
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 19,
+          "official_end": 22,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 24,
+          "official_end": 28,
+          "statements": 4
+        },
+        {
+          "name": "perform_forte3_rotation",
+          "dispatch": "perform_forte3_rotation",
+          "official_line": 30,
+          "official_end": 69,
+          "statements": 37
+        },
+        {
+          "name": "try_e",
+          "dispatch": "try_e",
+          "official_line": 71,
+          "official_end": 77,
+          "statements": 6
+        },
+        {
+          "name": "forte3_available",
+          "dispatch": "forte3_available",
+          "official_line": 79,
+          "official_end": 80,
+          "statements": 1
+        },
+        {
+          "name": "forte2_available",
+          "dispatch": "forte2_available",
+          "official_line": 82,
+          "official_end": 83,
+          "statements": 1
+        },
+        {
+          "name": "switch_out",
+          "dispatch": "switch_out",
+          "official_line": 85,
+          "official_end": 88,
+          "statements": 3
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 90,
+          "official_end": 103,
+          "statements": 10
+        }
+      ],
+      "statement_count": 68,
+      "generated_lines": 226
+    },
+    {
+      "character": "Taoqi",
+      "source_sha256": "ec447aa3b4eef65fcc304f9f9f296eb5134cb9d496cf932037fd22a38c3e3ca9",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 5,
+          "official_end": 13,
+          "statements": 7
+        }
+      ],
+      "statement_count": 7,
+      "generated_lines": 26
+    },
+    {
+      "character": "Rover",
+      "source_sha256": "3002646896fd478c9a57d800144ebc95af507d4fa55a8fc001c42d4fb5222779",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 14,
+          "official_end": 18,
+          "statements": 4
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 20,
+          "official_end": 25,
+          "statements": 5
+        },
+        {
+          "name": "display_name",
+          "dispatch": "@get:display_name",
+          "official_line": 28,
+          "official_end": 29,
+          "statements": 1
+        },
+        {
+          "name": "get_char_type",
+          "dispatch": "get_char_type",
+          "official_line": 31,
+          "official_end": 34,
+          "statements": 2
+        },
+        {
+          "name": "__repr__",
+          "dispatch": "__repr__",
+          "official_line": 36,
+          "official_end": 37,
+          "statements": 1
+        },
+        {
+          "name": "_bind_form_logger",
+          "dispatch": "_bind_form_logger",
+          "official_line": 39,
+          "official_end": 40,
+          "statements": 1
+        },
+        {
+          "name": "_known_form",
+          "dispatch": "_known_form",
+          "official_line": 42,
+          "official_end": 45,
+          "statements": 3
+        },
+        {
+          "name": "is_havoc_form",
+          "dispatch": "is_havoc_form",
+          "official_line": 47,
+          "official_end": 48,
+          "statements": 1
+        },
+        {
+          "name": "ensure_display_form",
+          "dispatch": "ensure_display_form",
+          "official_line": 50,
+          "official_end": 57,
+          "statements": 7
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 59,
+          "official_end": 82,
+          "statements": 22
+        },
+        {
+          "name": "init",
+          "dispatch": "init",
+          "official_line": 84,
+          "official_end": 101,
+          "statements": 15
+        },
+        {
+          "name": "electric_skill_ready",
+          "dispatch": "electric_skill_ready",
+          "official_line": 103,
+          "official_end": 105,
+          "statements": 1
+        },
+        {
+          "name": "perform_electric_routine",
+          "dispatch": "perform_electric_routine",
+          "official_line": 107,
+          "official_end": 129,
+          "statements": 21
+        },
+        {
+          "name": "short_electric_skill",
+          "dispatch": "short_electric_skill",
+          "official_line": 131,
+          "official_end": 147,
+          "statements": 11
+        },
+        {
+          "name": "perform_spectro_routine",
+          "dispatch": "perform_spectro_routine",
+          "official_line": 149,
+          "official_end": 162,
+          "statements": 13
+        },
+        {
+          "name": "spectro_routine_aftertune_combo",
+          "dispatch": "spectro_routine_aftertune_combo",
+          "official_line": 164,
+          "official_end": 167,
+          "statements": 3
+        },
+        {
+          "name": "perform_havoc_routine",
+          "dispatch": "perform_havoc_routine",
+          "official_line": 169,
+          "official_end": 177,
+          "statements": 8
+        },
+        {
+          "name": "init_wind",
+          "dispatch": "init_wind",
+          "official_line": 179,
+          "official_end": 182,
+          "statements": 3
+        },
+        {
+          "name": "perform_wind_routine",
+          "dispatch": "perform_wind_routine",
+          "official_line": 184,
+          "official_end": 203,
+          "statements": 19
+        },
+        {
+          "name": "wind_routine_click_while_flying",
+          "dispatch": "wind_routine_click_while_flying",
+          "official_line": 205,
+          "official_end": 212,
+          "statements": 7
+        },
+        {
+          "name": "wind_routine_flying",
+          "dispatch": "wind_routine_flying",
+          "official_line": 214,
+          "official_end": 218,
+          "statements": 4
+        },
+        {
+          "name": "wind_routine_wait_down",
+          "dispatch": "wind_routine_wait_down",
+          "official_line": 220,
+          "official_end": 233,
+          "statements": 10
+        },
+        {
+          "name": "perform_basic_routine",
+          "dispatch": "perform_basic_routine",
+          "official_line": 235,
+          "official_end": 243,
+          "statements": 8
+        }
+      ],
+      "statement_count": 170,
+      "generated_lines": 547
+    },
+    {
+      "character": "Encore",
+      "source_sha256": "44bbb90a97e16e241c5ecd45f432710a1c165ebed3736ce31a9b1cd6fd568470",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 12,
+          "statements": 4
+        },
+        {
+          "name": "still_in_liberation",
+          "dispatch": "still_in_liberation",
+          "official_line": 14,
+          "official_end": 15,
+          "statements": 1
+        },
+        {
+          "name": "switch_out",
+          "dispatch": "switch_out",
+          "official_line": 17,
+          "official_end": 19,
+          "statements": 2
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 21,
+          "official_end": 29,
+          "statements": 7
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 31,
+          "official_end": 61,
+          "statements": 27
+        },
+        {
+          "name": "can_resonance_step2",
+          "dispatch": "can_resonance_step2",
+          "official_line": 63,
+          "official_end": 64,
+          "statements": 1
+        },
+        {
+          "name": "n4",
+          "dispatch": "n4",
+          "official_line": 66,
+          "official_end": 77,
+          "statements": 10
+        }
+      ],
+      "statement_count": 52,
+      "generated_lines": 160
+    },
+    {
+      "character": "Jianxin",
+      "source_sha256": "9078752d79b735f71ff43a0681a3b85e1d871b670262d46b398c35ff8603b45a",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 5,
+          "official_end": 13,
+          "statements": 8
+        }
+      ],
+      "statement_count": 8,
+      "generated_lines": 29
+    },
+    {
+      "character": "Sanhua",
+      "source_sha256": "162b40dede895c2e586498ecf8f21ca07ad453b4626f82db520f3b8fea41c75f",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 7,
+          "official_end": 35,
+          "statements": 28
+        }
+      ],
+      "statement_count": 28,
+      "generated_lines": 75
+    },
+    {
+      "character": "Jinhsi",
+      "source_sha256": "21604cef3c3e9877b0300e0925fc84a7e94872737afa313b39a8cc40c0943387",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 14,
+          "statements": 6
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 16,
+          "official_end": 24,
+          "statements": 8
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 26,
+          "official_end": 30,
+          "statements": 4
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 32,
+          "official_end": 38,
+          "statements": 4
+        },
+        {
+          "name": "switch_next_char",
+          "dispatch": "switch_next_char",
+          "official_line": 40,
+          "official_end": 42,
+          "statements": 2
+        },
+        {
+          "name": "handle_incarnation",
+          "dispatch": "handle_incarnation",
+          "official_line": 44,
+          "official_end": 80,
+          "statements": 30
+        },
+        {
+          "name": "handle_intro",
+          "dispatch": "handle_intro",
+          "official_line": 82,
+          "official_end": 110,
+          "statements": 22
+        },
+        {
+          "name": "wait_resonance",
+          "dispatch": "wait_resonance",
+          "official_line": 112,
+          "official_end": 114,
+          "statements": 2
+        }
+      ],
+      "statement_count": 78,
+      "generated_lines": 229
+    },
+    {
+      "character": "Yuanwu",
+      "source_sha256": "1b5ea7df288242b7ec40a3c0fa65eb45cd87c28dd93637d0631a4d1be84f65ba",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 6,
+          "official_end": 15,
+          "statements": 9
+        }
+      ],
+      "statement_count": 9,
+      "generated_lines": 30
+    },
+    {
+      "character": "Changli",
+      "source_sha256": "b236e1189ae7c6f5a0c2b2640719123e8397946e89d447216640e93cc7df7950",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 10,
+          "official_end": 12,
+          "statements": 2
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 14,
+          "official_end": 16,
+          "statements": 2
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 18,
+          "official_end": 21,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 23,
+          "official_end": 60,
+          "statements": 37
+        },
+        {
+          "name": "do_perform_outro",
+          "dispatch": "do_perform_outro",
+          "official_line": 62,
+          "official_end": 94,
+          "statements": 31
+        },
+        {
+          "name": "judge_forte",
+          "dispatch": "judge_forte",
+          "official_line": 96,
+          "official_end": 101,
+          "statements": 5
+        },
+        {
+          "name": "liberation_and_heavy",
+          "dispatch": "liberation_and_heavy",
+          "official_line": 103,
+          "official_end": 162,
+          "statements": 57
+        },
+        {
+          "name": "flick_resonance",
+          "dispatch": "flick_resonance",
+          "official_line": 164,
+          "official_end": 172,
+          "statements": 6
+        },
+        {
+          "name": "judge_frequncy_and_amplitude",
+          "dispatch": "judge_frequncy_and_amplitude",
+          "official_line": 174,
+          "official_end": 191,
+          "statements": 16
+        },
+        {
+          "name": "calculate_forte_num",
+          "dispatch": "calculate_forte_num",
+          "official_line": 193,
+          "official_end": 212,
+          "statements": 17
+        }
+      ],
+      "statement_count": 176,
+      "generated_lines": 502
+    },
+    {
+      "character": "Chixia",
+      "source_sha256": "ffe0b8d1e20a15203331da47e6a77b5b2c46248a7bd32cbb4d5b546ddf60a847",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 6,
+          "official_end": 8,
+          "statements": 2
+        }
+      ],
+      "statement_count": 2,
+      "generated_lines": 14
+    },
+    {
+      "character": "Danjin",
+      "source_sha256": "03e2c2d80068b5c0b0b412a958718ff7dc6a4ae509922abe44ac95bcbfccfb77",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 6,
+          "official_end": 7,
+          "statements": 1
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 9,
+          "official_end": 30,
+          "statements": 20
+        }
+      ],
+      "statement_count": 21,
+      "generated_lines": 64
+    },
+    {
+      "character": "Baizhi",
+      "source_sha256": "8c4064f5922fb05b8bbfffbc91b133a5aac5e37f27a4ae62bd9d2bf5adf273cb",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 6,
+          "official_end": 13,
+          "statements": 7
+        }
+      ],
+      "statement_count": 7,
+      "generated_lines": 25
+    },
+    {
+      "character": "Calcharo",
+      "source_sha256": "e987a65c3923a719a0cda3625b86ddbba987e54a73b34a7d6225134960270198",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 5,
+          "official_end": 11,
+          "statements": 6
+        }
+      ],
+      "statement_count": 6,
+      "generated_lines": 23
+    },
+    {
+      "character": "Jiyan",
+      "source_sha256": "93f4da1f1ac31b6178adf2ee5d36ae8737fed401e19d63853dcc0f8ab5ea0734",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 6,
+          "official_end": 33,
+          "statements": 26
+        }
+      ],
+      "statement_count": 26,
+      "generated_lines": 71
+    },
+    {
+      "character": "Mortefi",
+      "source_sha256": "ae95f94ab840573912f9fbf9712fa141d845c499a8b369154ee0a999c0f6de9f",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 5,
+          "official_end": 12,
+          "statements": 7
+        }
+      ],
+      "statement_count": 7,
+      "generated_lines": 26
+    },
+    {
+      "character": "Zhezhi",
+      "source_sha256": "21086a6f034f60d2aa49c40047346bdbfcac8c18b80e15063a06b6575f358e0b",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 10,
+          "official_end": 14,
+          "statements": 4
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 16,
+          "official_end": 20,
+          "statements": 4
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 22,
+          "official_end": 41,
+          "statements": 19
+        },
+        {
+          "name": "resonance_until_not_blue",
+          "dispatch": "resonance_until_not_blue",
+          "official_line": 43,
+          "official_end": 65,
+          "statements": 22
+        },
+        {
+          "name": "con_lock",
+          "dispatch": "con_lock",
+          "official_line": 67,
+          "official_end": 69,
+          "statements": 1
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 71,
+          "official_end": 74,
+          "statements": 3
+        },
+        {
+          "name": "do_perform_interlock",
+          "dispatch": "do_perform_interlock",
+          "official_line": 76,
+          "official_end": 101,
+          "statements": 23
+        },
+        {
+          "name": "judge_forte",
+          "dispatch": "judge_forte",
+          "official_line": 103,
+          "official_end": 107,
+          "statements": 4
+        },
+        {
+          "name": "resonance_blue",
+          "dispatch": "resonance_blue",
+          "official_line": 109,
+          "official_end": 114,
+          "statements": 5
+        },
+        {
+          "name": "judge_frequncy_and_amplitude",
+          "dispatch": "judge_frequncy_and_amplitude",
+          "official_line": 116,
+          "official_end": 133,
+          "statements": 16
+        },
+        {
+          "name": "calculate_forte_num",
+          "dispatch": "calculate_forte_num",
+          "official_line": 135,
+          "official_end": 154,
+          "statements": 17
+        },
+        {
+          "name": "resonance_available",
+          "dispatch": "resonance_available",
+          "official_line": 156,
+          "official_end": 159,
+          "statements": 3
+        }
+      ],
+      "statement_count": 121,
+      "generated_lines": 366
+    },
+    {
+      "character": "Xiangliyao",
+      "source_sha256": "2ceb903c1a3f5041c0ab92e6265369e155edac1d5ff214a7694e2ca2f1921b8a",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 10,
+          "statements": 2
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 12,
+          "official_end": 24,
+          "statements": 11
+        },
+        {
+          "name": "still_in_liberation",
+          "dispatch": "still_in_liberation",
+          "official_line": 26,
+          "official_end": 27,
+          "statements": 1
+        }
+      ],
+      "statement_count": 14,
+      "generated_lines": 54
+    },
+    {
+      "character": "Camellya",
+      "source_sha256": "ff0bd3bb4d8638467dfb7e13494aea3d9282208159ee1feba4c69bfa81f59562",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 11,
+          "official_end": 17,
+          "statements": 6
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 19,
+          "official_end": 21,
+          "statements": 2
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 23,
+          "official_end": 26,
+          "statements": 3
+        },
+        {
+          "name": "wait_resonance_not_gray",
+          "dispatch": "wait_resonance_not_gray",
+          "official_line": 28,
+          "official_end": 34,
+          "statements": 6
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 36,
+          "official_end": 37,
+          "statements": 1
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 39,
+          "official_end": 104,
+          "statements": 63
+        },
+        {
+          "name": "click_echo",
+          "dispatch": "click_echo",
+          "official_line": 106,
+          "official_end": 109,
+          "statements": 3
+        },
+        {
+          "name": "ephemeral_ready",
+          "dispatch": "ephemeral_ready",
+          "official_line": 111,
+          "official_end": 116,
+          "statements": 4
+        },
+        {
+          "name": "calculate_color_percentage_in_masked",
+          "dispatch": "calculate_color_percentage_in_masked",
+          "official_line": 118,
+          "official_end": 150,
+          "statements": 25
+        },
+        {
+          "name": "ephemeral_cast",
+          "dispatch": "ephemeral_cast",
+          "official_line": 152,
+          "official_end": 157,
+          "statements": 5
+        },
+        {
+          "name": "get_forte",
+          "dispatch": "get_forte",
+          "official_line": 159,
+          "official_end": 169,
+          "statements": 9
+        },
+        {
+          "name": "detect_stripe_region",
+          "dispatch": "detect_stripe_region",
+          "official_line": 171,
+          "official_end": 262,
+          "statements": 74
+        },
+        {
+          "name": "calculate_forte_percent",
+          "dispatch": "calculate_forte_percent",
+          "official_line": 264,
+          "official_end": 281,
+          "statements": 16
+        },
+        {
+          "name": "heavy_attack",
+          "dispatch": "heavy_attack",
+          "official_line": 283,
+          "official_end": 304,
+          "statements": 21
+        },
+        {
+          "name": "should_retry_heavy_attack",
+          "dispatch": "should_retry_heavy_attack",
+          "official_line": 306,
+          "official_end": 329,
+          "statements": 23
+        },
+        {
+          "name": "check_target",
+          "dispatch": "check_target",
+          "official_line": 331,
+          "official_end": 341,
+          "statements": 10
+        }
+      ],
+      "statement_count": 271,
+      "generated_lines": 789
+    },
+    {
+      "character": "Youhu",
+      "source_sha256": "bf5ce66d7270eb3e4d8390b41022b4adc9eda4b9e68ec8b975fcacdda61e0eb6",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 6,
+          "official_end": 7,
+          "statements": 1
+        }
+      ],
+      "statement_count": 1,
+      "generated_lines": 12
+    },
+    {
+      "character": "Carlotta",
+      "source_sha256": "6640f3e95b2a2800d7c4468433b4fdb6256e46914fbbf3450134a183a2f47429",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 10,
+          "official_end": 17,
+          "statements": 7
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 19,
+          "official_end": 26,
+          "statements": 7
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 28,
+          "official_end": 59,
+          "statements": 31
+        },
+        {
+          "name": "click_liberation_1",
+          "dispatch": "click_liberation_1",
+          "official_line": 61,
+          "official_end": 68,
+          "statements": 6
+        },
+        {
+          "name": "click_liberation",
+          "dispatch": "click_liberation",
+          "official_line": 70,
+          "official_end": 120,
+          "statements": 45
+        },
+        {
+          "name": "click_resonance",
+          "dispatch": "click_resonance",
+          "official_line": 122,
+          "official_end": 167,
+          "statements": 43
+        },
+        {
+          "name": "echo_available",
+          "dispatch": "echo_available",
+          "official_line": 169,
+          "official_end": 173,
+          "statements": 3
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 175,
+          "official_end": 180,
+          "statements": 5
+        },
+        {
+          "name": "decide_teammate",
+          "dispatch": "decide_teammate",
+          "official_line": 182,
+          "official_end": 189,
+          "statements": 7
+        },
+        {
+          "name": "get_forte",
+          "dispatch": "get_forte",
+          "official_line": 191,
+          "official_end": 196,
+          "statements": 5
+        },
+        {
+          "name": "get_ready",
+          "dispatch": "get_ready",
+          "official_line": 198,
+          "official_end": 200,
+          "statements": 2
+        },
+        {
+          "name": "do_perform_interlock",
+          "dispatch": "do_perform_interlock",
+          "official_line": 202,
+          "official_end": 235,
+          "statements": 33
+        },
+        {
+          "name": "do_perform_outro",
+          "dispatch": "do_perform_outro",
+          "official_line": 237,
+          "official_end": 283,
+          "statements": 45
+        },
+        {
+          "name": "wait_switch",
+          "dispatch": "wait_switch",
+          "official_line": 285,
+          "official_end": 288,
+          "statements": 3
+        },
+        {
+          "name": "judge_frequncy_and_amplitude",
+          "dispatch": "judge_frequncy_and_amplitude",
+          "official_line": 290,
+          "official_end": 307,
+          "statements": 16
+        },
+        {
+          "name": "calculate_forte_num",
+          "dispatch": "calculate_forte_num",
+          "official_line": 309,
+          "official_end": 328,
+          "statements": 17
+        },
+        {
+          "name": "shorekeeper_auto_dodge",
+          "dispatch": "shorekeeper_auto_dodge",
+          "official_line": 330,
+          "official_end": 334,
+          "statements": 4
+        }
+      ],
+      "statement_count": 279,
+      "generated_lines": 781
+    },
+    {
+      "character": "Roccia",
+      "source_sha256": "f6f8aec3a56a7401bcfee3a64bc474615b48d03b24ebfc0213952058f52629a8",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 13,
+          "statements": 5
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 15,
+          "official_end": 28,
+          "statements": 13
+        },
+        {
+          "name": "switch_next_char",
+          "dispatch": "switch_next_char",
+          "official_line": 30,
+          "official_end": 32,
+          "statements": 1
+        },
+        {
+          "name": "update_tool_box",
+          "dispatch": "update_tool_box",
+          "official_line": 34,
+          "official_end": 36,
+          "statements": 2
+        },
+        {
+          "name": "plunge",
+          "dispatch": "plunge",
+          "official_line": 38,
+          "official_end": 52,
+          "statements": 14
+        }
+      ],
+      "statement_count": 35,
+      "generated_lines": 110
+    },
+    {
+      "character": "Phoebe",
+      "source_sha256": "eb37cd37d556a81a0707d36373fe25f65ea74f4e0ae9e467ec2e14a2fa4d86f4",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 18,
+          "official_end": 32,
+          "statements": 8
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 34,
+          "official_end": 40,
+          "statements": 6
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 42,
+          "official_end": 104,
+          "statements": 47
+        },
+        {
+          "name": "_ensure_first_rotation_con",
+          "dispatch": "_ensure_first_rotation_con",
+          "official_line": 106,
+          "official_end": 112,
+          "statements": 6
+        },
+        {
+          "name": "zani_linkage",
+          "dispatch": "zani_linkage",
+          "official_line": 114,
+          "official_end": 129,
+          "statements": 13
+        },
+        {
+          "name": "check_attribute_mismatch",
+          "dispatch": "check_attribute_mismatch",
+          "official_line": 131,
+          "official_end": 155,
+          "statements": 21
+        },
+        {
+          "name": "cast_remaining_skills",
+          "dispatch": "cast_remaining_skills",
+          "official_line": 157,
+          "official_end": 174,
+          "statements": 16
+        },
+        {
+          "name": "judge_forte",
+          "dispatch": "judge_forte",
+          "official_line": 176,
+          "official_end": 182,
+          "statements": 5
+        },
+        {
+          "name": "starflash_combo",
+          "dispatch": "starflash_combo",
+          "official_line": 184,
+          "official_end": 205,
+          "statements": 20
+        },
+        {
+          "name": "perform_heavy_attack",
+          "dispatch": "perform_heavy_attack",
+          "official_line": 207,
+          "official_end": 233,
+          "statements": 25
+        },
+        {
+          "name": "click_resonance_once",
+          "dispatch": "click_resonance_once",
+          "official_line": 235,
+          "official_end": 243,
+          "statements": 8
+        },
+        {
+          "name": "confession_ready",
+          "dispatch": "confession_ready",
+          "official_line": 245,
+          "official_end": 250,
+          "statements": 5
+        },
+        {
+          "name": "heavy_attack_ready",
+          "dispatch": "heavy_attack_ready",
+          "official_line": 252,
+          "official_end": 253,
+          "statements": 1
+        },
+        {
+          "name": "calculate_color_percentage_in_masked",
+          "dispatch": "calculate_color_percentage_in_masked",
+          "official_line": 255,
+          "official_end": 282,
+          "statements": 21
+        },
+        {
+          "name": "get_prayer_condition",
+          "dispatch": "get_prayer_condition",
+          "official_line": 284,
+          "official_end": 290,
+          "statements": 5
+        },
+        {
+          "name": "absolution_or_confession",
+          "dispatch": "absolution_or_confession",
+          "official_line": 292,
+          "official_end": 327,
+          "statements": 32
+        },
+        {
+          "name": "_try_liberation_now",
+          "dispatch": "_try_liberation_now",
+          "official_line": 329,
+          "official_end": 338,
+          "statements": 8
+        },
+        {
+          "name": "_try_cast_liberation_before_switch",
+          "dispatch": "_try_cast_liberation_before_switch",
+          "official_line": 340,
+          "official_end": 357,
+          "statements": 15
+        },
+        {
+          "name": "switch_next_char",
+          "dispatch": "switch_next_char",
+          "official_line": 359,
+          "official_end": 364,
+          "statements": 5
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 366,
+          "official_end": 371,
+          "statements": 4
+        },
+        {
+          "name": "check_middle_star",
+          "dispatch": "check_middle_star",
+          "official_line": 373,
+          "official_end": 390,
+          "statements": 16
+        },
+        {
+          "name": "decide_teammate",
+          "dispatch": "decide_teammate",
+          "official_line": 392,
+          "official_end": 403,
+          "statements": 10
+        },
+        {
+          "name": "judge_frequncy_and_amplitude",
+          "dispatch": "judge_frequncy_and_amplitude",
+          "official_line": 405,
+          "official_end": 422,
+          "statements": 16
+        },
+        {
+          "name": "calculate_forte_num",
+          "dispatch": "calculate_forte_num",
+          "official_line": 424,
+          "official_end": 452,
+          "statements": 24
+        },
+        {
+          "name": "get_zani_state",
+          "dispatch": "get_zani_state",
+          "official_line": 454,
+          "official_end": 456,
+          "statements": 2
+        },
+        {
+          "name": "is_action_complete",
+          "dispatch": "is_action_complete",
+          "official_line": 458,
+          "official_end": 465,
+          "statements": 6
+        },
+        {
+          "name": "reset_action",
+          "dispatch": "reset_action",
+          "official_line": 467,
+          "official_end": 476,
+          "statements": 3
+        },
+        {
+          "name": "is_forte_full",
+          "dispatch": "is_forte_full",
+          "official_line": 478,
+          "official_end": 481,
+          "statements": 3
+        },
+        {
+          "name": "shorekeeper_auto_dodge",
+          "dispatch": "shorekeeper_auto_dodge",
+          "official_line": 483,
+          "official_end": 487,
+          "statements": 4
+        }
+      ],
+      "statement_count": 355,
+      "generated_lines": 1071
+    },
+    {
+      "character": "Brant",
+      "source_sha256": "876e82febb405393ee8637664325115b9c7c3f16a7fd520344db03d6462a9777",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 7,
+          "official_end": 12,
+          "statements": 5
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 14,
+          "official_end": 17,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 19,
+          "official_end": 42,
+          "statements": 23
+        },
+        {
+          "name": "still_in_liberation",
+          "dispatch": "still_in_liberation",
+          "official_line": 44,
+          "official_end": 45,
+          "statements": 1
+        },
+        {
+          "name": "perform_in_outro",
+          "dispatch": "perform_in_outro",
+          "official_line": 47,
+          "official_end": 80,
+          "statements": 33
+        },
+        {
+          "name": "resonance_forte_full",
+          "dispatch": "resonance_forte_full",
+          "official_line": 82,
+          "official_end": 89,
+          "statements": 7
+        },
+        {
+          "name": "click_jump_with_click",
+          "dispatch": "click_jump_with_click",
+          "official_line": 91,
+          "official_end": 106,
+          "statements": 14
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 108,
+          "official_end": 116,
+          "statements": 8
+        },
+        {
+          "name": "decide_teammate",
+          "dispatch": "decide_teammate",
+          "official_line": 118,
+          "official_end": 129,
+          "statements": 11
+        },
+        {
+          "name": "flick_resonance",
+          "dispatch": "flick_resonance",
+          "official_line": 131,
+          "official_end": 139,
+          "statements": 6
+        },
+        {
+          "name": "wait_down",
+          "dispatch": "wait_down",
+          "official_line": 141,
+          "official_end": 143,
+          "statements": 1
+        }
+      ],
+      "statement_count": 112,
+      "generated_lines": 336
+    },
+    {
+      "character": "Cantarella",
+      "source_sha256": "7ceca495543160b76f9b5020395a3d77aa111234420305b30cbbfedad2389975",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 6,
+          "official_end": 9,
+          "statements": 3
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 11,
+          "official_end": 14,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 16,
+          "official_end": 58,
+          "statements": 41
+        },
+        {
+          "name": "resonance_available",
+          "dispatch": "resonance_available",
+          "official_line": 60,
+          "official_end": 63,
+          "statements": 3
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 65,
+          "official_end": 68,
+          "statements": 3
+        },
+        {
+          "name": "is_forte_full",
+          "dispatch": "is_forte_full",
+          "official_line": 70,
+          "official_end": 74,
+          "statements": 4
+        }
+      ],
+      "statement_count": 57,
+      "generated_lines": 175
+    },
+    {
+      "character": "Zani",
+      "source_sha256": "060d76b1cea1e56f03678cec26d0d9ab4360d3f348a61a5d72cda099882c150d",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 21,
+          "official_end": 36,
+          "statements": 15
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 38,
+          "official_end": 42,
+          "statements": 4
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 44,
+          "official_end": 119,
+          "statements": 50
+        },
+        {
+          "name": "_try_liberation",
+          "dispatch": "_try_liberation",
+          "official_line": 122,
+          "official_end": 131,
+          "statements": 9
+        },
+        {
+          "name": "_liberation_followup",
+          "dispatch": "_liberation_followup",
+          "official_line": 133,
+          "official_end": 145,
+          "statements": 12
+        },
+        {
+          "name": "basic_attack_breakthrough_combo",
+          "dispatch": "basic_attack_breakthrough_combo",
+          "official_line": 149,
+          "official_end": 156,
+          "statements": 7
+        },
+        {
+          "name": "click_liber2",
+          "dispatch": "click_liber2",
+          "official_line": 158,
+          "official_end": 186,
+          "statements": 28
+        },
+        {
+          "name": "should_end_liberation",
+          "dispatch": "should_end_liberation",
+          "official_line": 188,
+          "official_end": 200,
+          "statements": 12
+        },
+        {
+          "name": "liberation_time_left",
+          "dispatch": "liberation_time_left",
+          "official_line": 202,
+          "official_end": 207,
+          "statements": 5
+        },
+        {
+          "name": "nightfall_combo",
+          "dispatch": "nightfall_combo",
+          "official_line": 209,
+          "official_end": 233,
+          "statements": 23
+        },
+        {
+          "name": "is_nightfall_ready",
+          "dispatch": "is_nightfall_ready",
+          "official_line": 235,
+          "official_end": 242,
+          "statements": 7
+        },
+        {
+          "name": "calculate_color_percentage_in_masked",
+          "dispatch": "calculate_color_percentage_in_masked",
+          "official_line": 244,
+          "official_end": 270,
+          "statements": 21
+        },
+        {
+          "name": "nightfall_time_left",
+          "dispatch": "nightfall_time_left",
+          "official_line": 272,
+          "official_end": 280,
+          "statements": 8
+        },
+        {
+          "name": "standard_defense_protocol_combo",
+          "dispatch": "standard_defense_protocol_combo",
+          "official_line": 282,
+          "official_end": 291,
+          "statements": 9
+        },
+        {
+          "name": "basic_attack_breakthrough",
+          "dispatch": "basic_attack_breakthrough",
+          "official_line": 293,
+          "official_end": 316,
+          "statements": 22
+        },
+        {
+          "name": "crisis_response_protocol_combo",
+          "dispatch": "crisis_response_protocol_combo",
+          "official_line": 318,
+          "official_end": 341,
+          "statements": 22
+        },
+        {
+          "name": "get_forte",
+          "dispatch": "get_forte",
+          "official_line": 343,
+          "official_end": 349,
+          "statements": 6
+        },
+        {
+          "name": "check_forte_action",
+          "dispatch": "check_forte_action",
+          "official_line": 351,
+          "official_end": 377,
+          "statements": 24
+        },
+        {
+          "name": "wait_forte_full",
+          "dispatch": "wait_forte_full",
+          "official_line": 379,
+          "official_end": 400,
+          "statements": 15
+        },
+        {
+          "name": "wait_until",
+          "dispatch": "wait_until",
+          "official_line": 402,
+          "official_end": 426,
+          "statements": 22
+        },
+        {
+          "name": "crisis_time_left",
+          "dispatch": "crisis_time_left",
+          "official_line": 428,
+          "official_end": 433,
+          "statements": 5
+        },
+        {
+          "name": "wait_crisis_protocol_end",
+          "dispatch": "wait_crisis_protocol_end",
+          "official_line": 435,
+          "official_end": 441,
+          "statements": 5
+        },
+        {
+          "name": "decide_teammate",
+          "dispatch": "decide_teammate",
+          "official_line": 443,
+          "official_end": 449,
+          "statements": 5
+        },
+        {
+          "name": "update_blazes",
+          "dispatch": "update_blazes",
+          "official_line": 451,
+          "official_end": 456,
+          "statements": 5
+        },
+        {
+          "name": "is_prepared",
+          "dispatch": "is_prepared",
+          "official_line": 458,
+          "official_end": 468,
+          "statements": 7
+        },
+        {
+          "name": "wait_resonance_not_gray",
+          "dispatch": "wait_resonance_not_gray",
+          "official_line": 470,
+          "official_end": 480,
+          "statements": 6
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 482,
+          "official_end": 487,
+          "statements": 5
+        },
+        {
+          "name": "wait_switch",
+          "dispatch": "wait_switch",
+          "official_line": 489,
+          "official_end": 494,
+          "statements": 5
+        },
+        {
+          "name": "check_liber",
+          "dispatch": "check_liber",
+          "official_line": 496,
+          "official_end": 505,
+          "statements": 9
+        },
+        {
+          "name": "get_state",
+          "dispatch": "get_state",
+          "official_line": 507,
+          "official_end": 511,
+          "statements": 4
+        }
+      ],
+      "statement_count": 377,
+      "generated_lines": 1104
+    },
+    {
+      "character": "Ciaccona",
+      "source_sha256": "e3dffbf5fa56ceee7948ede66f74b72a7f5b3f650f9c37acb5968403cb5d2a2f",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 10,
+          "official_end": 18,
+          "statements": 7
+        },
+        {
+          "name": "skip_combat_check",
+          "dispatch": "skip_combat_check",
+          "official_line": 20,
+          "official_end": 21,
+          "statements": 1
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 23,
+          "official_end": 27,
+          "statements": 4
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 29,
+          "official_end": 67,
+          "statements": 38
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 69,
+          "official_end": 78,
+          "statements": 7
+        },
+        {
+          "name": "click_jump_with_click",
+          "dispatch": "click_jump_with_click",
+          "official_line": 80,
+          "official_end": 92,
+          "statements": 11
+        },
+        {
+          "name": "continues_click_a",
+          "dispatch": "continues_click_a",
+          "official_line": 94,
+          "official_end": 97,
+          "statements": 3
+        },
+        {
+          "name": "judge_forte",
+          "dispatch": "judge_forte",
+          "official_line": 99,
+          "official_end": 104,
+          "statements": 5
+        },
+        {
+          "name": "decide_teammate",
+          "dispatch": "decide_teammate",
+          "official_line": 106,
+          "official_end": 123,
+          "statements": 17
+        },
+        {
+          "name": "judge_frequncy_and_amplitude",
+          "dispatch": "judge_frequncy_and_amplitude",
+          "official_line": 125,
+          "official_end": 141,
+          "statements": 16
+        },
+        {
+          "name": "calculate_forte_num",
+          "dispatch": "calculate_forte_num",
+          "official_line": 143,
+          "official_end": 162,
+          "statements": 17
+        },
+        {
+          "name": "switch_next_char",
+          "dispatch": "switch_next_char",
+          "official_line": 164,
+          "official_end": 167,
+          "statements": 3
+        },
+        {
+          "name": "send_liberation_key",
+          "dispatch": "send_liberation_key",
+          "official_line": 169,
+          "official_end": 172,
+          "statements": 2
+        },
+        {
+          "name": "switch_out",
+          "dispatch": "switch_out",
+          "official_line": 174,
+          "official_end": 176,
+          "statements": 2
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 178,
+          "official_end": 183,
+          "statements": 4
+        },
+        {
+          "name": "in_outro",
+          "dispatch": "in_outro",
+          "official_line": 185,
+          "official_end": 186,
+          "statements": 1
+        },
+        {
+          "name": "need_fast_perform",
+          "dispatch": "need_fast_perform",
+          "official_line": 188,
+          "official_end": 192,
+          "statements": 4
+        }
+      ],
+      "statement_count": 142,
+      "generated_lines": 447
+    },
+    {
+      "character": "Cartethyia",
+      "source_sha256": "0b9e70249763675990c85cf621f021754473370ccb8ba61affe26d9ba475c901",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 7,
+          "official_end": 16,
+          "statements": 9
+        },
+        {
+          "name": "intro_motion_freeze_duration",
+          "dispatch": "@get:intro_motion_freeze_duration",
+          "official_line": 19,
+          "official_end": 20,
+          "statements": 1
+        },
+        {
+          "name": "intro_motion_freeze_duration",
+          "dispatch": "@set:intro_motion_freeze_duration",
+          "official_line": 23,
+          "official_end": 24,
+          "statements": 1
+        },
+        {
+          "name": "init_template",
+          "dispatch": "init_template",
+          "official_line": 26,
+          "official_end": 34,
+          "statements": 8
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 36,
+          "official_end": 49,
+          "statements": 12
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 51,
+          "official_end": 54,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 56,
+          "official_end": 91,
+          "statements": 32
+        },
+        {
+          "name": "fleurdelys_n4_duration",
+          "dispatch": "fleurdelys_n4_duration",
+          "official_line": 93,
+          "official_end": 106,
+          "statements": 11
+        },
+        {
+          "name": "click_resonance_with_lib_big",
+          "dispatch": "click_resonance_with_lib_big",
+          "official_line": 108,
+          "official_end": 145,
+          "statements": 36
+        },
+        {
+          "name": "is_mid_air_attack_available",
+          "dispatch": "is_mid_air_attack_available",
+          "official_line": 147,
+          "official_end": 158,
+          "statements": 10
+        },
+        {
+          "name": "try_mid_air_attack",
+          "dispatch": "try_mid_air_attack",
+          "official_line": 160,
+          "official_end": 187,
+          "statements": 26
+        },
+        {
+          "name": "is_small",
+          "dispatch": "is_small",
+          "official_line": 189,
+          "official_end": 194,
+          "statements": 4
+        },
+        {
+          "name": "try_lib_big",
+          "dispatch": "try_lib_big",
+          "official_line": 196,
+          "official_end": 201,
+          "statements": 5
+        },
+        {
+          "name": "is_lib_big_available",
+          "dispatch": "is_lib_big_available",
+          "official_line": 203,
+          "official_end": 207,
+          "statements": 4
+        },
+        {
+          "name": "get_sword_buffs",
+          "dispatch": "get_sword_buffs",
+          "official_line": 209,
+          "official_end": 216,
+          "statements": 3
+        },
+        {
+          "name": "acquire_missing_buffs",
+          "dispatch": "acquire_missing_buffs",
+          "official_line": 218,
+          "official_end": 269,
+          "statements": 51
+        }
+      ],
+      "statement_count": 216,
+      "generated_lines": 614
+    },
+    {
+      "character": "Lupa",
+      "source_sha256": "370044330298962451bd953fe5641f1d5dd36adc11f7dc2ffa5bd4c4bc298dcc",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 10,
+          "official_end": 13,
+          "statements": 3
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 15,
+          "official_end": 17,
+          "statements": 2
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 19,
+          "official_end": 75,
+          "statements": 47
+        },
+        {
+          "name": "still_in_liberation",
+          "dispatch": "still_in_liberation",
+          "official_line": 77,
+          "official_end": 78,
+          "statements": 1
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 80,
+          "official_end": 85,
+          "statements": 5
+        },
+        {
+          "name": "click_jump_with_click",
+          "dispatch": "click_jump_with_click",
+          "official_line": 87,
+          "official_end": 101,
+          "statements": 13
+        },
+        {
+          "name": "res_wolf",
+          "dispatch": "res_wolf",
+          "official_line": 103,
+          "official_end": 122,
+          "statements": 19
+        },
+        {
+          "name": "judge_forte",
+          "dispatch": "judge_forte",
+          "official_line": 124,
+          "official_end": 129,
+          "statements": 5
+        },
+        {
+          "name": "judge_frequncy_and_amplitude",
+          "dispatch": "judge_frequncy_and_amplitude",
+          "official_line": 131,
+          "official_end": 148,
+          "statements": 16
+        },
+        {
+          "name": "calculate_forte_num",
+          "dispatch": "calculate_forte_num",
+          "official_line": 150,
+          "official_end": 169,
+          "statements": 17
+        }
+      ],
+      "statement_count": 128,
+      "generated_lines": 392
+    },
+    {
+      "character": "Phrolova",
+      "source_sha256": "403c671284bce41dd3cb6cb2b0ec2e635e0480d58a12057cd15acb7fac729e01",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 7,
+          "official_end": 11,
+          "statements": 4
+        },
+        {
+          "name": "skip_combat_check",
+          "dispatch": "skip_combat_check",
+          "official_line": 13,
+          "official_end": 14,
+          "statements": 1
+        },
+        {
+          "name": "f_break",
+          "dispatch": "f_break",
+          "official_line": 16,
+          "official_end": 23,
+          "statements": 5
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 25,
+          "official_end": 76,
+          "statements": 49
+        },
+        {
+          "name": "_cantarella_outro_ready",
+          "dispatch": "_cantarella_outro_ready",
+          "official_line": 78,
+          "official_end": 80,
+          "statements": 1
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 82,
+          "official_end": 88,
+          "statements": 6
+        },
+        {
+          "name": "resonance_available",
+          "dispatch": "resonance_available",
+          "official_line": 90,
+          "official_end": 93,
+          "statements": 3
+        },
+        {
+          "name": "heavy_and_liber",
+          "dispatch": "heavy_and_liber",
+          "official_line": 95,
+          "official_end": 99,
+          "statements": 4
+        },
+        {
+          "name": "shorekeeper_auto_dodge",
+          "dispatch": "shorekeeper_auto_dodge",
+          "official_line": 101,
+          "official_end": 105,
+          "statements": 4
+        }
+      ],
+      "statement_count": 77,
+      "generated_lines": 255
+    },
+    {
+      "character": "Augusta",
+      "source_sha256": "e1854ced9585ecdafdb227ba992af420c68a3245871f01776f6380652867a74f",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 13,
+          "official_end": 62,
+          "statements": 47
+        },
+        {
+          "name": "perform_prowess",
+          "dispatch": "perform_prowess",
+          "official_line": 64,
+          "official_end": 69,
+          "statements": 5
+        },
+        {
+          "name": "perform_majesty",
+          "dispatch": "perform_majesty",
+          "official_line": 71,
+          "official_end": 88,
+          "statements": 16
+        },
+        {
+          "name": "check_ascendancy",
+          "dispatch": "check_ascendancy",
+          "official_line": 90,
+          "official_end": 91,
+          "statements": 1
+        },
+        {
+          "name": "liberation_available",
+          "dispatch": "liberation_available",
+          "official_line": 93,
+          "official_end": 94,
+          "statements": 1
+        },
+        {
+          "name": "check_majesty",
+          "dispatch": "check_majesty",
+          "official_line": 96,
+          "official_end": 97,
+          "statements": 1
+        },
+        {
+          "name": "check_prowess",
+          "dispatch": "check_prowess",
+          "official_line": 99,
+          "official_end": 102,
+          "statements": 3
+        },
+        {
+          "name": "resonance_available",
+          "dispatch": "resonance_available",
+          "official_line": 104,
+          "official_end": 105,
+          "statements": 1
+        },
+        {
+          "name": "shorekeeper_auto_dodge",
+          "dispatch": "shorekeeper_auto_dodge",
+          "official_line": 107,
+          "official_end": 111,
+          "statements": 4
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 113,
+          "official_end": 116,
+          "statements": 3
+        }
+      ],
+      "statement_count": 82,
+      "generated_lines": 273
+    },
+    {
+      "character": "Iuno",
+      "source_sha256": "099426924efb831c4b9abd6fb49b4b16c78ff3500a5fd04b4e6a41c76d18e09d",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 10,
+          "statements": 2
+        },
+        {
+          "name": "is_c6",
+          "dispatch": "is_c6",
+          "official_line": 12,
+          "official_end": 13,
+          "statements": 1
+        },
+        {
+          "name": "get_char_type",
+          "dispatch": "get_char_type",
+          "official_line": 15,
+          "official_end": 18,
+          "statements": 3
+        },
+        {
+          "name": "get_buff_time",
+          "dispatch": "get_buff_time",
+          "official_line": 20,
+          "official_end": 23,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 25,
+          "official_end": 28,
+          "statements": 3
+        },
+        {
+          "name": "do_everything",
+          "dispatch": "do_everything",
+          "official_line": 30,
+          "official_end": 82,
+          "statements": 40
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 84,
+          "official_end": 85,
+          "statements": 1
+        }
+      ],
+      "statement_count": 53,
+      "generated_lines": 167
+    },
+    {
+      "character": "Galbrena",
+      "source_sha256": "c64fa7401297906272452fc3faa00b553f195e2568b76d6ffbfebe7cecf79e5c",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 8,
+          "official_end": 37,
+          "statements": 29
+        },
+        {
+          "name": "check_res",
+          "dispatch": "check_res",
+          "official_line": 39,
+          "official_end": 46,
+          "statements": 5
+        },
+        {
+          "name": "shorekeeper_auto_dodge",
+          "dispatch": "shorekeeper_auto_dodge",
+          "official_line": 48,
+          "official_end": 52,
+          "statements": 4
+        }
+      ],
+      "statement_count": 38,
+      "generated_lines": 115
+    },
+    {
+      "character": "Qiuyuan",
+      "source_sha256": "05d88f2baac7d3e6492697f6297d171547d755b63f5d3b877a9e3fb68995a6e0",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 7,
+          "official_end": 28,
+          "statements": 21
+        },
+        {
+          "name": "shorekeeper_auto_dodge",
+          "dispatch": "shorekeeper_auto_dodge",
+          "official_line": 30,
+          "official_end": 34,
+          "statements": 4
+        }
+      ],
+      "statement_count": 25,
+      "generated_lines": 87
+    },
+    {
+      "character": "Chisa",
+      "source_sha256": "f999ebc80ee669fcdd378c58985743118cd77d87e4b52b1e7b57a249c14ca2a3",
+      "methods": [
+        {
+          "name": "is_dps_config",
+          "dispatch": "is_dps_config",
+          "official_line": 11,
+          "official_end": 12,
+          "statements": 1
+        },
+        {
+          "name": "get_char_type",
+          "dispatch": "get_char_type",
+          "official_line": 14,
+          "official_end": 17,
+          "statements": 3
+        },
+        {
+          "name": "get_buff_time",
+          "dispatch": "get_buff_time",
+          "official_line": 19,
+          "official_end": 22,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 24,
+          "official_end": 27,
+          "statements": 3
+        },
+        {
+          "name": "do_support_perform",
+          "dispatch": "do_support_perform",
+          "official_line": 29,
+          "official_end": 56,
+          "statements": 22
+        },
+        {
+          "name": "do_dps_perform",
+          "dispatch": "do_dps_perform",
+          "official_line": 58,
+          "official_end": 85,
+          "statements": 27
+        },
+        {
+          "name": "perform_forte",
+          "dispatch": "perform_forte",
+          "official_line": 87,
+          "official_end": 94,
+          "statements": 7
+        }
+      ],
+      "statement_count": 66,
+      "generated_lines": 202
+    },
+    {
+      "character": "Denia",
+      "source_sha256": "7ffa85c1e2a83398bb9b2f532618e301c594421892e6cdc0fc2bd1e95fbe75cc",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 9,
+          "official_end": 12,
+          "statements": 3
+        },
+        {
+          "name": "reset_state",
+          "dispatch": "reset_state",
+          "official_line": 14,
+          "official_end": 17,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 19,
+          "official_end": 58,
+          "statements": 29
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 65,
+          "official_end": 76,
+          "statements": 9
+        }
+      ],
+      "statement_count": 44,
+      "generated_lines": 132
+    },
+    {
+      "character": "Douling",
+      "source_sha256": "ec2d0854c46360975061b2c810edd65e1414dd5cca1eb35d82728da977472fa9",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 10,
+          "statements": 2
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 12,
+          "official_end": 16,
+          "statements": 3
+        },
+        {
+          "name": "_do_segment1",
+          "dispatch": "_do_segment1",
+          "official_line": 18,
+          "official_end": 33,
+          "statements": 15
+        },
+        {
+          "name": "_do_segment2",
+          "dispatch": "_do_segment2",
+          "official_line": 35,
+          "official_end": 50,
+          "statements": 14
+        },
+        {
+          "name": "_finish_and_reset",
+          "dispatch": "_finish_and_reset",
+          "official_line": 52,
+          "official_end": 56,
+          "statements": 4
+        },
+        {
+          "name": "_normal_attack_cycle",
+          "dispatch": "_normal_attack_cycle",
+          "official_line": 58,
+          "official_end": 66,
+          "statements": 8
+        },
+        {
+          "name": "_heavy_attack_hold",
+          "dispatch": "_heavy_attack_hold",
+          "official_line": 68,
+          "official_end": 84,
+          "statements": 16
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 86,
+          "official_end": 89,
+          "statements": 3
+        }
+      ],
+      "statement_count": 65,
+      "generated_lines": 197
+    },
+    {
+      "character": "Linnai",
+      "source_sha256": "cde970f8ff513604d2cdb630da97b351f628e4b2395520323576f5f61b0f3a5d",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 10,
+          "statements": 2
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 12,
+          "official_end": 19,
+          "statements": 6
+        },
+        {
+          "name": "charge_heavy",
+          "dispatch": "charge_heavy",
+          "official_line": 21,
+          "official_end": 39,
+          "statements": 14
+        },
+        {
+          "name": "perform_under_intro",
+          "dispatch": "perform_under_intro",
+          "official_line": 41,
+          "official_end": 67,
+          "statements": 20
+        },
+        {
+          "name": "wait_after_resonance_kick",
+          "dispatch": "wait_after_resonance_kick",
+          "official_line": 69,
+          "official_end": 71,
+          "statements": 2
+        },
+        {
+          "name": "wait_for_accelerate_ready",
+          "dispatch": "wait_for_accelerate_ready",
+          "official_line": 73,
+          "official_end": 80,
+          "statements": 7
+        },
+        {
+          "name": "get_target_names",
+          "dispatch": "get_target_names",
+          "official_line": 82,
+          "official_end": 85,
+          "statements": 3
+        },
+        {
+          "name": "find_target_status_in_box",
+          "dispatch": "find_target_status_in_box",
+          "official_line": 87,
+          "official_end": 94,
+          "statements": 5
+        },
+        {
+          "name": "check_res",
+          "dispatch": "check_res",
+          "official_line": 96,
+          "official_end": 110,
+          "statements": 12
+        },
+        {
+          "name": "is_color_full",
+          "dispatch": "is_color_full",
+          "official_line": 112,
+          "official_end": 116,
+          "statements": 4
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 118,
+          "official_end": 119,
+          "statements": 1
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 121,
+          "official_end": 125,
+          "statements": 3
+        }
+      ],
+      "statement_count": 79,
+      "generated_lines": 276
+    },
+    {
+      "character": "Mornye",
+      "source_sha256": "eb525c0ef2c79b61a94a1142935df445938ca2eb37701ddab9897e61610ff118",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 6,
+          "official_end": 9,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 11,
+          "official_end": 30,
+          "statements": 17
+        },
+        {
+          "name": "on_air",
+          "dispatch": "on_air",
+          "official_line": 32,
+          "official_end": 33,
+          "statements": 1
+        },
+        {
+          "name": "on_air_actions",
+          "dispatch": "on_air_actions",
+          "official_line": 35,
+          "official_end": 69,
+          "statements": 28
+        },
+        {
+          "name": "not_on_air_actions",
+          "dispatch": "not_on_air_actions",
+          "official_line": 71,
+          "official_end": 85,
+          "statements": 14
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 87,
+          "official_end": 88,
+          "statements": 1
+        },
+        {
+          "name": "combo_limit",
+          "dispatch": "combo_limit",
+          "official_line": 90,
+          "official_end": 91,
+          "statements": 1
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 93,
+          "official_end": 99,
+          "statements": 6
+        },
+        {
+          "name": "detect_elbow_strike",
+          "dispatch": "detect_elbow_strike",
+          "official_line": 101,
+          "official_end": 106,
+          "statements": 4
+        }
+      ],
+      "statement_count": 75,
+      "generated_lines": 238
+    },
+    {
+      "character": "Aemeath",
+      "source_sha256": "9706df3a8151b59a280dbdce78b7bacf076b53ef08e00bcb9d8ce97bd93c67bc",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 12,
+          "official_end": 16,
+          "statements": 4
+        },
+        {
+          "name": "lib2_available",
+          "dispatch": "lib2_available",
+          "official_line": 18,
+          "official_end": 19,
+          "statements": 1
+        },
+        {
+          "name": "waits_for_intro",
+          "dispatch": "waits_for_intro",
+          "official_line": 21,
+          "official_end": 24,
+          "statements": 2
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 26,
+          "official_end": 40,
+          "statements": 12
+        },
+        {
+          "name": "lib",
+          "dispatch": "lib",
+          "official_line": 42,
+          "official_end": 48,
+          "statements": 6
+        },
+        {
+          "name": "record_enhance_e",
+          "dispatch": "record_enhance_e",
+          "official_line": 50,
+          "official_end": 51,
+          "statements": 1
+        },
+        {
+          "name": "required_action_pending",
+          "dispatch": "required_action_pending",
+          "official_line": 53,
+          "official_end": 55,
+          "statements": 1
+        },
+        {
+          "name": "continue_after_action",
+          "dispatch": "continue_after_action",
+          "official_line": 57,
+          "official_end": 62,
+          "statements": 5
+        },
+        {
+          "name": "perform_everything",
+          "dispatch": "perform_everything",
+          "official_line": 64,
+          "official_end": 95,
+          "statements": 29
+        },
+        {
+          "name": "enhance_e_available",
+          "dispatch": "enhance_e_available",
+          "official_line": 97,
+          "official_end": 99,
+          "statements": 1
+        },
+        {
+          "name": "heavy_wait_highlight_down",
+          "dispatch": "heavy_wait_highlight_down",
+          "official_line": 101,
+          "official_end": 106,
+          "statements": 5
+        },
+        {
+          "name": "handle_heavy",
+          "dispatch": "handle_heavy",
+          "official_line": 108,
+          "official_end": 113,
+          "statements": 5
+        },
+        {
+          "name": "on_combat_end",
+          "dispatch": "on_combat_end",
+          "official_line": 115,
+          "official_end": 116,
+          "statements": 1
+        }
+      ],
+      "statement_count": 73,
+      "generated_lines": 253
+    },
+    {
+      "character": "Xigelika",
+      "source_sha256": "7f79589b0b00fc613453c3fe3a468cca4792a4f0eafdd9b37291e0cd2d845810",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 9,
+          "statements": 1
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 11,
+          "official_end": 17,
+          "statements": 5
+        },
+        {
+          "name": "lib",
+          "dispatch": "lib",
+          "official_line": 19,
+          "official_end": 22,
+          "statements": 3
+        },
+        {
+          "name": "perform_everything",
+          "dispatch": "perform_everything",
+          "official_line": 24,
+          "official_end": 42,
+          "statements": 17
+        },
+        {
+          "name": "heavy_wait_highlight_down",
+          "dispatch": "heavy_wait_highlight_down",
+          "official_line": 44,
+          "official_end": 62,
+          "statements": 16
+        },
+        {
+          "name": "handle_heavy",
+          "dispatch": "handle_heavy",
+          "official_line": 64,
+          "official_end": 70,
+          "statements": 6
+        },
+        {
+          "name": "shorekeeper_auto_dodge",
+          "dispatch": "shorekeeper_auto_dodge",
+          "official_line": 72,
+          "official_end": 76,
+          "statements": 4
+        },
+        {
+          "name": "is_forte_full",
+          "dispatch": "is_forte_full",
+          "official_line": 78,
+          "official_end": 84,
+          "statements": 6
+        }
+      ],
+      "statement_count": 58,
+      "generated_lines": 200
+    },
+    {
+      "character": "Luhesi",
+      "source_sha256": "de2bc754ffe5619d3084060ba7843d7d96675f8821a434254a2674cc2b559fc3",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 10,
+          "statements": 2
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 12,
+          "official_end": 14,
+          "statements": 2
+        },
+        {
+          "name": "lib",
+          "dispatch": "lib",
+          "official_line": 16,
+          "official_end": 19,
+          "statements": 3
+        },
+        {
+          "name": "luhesi_lib_available",
+          "dispatch": "luhesi_lib_available",
+          "official_line": 21,
+          "official_end": 22,
+          "statements": 1
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 24,
+          "official_end": 27,
+          "statements": 3
+        },
+        {
+          "name": "perform_everything",
+          "dispatch": "perform_everything",
+          "official_line": 29,
+          "official_end": 70,
+          "statements": 35
+        },
+        {
+          "name": "handle_heavy",
+          "dispatch": "handle_heavy",
+          "official_line": 72,
+          "official_end": 82,
+          "statements": 10
+        },
+        {
+          "name": "check_res",
+          "dispatch": "check_res",
+          "official_line": 84,
+          "official_end": 91,
+          "statements": 5
+        },
+        {
+          "name": "detect_elbow_strike",
+          "dispatch": "detect_elbow_strike",
+          "official_line": 93,
+          "official_end": 94,
+          "statements": 1
+        }
+      ],
+      "statement_count": 62,
+      "generated_lines": 212
+    },
+    {
+      "character": "Hiyuki",
+      "source_sha256": "2a02fa199feb60a882398c8d51e82ac17d6415d886aec84a93ed943656bd0fa4",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 26,
+          "official_end": 30,
+          "statements": 3
+        },
+        {
+          "name": "switch_out",
+          "dispatch": "switch_out",
+          "official_line": 32,
+          "official_end": 35,
+          "statements": 3
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 37,
+          "official_end": 57,
+          "statements": 16
+        },
+        {
+          "name": "perform_standard",
+          "dispatch": "perform_standard",
+          "official_line": 59,
+          "official_end": 82,
+          "statements": 19
+        },
+        {
+          "name": "perform_lib",
+          "dispatch": "perform_lib",
+          "official_line": 84,
+          "official_end": 147,
+          "statements": 50
+        },
+        {
+          "name": "lib_heavy_available",
+          "dispatch": "lib_heavy_available",
+          "official_line": 149,
+          "official_end": 150,
+          "statements": 1
+        },
+        {
+          "name": "wait_locked",
+          "dispatch": "wait_locked",
+          "official_line": 152,
+          "official_end": 158,
+          "statements": 2
+        },
+        {
+          "name": "hold_liberation",
+          "dispatch": "hold_liberation",
+          "official_line": 160,
+          "official_end": 177,
+          "statements": 17
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 179,
+          "official_end": 182,
+          "statements": 3
+        }
+      ],
+      "statement_count": 114,
+      "generated_lines": 337
+    },
+    {
+      "character": "Lucilla",
+      "source_sha256": "ee233cfa1a2da8d696e5917111dabbefd8c06b8090f64b6cec4a79a60f877634",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 20,
+          "official_end": 22,
+          "statements": 2
+        },
+        {
+          "name": "perform_combat",
+          "dispatch": "perform_combat",
+          "official_line": 24,
+          "official_end": 55,
+          "statements": 18
+        },
+        {
+          "name": "charge_once",
+          "dispatch": "charge_once",
+          "official_line": 57,
+          "official_end": 64,
+          "statements": 5
+        },
+        {
+          "name": "try_liberation",
+          "dispatch": "try_liberation",
+          "official_line": 66,
+          "official_end": 80,
+          "statements": 8
+        },
+        {
+          "name": "energy_full",
+          "dispatch": "energy_full",
+          "official_line": 82,
+          "official_end": 88,
+          "statements": 2
+        },
+        {
+          "name": "perform_liberation",
+          "dispatch": "perform_liberation",
+          "official_line": 90,
+          "official_end": 112,
+          "statements": 12
+        },
+        {
+          "name": "pulse_heavy_attack",
+          "dispatch": "pulse_heavy_attack",
+          "official_line": 114,
+          "official_end": 139,
+          "statements": 15
+        },
+        {
+          "name": "hold_resonance",
+          "dispatch": "hold_resonance",
+          "official_line": 141,
+          "official_end": 152,
+          "statements": 6
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 154,
+          "official_end": 157,
+          "statements": 3
+        }
+      ],
+      "statement_count": 71,
+      "generated_lines": 216
+    },
+    {
+      "character": "Lucy",
+      "source_sha256": "b584e836b9e3eebc4f66bd25c8eb2745eda05bd64109543c6c70304e7342216c",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 13,
+          "official_end": 25,
+          "statements": 10
+        },
+        {
+          "name": "perform_standard",
+          "dispatch": "perform_standard",
+          "official_line": 27,
+          "official_end": 49,
+          "statements": 16
+        },
+        {
+          "name": "perform_liberation",
+          "dispatch": "perform_liberation",
+          "official_line": 51,
+          "official_end": 111,
+          "statements": 48
+        },
+        {
+          "name": "perform_enhanced_heavy",
+          "dispatch": "perform_enhanced_heavy",
+          "official_line": 113,
+          "official_end": 121,
+          "statements": 7
+        },
+        {
+          "name": "get_switch_priority",
+          "dispatch": "get_switch_priority",
+          "official_line": 123,
+          "official_end": 126,
+          "statements": 3
+        }
+      ],
+      "statement_count": 84,
+      "generated_lines": 245
+    },
+    {
+      "character": "Rebecca",
+      "source_sha256": "9723d296e1523205a033f16c1a964c7dbf55c946797be18951c6a3eafefb6bd0",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 15,
+          "official_end": 18,
+          "statements": 3
+        },
+        {
+          "name": "_in_reenter_window",
+          "dispatch": "_in_reenter_window",
+          "official_line": 20,
+          "official_end": 21,
+          "statements": 1
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 23,
+          "official_end": 31,
+          "statements": 7
+        },
+        {
+          "name": "perform_combat",
+          "dispatch": "perform_combat",
+          "official_line": 33,
+          "official_end": 41,
+          "statements": 6
+        },
+        {
+          "name": "_build_forte_sequence",
+          "dispatch": "_build_forte_sequence",
+          "official_line": 43,
+          "official_end": 76,
+          "statements": 25
+        },
+        {
+          "name": "perform_enhanced_heavy",
+          "dispatch": "perform_enhanced_heavy",
+          "official_line": 78,
+          "official_end": 81,
+          "statements": 3
+        },
+        {
+          "name": "perform_hmg_mode",
+          "dispatch": "perform_hmg_mode",
+          "official_line": 83,
+          "official_end": 99,
+          "statements": 15
+        }
+      ],
+      "statement_count": 60,
+      "generated_lines": 192
+    },
+    {
+      "character": "Qingxiao",
+      "source_sha256": "66fd24e3cff4bc68d567c206609630894b173211d206e5a11e9a0d048d06ae15",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 12,
+          "official_end": 14,
+          "statements": 2
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 16,
+          "official_end": 49,
+          "statements": 26
+        },
+        {
+          "name": "enhanced_resonance_available",
+          "dispatch": "enhanced_resonance_available",
+          "official_line": 51,
+          "official_end": 52,
+          "statements": 1
+        },
+        {
+          "name": "cast_enhanced_resonance",
+          "dispatch": "cast_enhanced_resonance",
+          "official_line": 54,
+          "official_end": 61,
+          "statements": 3
+        },
+        {
+          "name": "heavy_available",
+          "dispatch": "heavy_available",
+          "official_line": 63,
+          "official_end": 65,
+          "statements": 1
+        },
+        {
+          "name": "handle_heavy",
+          "dispatch": "handle_heavy",
+          "official_line": 67,
+          "official_end": 96,
+          "statements": 25
+        }
+      ],
+      "statement_count": 58,
+      "generated_lines": 186
+    },
+    {
+      "character": "Hsin",
+      "source_sha256": "319fcde254eee526b4d7340b9ef5b9e41021503a2d1b3af7e10863425c276337",
+      "methods": [
+        {
+          "name": "__init__",
+          "dispatch": "__init__",
+          "official_line": 8,
+          "official_end": 14,
+          "statements": 6
+        },
+        {
+          "name": "skip_combat_check",
+          "dispatch": "skip_combat_check",
+          "official_line": 16,
+          "official_end": 20,
+          "statements": 4
+        },
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 22,
+          "official_end": 35,
+          "statements": 12
+        },
+        {
+          "name": "perform_everything",
+          "dispatch": "perform_everything",
+          "official_line": 37,
+          "official_end": 139,
+          "statements": 91
+        },
+        {
+          "name": "enhanced_e_ready",
+          "dispatch": "enhanced_e_ready",
+          "official_line": 141,
+          "official_end": 142,
+          "statements": 1
+        },
+        {
+          "name": "cast_enhanced_e",
+          "dispatch": "cast_enhanced_e",
+          "official_line": 144,
+          "official_end": 175,
+          "statements": 29
+        },
+        {
+          "name": "lib",
+          "dispatch": "lib",
+          "official_line": 177,
+          "official_end": 199,
+          "statements": 20
+        },
+        {
+          "name": "heavy_available",
+          "dispatch": "heavy_available",
+          "official_line": 201,
+          "official_end": 206,
+          "statements": 5
+        },
+        {
+          "name": "heavy_wait_highlight_down",
+          "dispatch": "heavy_wait_highlight_down",
+          "official_line": 208,
+          "official_end": 230,
+          "statements": 17
+        },
+        {
+          "name": "handle_heavy",
+          "dispatch": "handle_heavy",
+          "official_line": 232,
+          "official_end": 243,
+          "statements": 10
+        },
+        {
+          "name": "wait_for_lib2",
+          "dispatch": "wait_for_lib2",
+          "official_line": 245,
+          "official_end": 252,
+          "statements": 4
+        }
+      ],
+      "statement_count": 199,
+      "generated_lines": 541
+    },
+    {
+      "character": "JingRan",
+      "source_sha256": "77b302f66fa4c2d8f56c8a9895a44766d508d29518bdc78b345be56f1ffc4189",
+      "methods": [
+        {
+          "name": "do_perform",
+          "dispatch": "do_perform",
+          "official_line": 10,
+          "official_end": 37,
+          "statements": 20
+        }
+      ],
+      "statement_count": 20,
+      "generated_lines": 65
+    }
+  ],
+  "errors": []
+}
