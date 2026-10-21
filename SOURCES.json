@@ -1,427 +1,1254 @@
 {
-  "version": "20261002-hsin-local-rotations-4",
+  "version": "20261021-okww-official-all52-30",
+  "gui_build": "20261021-gui-official-all52-30",
+  "upstream_ref": "master",
+  "upstream_release": "master",
+  "upstream_commit": "0b37b5b79e771297536ff1155db1c23131297558",
+  "source_checked_on": "2026-10-21",
   "local_root": "C:\\ok-ww222\\data\\apps\\ok-ww\\working",
-  "upstream_commit": "36c557437de745cdef506bcfa148569d3e09cfcf",
   "characters": [
     {
       "character": "YangYangSp",
-      "native_file": "src/char/YangYangSpOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\YangYangSp.py",
-      "sha256": "84ddab01e2dedb801c4d9e9d58f7bd1983a59049f8302517b22961489ea9f209"
+      "native_file": "src/official/generated/YangYangSp.cpp",
+      "header_file": "src/char/YangYangSpOriginal.h",
+      "native_sha256": "a153719cd506b233733288e58100448ef867fd18c7c46b8f591de9ef28824c2b",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/YangYangSp.py",
+      "sha256": "84ddab01e2dedb801c4d9e9d58f7bd1983a59049f8302517b22961489ea9f209",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/YangYangSp.py.txt",
+      "official_methods": 4,
+      "official_statements": 31,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\YangYangSp.py",
+        "sha256": "84ddab01e2dedb801c4d9e9d58f7bd1983a59049f8302517b22961489ea9f209",
+        "reference": "source_reference/local/YangYangSp.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/YangYangSp.py",
+        "sha256": "84ddab01e2dedb801c4d9e9d58f7bd1983a59049f8302517b22961489ea9f209",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/YangYangSp.py.txt"
+      }
     },
     {
       "character": "Yinlin",
-      "native_file": "src/char/Yinlin.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Yinlin.py",
-      "sha256": "dfc01544b6da492763e9ce2ff854d5806c2f9ab3ef1bf2961468c876ad019396"
+      "native_file": "src/official/generated/Yinlin.cpp",
+      "header_file": "src/char/Yinlin.h",
+      "native_sha256": "a14e8d6122b83645403511a9bfa154cb6251990e84b08abd7aba0e7f46a8e95c",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Yinlin.py",
+      "sha256": "dfc01544b6da492763e9ce2ff854d5806c2f9ab3ef1bf2961468c876ad019396",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Yinlin.py.txt",
+      "official_methods": 1,
+      "official_statements": 14,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Yinlin.py",
+        "sha256": "dfc01544b6da492763e9ce2ff854d5806c2f9ab3ef1bf2961468c876ad019396",
+        "reference": "source_reference/local/Yinlin.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Yinlin.py",
+        "sha256": "dfc01544b6da492763e9ce2ff854d5806c2f9ab3ef1bf2961468c876ad019396",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Yinlin.py.txt"
+      }
     },
     {
       "character": "Verina",
-      "native_file": "src/char/Verina.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Verina.py",
-      "sha256": "8ad0ec9d4f2ec38907f6ac2672a3bae268cab9db46399569c03ff0c46e96dcd9"
+      "native_file": "src/official/generated/Verina.cpp",
+      "header_file": "src/char/Verina.h",
+      "native_sha256": "af6c20bf02fb2887f10333bf4c9ce678b3c348ac85c82227743dc654aeca378b",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Verina.py",
+      "sha256": "8ad0ec9d4f2ec38907f6ac2672a3bae268cab9db46399569c03ff0c46e96dcd9",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Verina.py.txt",
+      "official_methods": 10,
+      "official_statements": 38,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Verina.py",
+        "sha256": "8ad0ec9d4f2ec38907f6ac2672a3bae268cab9db46399569c03ff0c46e96dcd9",
+        "reference": "source_reference/local/Verina.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Verina.py",
+        "sha256": "8ad0ec9d4f2ec38907f6ac2672a3bae268cab9db46399569c03ff0c46e96dcd9",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Verina.py.txt"
+      }
     },
     {
       "character": "ShoreKeeper",
-      "native_file": "src/char/OriginalShoreKeeper.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\ShoreKeeper.py",
-      "sha256": "b6d5e5eb934dfe60559920d0f01afa46845cc43005e8a0e4ed12dc880556e2d7"
+      "native_file": "src/official/generated/ShoreKeeper.cpp",
+      "header_file": "src/char/OriginalShoreKeeper.h",
+      "native_sha256": "27df53fba03f9650466931095da08e697d37335a83621f15eb2affef5e534abc",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/ShoreKeeper.py",
+      "sha256": "fed8625143c759d5c7c07b03caf0522d34872af0d5f9e63822278cef5481372e",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/ShoreKeeper.py.txt",
+      "official_methods": 7,
+      "official_statements": 49,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\ShoreKeeper.py",
+        "sha256": "b6d5e5eb934dfe60559920d0f01afa46845cc43005e8a0e4ed12dc880556e2d7",
+        "reference": "source_reference/local/ShoreKeeper.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/ShoreKeeper.py",
+        "sha256": "fed8625143c759d5c7c07b03caf0522d34872af0d5f9e63822278cef5481372e",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/ShoreKeeper.py.txt"
+      }
     },
     {
       "character": "Suisui",
-      "native_file": "src/char/SuisuiOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Suisui.py",
-      "sha256": "130b0fa724186c911f6376b16e1912e0234dabe0839169bd58019044d3434f86"
+      "native_file": "src/official/generated/Suisui.cpp",
+      "header_file": "src/char/SuisuiOriginal.h",
+      "native_sha256": "2c5a15d386b8f9a7eda2de7a3e102d18c665ad883f0b91534e6afc3b623d6a54",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Suisui.py",
+      "sha256": "130b0fa724186c911f6376b16e1912e0234dabe0839169bd58019044d3434f86",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Suisui.py.txt",
+      "official_methods": 9,
+      "official_statements": 68,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Suisui.py",
+        "sha256": "130b0fa724186c911f6376b16e1912e0234dabe0839169bd58019044d3434f86",
+        "reference": "source_reference/local/Suisui.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Suisui.py",
+        "sha256": "130b0fa724186c911f6376b16e1912e0234dabe0839169bd58019044d3434f86",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Suisui.py.txt"
+      }
     },
     {
       "character": "Taoqi",
-      "native_file": "src/char/Taoqi.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Taoqi.py",
-      "sha256": "ec447aa3b4eef65fcc304f9f9f296eb5134cb9d496cf932037fd22a38c3e3ca9"
+      "native_file": "src/official/generated/Taoqi.cpp",
+      "header_file": "src/char/Taoqi.h",
+      "native_sha256": "d68678da9ba2db890fbb84eb8403166f34cc433c080b1ae2f5e61c1c02a89cb0",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Taoqi.py",
+      "sha256": "5e291c07f6e1b38dffb04d3045080c55052e2610646a6a81d37eb5ca6ca65a9a",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Taoqi.py.txt",
+      "official_methods": 1,
+      "official_statements": 7,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Taoqi.py",
+        "sha256": "ec447aa3b4eef65fcc304f9f9f296eb5134cb9d496cf932037fd22a38c3e3ca9",
+        "reference": "source_reference/local/Taoqi.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Taoqi.py",
+        "sha256": "5e291c07f6e1b38dffb04d3045080c55052e2610646a6a81d37eb5ca6ca65a9a",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Taoqi.py.txt"
+      }
     },
     {
       "character": "Rover",
-      "native_file": "src/char/RoverOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Rover.py",
-      "sha256": "1feeaea5bdc308713f3fc19e41417ac49476af0ce9b7e0975944c742877189c7"
+      "native_file": "src/official/generated/Rover.cpp",
+      "header_file": "src/char/RoverOriginal.h",
+      "native_sha256": "734e51281591aaa078017c7440928165457182a8a7456e672c4a07471000f613",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Rover.py",
+      "sha256": "0ce021d8274e1de145eb9718e3135bce42af5f2987a71d744f298dadf80749bd",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Rover.py.txt",
+      "official_methods": 23,
+      "official_statements": 170,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Rover.py",
+        "sha256": "1feeaea5bdc308713f3fc19e41417ac49476af0ce9b7e0975944c742877189c7",
+        "reference": "source_reference/local/Rover.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Rover.py",
+        "sha256": "0ce021d8274e1de145eb9718e3135bce42af5f2987a71d744f298dadf80749bd",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Rover.py.txt"
+      }
     },
     {
       "character": "Encore",
-      "native_file": "src/char/Encore.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Encore.py",
-      "sha256": "7367d9d89c888782472491913b799a465eb6ca448fe1d327c79d0b47bcd11a7a"
+      "native_file": "src/official/generated/Encore.cpp",
+      "header_file": "src/char/Encore.h",
+      "native_sha256": "62254f20034f93ac276656d70129ea60c75d3d37ea56da607013f348c6f191db",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Encore.py",
+      "sha256": "7367d9d89c888782472491913b799a465eb6ca448fe1d327c79d0b47bcd11a7a",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Encore.py.txt",
+      "official_methods": 7,
+      "official_statements": 52,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Encore.py",
+        "sha256": "7367d9d89c888782472491913b799a465eb6ca448fe1d327c79d0b47bcd11a7a",
+        "reference": "source_reference/local/Encore.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Encore.py",
+        "sha256": "7367d9d89c888782472491913b799a465eb6ca448fe1d327c79d0b47bcd11a7a",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Encore.py.txt"
+      }
     },
     {
       "character": "Jianxin",
-      "native_file": "src/char/Jianxin.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jianxin.py",
-      "sha256": "9078752d79b735f71ff43a0681a3b85e1d871b670262d46b398c35ff8603b45a"
+      "native_file": "src/official/generated/Jianxin.cpp",
+      "header_file": "src/char/Jianxin.h",
+      "native_sha256": "f1d5596f2f292512f7294ec76f5b4ff517536c1331a7584cde83c6f5c2b84d88",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Jianxin.py",
+      "sha256": "fd27d08988bed5bc650db8a0351245cf91ce2079a59aab63dd421df0ba7330b3",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Jianxin.py.txt",
+      "official_methods": 1,
+      "official_statements": 8,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jianxin.py",
+        "sha256": "9078752d79b735f71ff43a0681a3b85e1d871b670262d46b398c35ff8603b45a",
+        "reference": "source_reference/local/Jianxin.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Jianxin.py",
+        "sha256": "fd27d08988bed5bc650db8a0351245cf91ce2079a59aab63dd421df0ba7330b3",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Jianxin.py.txt"
+      }
     },
     {
       "character": "Sanhua",
-      "native_file": "src/char/Sanhua.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Sanhua.py",
-      "sha256": "162b40dede895c2e586498ecf8f21ca07ad453b4626f82db520f3b8fea41c75f"
+      "native_file": "src/official/generated/Sanhua.cpp",
+      "header_file": "src/char/Sanhua.h",
+      "native_sha256": "801be69def3cc19d9e54d4650247e2b9d636d137544f82441718e841b999a1d7",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Sanhua.py",
+      "sha256": "6396b0fbc98fa7a2762ee0f2be903d09e05774e801fe67a7c45e19dd85934e48",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Sanhua.py.txt",
+      "official_methods": 1,
+      "official_statements": 28,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Sanhua.py",
+        "sha256": "162b40dede895c2e586498ecf8f21ca07ad453b4626f82db520f3b8fea41c75f",
+        "reference": "source_reference/local/Sanhua.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Sanhua.py",
+        "sha256": "6396b0fbc98fa7a2762ee0f2be903d09e05774e801fe67a7c45e19dd85934e48",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Sanhua.py.txt"
+      }
     },
     {
       "character": "Jinhsi",
-      "native_file": "src/char/JinhsiOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jinhsi.py",
-      "sha256": "6986997fdbc2a8eecf02594e7667374afeb042fa183cdfe625b9fb63565bd5fb"
+      "native_file": "src/official/generated/Jinhsi.cpp",
+      "header_file": "src/char/JinhsiOriginal.h",
+      "native_sha256": "22e9c2bdea79e1bb75c5f8d3192a2dd2826df836fcf2b543d7610e0a8a387cf8",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Jinhsi.py",
+      "sha256": "da9e09b1ebb626ce31748cf34cd776ed721fcffe86a71d8ac73ee38f3aba9a46",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Jinhsi.py.txt",
+      "official_methods": 8,
+      "official_statements": 78,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jinhsi.py",
+        "sha256": "6986997fdbc2a8eecf02594e7667374afeb042fa183cdfe625b9fb63565bd5fb",
+        "reference": "source_reference/local/Jinhsi.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Jinhsi.py",
+        "sha256": "da9e09b1ebb626ce31748cf34cd776ed721fcffe86a71d8ac73ee38f3aba9a46",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Jinhsi.py.txt"
+      }
     },
     {
       "character": "Yuanwu",
-      "native_file": "src/char/Yuanwu.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Yuanwu.py",
-      "sha256": "d1c417b082a854e186bdfe7c63ebe3eb21643730b2eb85817d0d068a1fe0fa56"
+      "native_file": "src/official/generated/Yuanwu.cpp",
+      "header_file": "src/char/Yuanwu.h",
+      "native_sha256": "3f699b6b2b6679591dc676747b851bffd017a484ee587af7a22cba1cbec2aa72",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Yuanwu.py",
+      "sha256": "d1c417b082a854e186bdfe7c63ebe3eb21643730b2eb85817d0d068a1fe0fa56",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Yuanwu.py.txt",
+      "official_methods": 1,
+      "official_statements": 9,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Yuanwu.py",
+        "sha256": "d1c417b082a854e186bdfe7c63ebe3eb21643730b2eb85817d0d068a1fe0fa56",
+        "reference": "source_reference/local/Yuanwu.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Yuanwu.py",
+        "sha256": "d1c417b082a854e186bdfe7c63ebe3eb21643730b2eb85817d0d068a1fe0fa56",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Yuanwu.py.txt"
+      }
     },
     {
       "character": "Changli",
-      "native_file": "src/char/ChangliOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Changli.py",
-      "sha256": "23e07be4e550221f1d74d28d4cfd82c421b820b5fe595f5bebd73880945fdd67"
+      "native_file": "src/official/generated/Changli.cpp",
+      "header_file": "src/char/ChangliOriginal.h",
+      "native_sha256": "e3cb24da1da83e55aedbb32c38db13bca29c666e8617cff3176490f35c835f38",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Changli.py",
+      "sha256": "23e07be4e550221f1d74d28d4cfd82c421b820b5fe595f5bebd73880945fdd67",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Changli.py.txt",
+      "official_methods": 10,
+      "official_statements": 176,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Changli.py",
+        "sha256": "23e07be4e550221f1d74d28d4cfd82c421b820b5fe595f5bebd73880945fdd67",
+        "reference": "source_reference/local/Changli.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Changli.py",
+        "sha256": "23e07be4e550221f1d74d28d4cfd82c421b820b5fe595f5bebd73880945fdd67",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Changli.py.txt"
+      }
     },
     {
       "character": "Chixia",
-      "native_file": "src/char/Chixia.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Chixia.py",
-      "sha256": "ffe0b8d1e20a15203331da47e6a77b5b2c46248a7bd32cbb4d5b546ddf60a847"
+      "native_file": "src/official/generated/Chixia.cpp",
+      "header_file": "src/char/Chixia.h",
+      "native_sha256": "350409bd29b4ce4b6d78f13de1392db255c29da028c4dd87659fb5a068d0f20a",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Chixia.py",
+      "sha256": "ce7569a5b2448f97ceb81114358d7dd1767be8ec22aeac9d084e553e1a453cb6",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Chixia.py.txt",
+      "official_methods": 1,
+      "official_statements": 2,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Chixia.py",
+        "sha256": "ffe0b8d1e20a15203331da47e6a77b5b2c46248a7bd32cbb4d5b546ddf60a847",
+        "reference": "source_reference/local/Chixia.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Chixia.py",
+        "sha256": "ce7569a5b2448f97ceb81114358d7dd1767be8ec22aeac9d084e553e1a453cb6",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Chixia.py.txt"
+      }
     },
     {
       "character": "Danjin",
-      "native_file": "src/char/Danjin.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Danjin.py",
-      "sha256": "296bd3babc3b4304a3fea25854cb6e5856cacb53e22d6befb1ccd883e3f35cc9"
+      "native_file": "src/official/generated/Danjin.cpp",
+      "header_file": "src/char/Danjin.h",
+      "native_sha256": "3e84336bff67bc4d2c7c12a71f8eddc81ecffa3b5f659be217dfc8afb85ce252",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Danjin.py",
+      "sha256": "296bd3babc3b4304a3fea25854cb6e5856cacb53e22d6befb1ccd883e3f35cc9",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Danjin.py.txt",
+      "official_methods": 2,
+      "official_statements": 21,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Danjin.py",
+        "sha256": "296bd3babc3b4304a3fea25854cb6e5856cacb53e22d6befb1ccd883e3f35cc9",
+        "reference": "source_reference/local/Danjin.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Danjin.py",
+        "sha256": "296bd3babc3b4304a3fea25854cb6e5856cacb53e22d6befb1ccd883e3f35cc9",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Danjin.py.txt"
+      }
     },
     {
       "character": "Baizhi",
-      "native_file": "src/char/Baizhi.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Baizhi.py",
-      "sha256": "80d7c23797087f0684c7cf7079aa9c24dd9f58a1a5ddb27da4b88a91fc56ecbf"
+      "native_file": "src/official/generated/Baizhi.cpp",
+      "header_file": "src/char/Baizhi.h",
+      "native_sha256": "78dd332953431f8415541ec259ae5b092094938a1dde738eee0968815b824e04",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Baizhi.py",
+      "sha256": "80d7c23797087f0684c7cf7079aa9c24dd9f58a1a5ddb27da4b88a91fc56ecbf",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Baizhi.py.txt",
+      "official_methods": 1,
+      "official_statements": 7,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Baizhi.py",
+        "sha256": "80d7c23797087f0684c7cf7079aa9c24dd9f58a1a5ddb27da4b88a91fc56ecbf",
+        "reference": "source_reference/local/Baizhi.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Baizhi.py",
+        "sha256": "80d7c23797087f0684c7cf7079aa9c24dd9f58a1a5ddb27da4b88a91fc56ecbf",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Baizhi.py.txt"
+      }
     },
     {
       "character": "Calcharo",
-      "native_file": "src/char/Calcharo.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Calcharo.py",
-      "sha256": "e987a65c3923a719a0cda3625b86ddbba987e54a73b34a7d6225134960270198"
+      "native_file": "src/official/generated/Calcharo.cpp",
+      "header_file": "src/char/Calcharo.h",
+      "native_sha256": "f7535885d5d15c414b58fc2c69c0f223dab9ce9e205583cc3bb5e5c8989584b5",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Calcharo.py",
+      "sha256": "5418d4393bece6983fb24c706670009e9a464cc3eecccfd778a51f32226193f0",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Calcharo.py.txt",
+      "official_methods": 1,
+      "official_statements": 6,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Calcharo.py",
+        "sha256": "e987a65c3923a719a0cda3625b86ddbba987e54a73b34a7d6225134960270198",
+        "reference": "source_reference/local/Calcharo.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Calcharo.py",
+        "sha256": "5418d4393bece6983fb24c706670009e9a464cc3eecccfd778a51f32226193f0",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Calcharo.py.txt"
+      }
     },
     {
       "character": "Jiyan",
-      "native_file": "src/char/Jiyan.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jiyan.py",
-      "sha256": "13a5d3b4db73f91e856f72179e9794777c1e5021e04a8fb25e5133983d97f470"
+      "native_file": "src/official/generated/Jiyan.cpp",
+      "header_file": "src/char/Jiyan.h",
+      "native_sha256": "63373dc166098263715e2d7cfc2ce83f2a108f3d686d0d0ac14b7f13f8069fca",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Jiyan.py",
+      "sha256": "13a5d3b4db73f91e856f72179e9794777c1e5021e04a8fb25e5133983d97f470",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Jiyan.py.txt",
+      "official_methods": 1,
+      "official_statements": 26,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Jiyan.py",
+        "sha256": "13a5d3b4db73f91e856f72179e9794777c1e5021e04a8fb25e5133983d97f470",
+        "reference": "source_reference/local/Jiyan.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Jiyan.py",
+        "sha256": "13a5d3b4db73f91e856f72179e9794777c1e5021e04a8fb25e5133983d97f470",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Jiyan.py.txt"
+      }
     },
     {
       "character": "Mortefi",
-      "native_file": "src/char/Mortefi.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Mortefi.py",
-      "sha256": "ae95f94ab840573912f9fbf9712fa141d845c499a8b369154ee0a999c0f6de9f"
+      "native_file": "src/official/generated/Mortefi.cpp",
+      "header_file": "src/char/Mortefi.h",
+      "native_sha256": "ba0d50d09c8bf7bad7275ba04949827ce15e358c5a647e02b94955a380832741",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Mortefi.py",
+      "sha256": "56a998b35378f2e08c017b7f689ad7dfee5f5fb4078c84fbfbe792b0a7744e79",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Mortefi.py.txt",
+      "official_methods": 1,
+      "official_statements": 7,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Mortefi.py",
+        "sha256": "ae95f94ab840573912f9fbf9712fa141d845c499a8b369154ee0a999c0f6de9f",
+        "reference": "source_reference/local/Mortefi.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Mortefi.py",
+        "sha256": "56a998b35378f2e08c017b7f689ad7dfee5f5fb4078c84fbfbe792b0a7744e79",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Mortefi.py.txt"
+      }
     },
     {
       "character": "Zhezhi",
-      "native_file": "src/char/ZhezhiOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Zhezhi.py",
-      "sha256": "e5ed714c305a40632201153236cd74a5c2a4eb29b9d35a1a4290d4e842cd5629"
+      "native_file": "src/official/generated/Zhezhi.cpp",
+      "header_file": "src/char/ZhezhiOriginal.h",
+      "native_sha256": "ac50be6c323b6065c7c4b985b0dddc9e6026f34081b46cfea6ba45f5cacb9b93",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Zhezhi.py",
+      "sha256": "e5ed714c305a40632201153236cd74a5c2a4eb29b9d35a1a4290d4e842cd5629",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Zhezhi.py.txt",
+      "official_methods": 12,
+      "official_statements": 121,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Zhezhi.py",
+        "sha256": "e5ed714c305a40632201153236cd74a5c2a4eb29b9d35a1a4290d4e842cd5629",
+        "reference": "source_reference/local/Zhezhi.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Zhezhi.py",
+        "sha256": "e5ed714c305a40632201153236cd74a5c2a4eb29b9d35a1a4290d4e842cd5629",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Zhezhi.py.txt"
+      }
     },
     {
       "character": "Xiangliyao",
-      "native_file": "src/char/Xiangliyao.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Xiangliyao.py",
-      "sha256": "13c25587cc5541306ac8e048bb4bf09731a7f43cee28878702c0b3f07c75ef28"
+      "native_file": "src/official/generated/Xiangliyao.cpp",
+      "header_file": "src/char/Xiangliyao.h",
+      "native_sha256": "783833ce4c5ed059c855b77ab7497c3ad279ddc172accb738e5ebc4d133cb2a4",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Xiangliyao.py",
+      "sha256": "13c25587cc5541306ac8e048bb4bf09731a7f43cee28878702c0b3f07c75ef28",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Xiangliyao.py.txt",
+      "official_methods": 3,
+      "official_statements": 14,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Xiangliyao.py",
+        "sha256": "13c25587cc5541306ac8e048bb4bf09731a7f43cee28878702c0b3f07c75ef28",
+        "reference": "source_reference/local/Xiangliyao.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Xiangliyao.py",
+        "sha256": "13c25587cc5541306ac8e048bb4bf09731a7f43cee28878702c0b3f07c75ef28",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Xiangliyao.py.txt"
+      }
     },
     {
       "character": "Camellya",
-      "native_file": "src/char/CamellyaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Camellya.py",
-      "sha256": "c05fb2a0724f0f3b7f6b5f5e8c6cbaf814cfc7572f0f1d0ec27be91c3e3f682b"
+      "native_file": "src/official/generated/Camellya.cpp",
+      "header_file": "src/char/CamellyaOriginal.h",
+      "native_sha256": "1efc660f813aab71ae155b9dd80c56b430402bb272769e36f972b1b10c12432e",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Camellya.py",
+      "sha256": "c05fb2a0724f0f3b7f6b5f5e8c6cbaf814cfc7572f0f1d0ec27be91c3e3f682b",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Camellya.py.txt",
+      "official_methods": 16,
+      "official_statements": 271,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Camellya.py",
+        "sha256": "c05fb2a0724f0f3b7f6b5f5e8c6cbaf814cfc7572f0f1d0ec27be91c3e3f682b",
+        "reference": "source_reference/local/Camellya.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Camellya.py",
+        "sha256": "c05fb2a0724f0f3b7f6b5f5e8c6cbaf814cfc7572f0f1d0ec27be91c3e3f682b",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Camellya.py.txt"
+      }
     },
     {
       "character": "Youhu",
-      "native_file": "src/char/Youhu.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Youhu.py",
-      "sha256": "07e40ec38486ef92c5fad067a41398c04503997d4619145b2cf036a820f30785"
+      "native_file": "src/official/generated/Youhu.cpp",
+      "header_file": "src/char/Youhu.h",
+      "native_sha256": "c7b196275ae2201f89a9a055a354687943f27852de327427133c5db5ab1d7b6f",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Youhu.py",
+      "sha256": "07e40ec38486ef92c5fad067a41398c04503997d4619145b2cf036a820f30785",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Youhu.py.txt",
+      "official_methods": 1,
+      "official_statements": 1,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Youhu.py",
+        "sha256": "07e40ec38486ef92c5fad067a41398c04503997d4619145b2cf036a820f30785",
+        "reference": "source_reference/local/Youhu.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Youhu.py",
+        "sha256": "07e40ec38486ef92c5fad067a41398c04503997d4619145b2cf036a820f30785",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Youhu.py.txt"
+      }
     },
     {
       "character": "Carlotta",
-      "native_file": "src/char/CarlottaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Carlotta.py",
-      "sha256": "087becb3cff20a2d9180efb6cf22b0168f39356c8dd02cd370acf691ecec4a6d"
+      "native_file": "src/official/generated/Carlotta.cpp",
+      "header_file": "src/char/CarlottaOriginal.h",
+      "native_sha256": "74cbadae4af845101ff743dfc7cbd3a7f6b8bbb514f20d858c0d06562d45326d",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Carlotta.py",
+      "sha256": "087becb3cff20a2d9180efb6cf22b0168f39356c8dd02cd370acf691ecec4a6d",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Carlotta.py.txt",
+      "official_methods": 17,
+      "official_statements": 279,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Carlotta.py",
+        "sha256": "087becb3cff20a2d9180efb6cf22b0168f39356c8dd02cd370acf691ecec4a6d",
+        "reference": "source_reference/local/Carlotta.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Carlotta.py",
+        "sha256": "087becb3cff20a2d9180efb6cf22b0168f39356c8dd02cd370acf691ecec4a6d",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Carlotta.py.txt"
+      }
     },
     {
       "character": "Roccia",
-      "native_file": "src/char/Roccia.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Roccia.py",
-      "sha256": "04ebe3bc301fbf4733ba3e7317ac480ad095d7bbb72724476090506a855b9bd1"
+      "native_file": "src/official/generated/Roccia.cpp",
+      "header_file": "src/char/Roccia.h",
+      "native_sha256": "0b454067f20caa5183d7b0ee06b8957e7e8f458a32e05399b0c75e42d43382bb",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Roccia.py",
+      "sha256": "04ebe3bc301fbf4733ba3e7317ac480ad095d7bbb72724476090506a855b9bd1",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Roccia.py.txt",
+      "official_methods": 5,
+      "official_statements": 35,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Roccia.py",
+        "sha256": "04ebe3bc301fbf4733ba3e7317ac480ad095d7bbb72724476090506a855b9bd1",
+        "reference": "source_reference/local/Roccia.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Roccia.py",
+        "sha256": "04ebe3bc301fbf4733ba3e7317ac480ad095d7bbb72724476090506a855b9bd1",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Roccia.py.txt"
+      }
     },
     {
       "character": "Phoebe",
-      "native_file": "src/char/PhoebeOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Phoebe.py",
-      "sha256": "d01a622879724feebf4ed6d6fcb3762120e4aa9b4c04d6e0db4aba9f94f0eb1c"
+      "native_file": "src/official/generated/Phoebe.cpp",
+      "header_file": "src/char/PhoebeOriginal.h",
+      "native_sha256": "6464ce52d15479ad06740c4db7c499f4f0a42e21a889d2c3b60a8a9521ca3e22",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Phoebe.py",
+      "sha256": "1447283e4a2ab700d433ea45f45517ee6c2df359f34ed25321d5ac87ae002921",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Phoebe.py.txt",
+      "official_methods": 29,
+      "official_statements": 355,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Phoebe.py",
+        "sha256": "d01a622879724feebf4ed6d6fcb3762120e4aa9b4c04d6e0db4aba9f94f0eb1c",
+        "reference": "source_reference/local/Phoebe.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Phoebe.py",
+        "sha256": "1447283e4a2ab700d433ea45f45517ee6c2df359f34ed25321d5ac87ae002921",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Phoebe.py.txt"
+      }
     },
     {
       "character": "Brant",
-      "native_file": "src/char/BrantOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Brant.py",
-      "sha256": "41e1ac2dd797be7352dfe864cc63defe0c83bf18157c83e7d243be8b2eb3d1b3"
+      "native_file": "src/official/generated/Brant.cpp",
+      "header_file": "src/char/BrantOriginal.h",
+      "native_sha256": "931d789a386fa1838c92ec18ff6fd1530b1bb46928dd045096e93b62c4d5cd43",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Brant.py",
+      "sha256": "41e1ac2dd797be7352dfe864cc63defe0c83bf18157c83e7d243be8b2eb3d1b3",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Brant.py.txt",
+      "official_methods": 11,
+      "official_statements": 112,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Brant.py",
+        "sha256": "41e1ac2dd797be7352dfe864cc63defe0c83bf18157c83e7d243be8b2eb3d1b3",
+        "reference": "source_reference/local/Brant.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Brant.py",
+        "sha256": "41e1ac2dd797be7352dfe864cc63defe0c83bf18157c83e7d243be8b2eb3d1b3",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Brant.py.txt"
+      }
     },
     {
       "character": "Cantarella",
-      "native_file": "src/char/CantarellaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Cantarella.py",
-      "sha256": "268196b005e3c969690b3e2bf509e28eaede1bc0c8e514ab3d9f4cb8c8a0cc44"
+      "native_file": "src/official/generated/Cantarella.cpp",
+      "header_file": "src/char/CantarellaOriginal.h",
+      "native_sha256": "e767a4025ff50a7a6b27292f2e75b075922a15d45d6b82d3837599aa14f76681",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Cantarella.py",
+      "sha256": "ae2a87d5a5230d4465dccf02272d1b9fc662f592fe8dd5776a2feb1a0fc8b1b0",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Cantarella.py.txt",
+      "official_methods": 6,
+      "official_statements": 57,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Cantarella.py",
+        "sha256": "268196b005e3c969690b3e2bf509e28eaede1bc0c8e514ab3d9f4cb8c8a0cc44",
+        "reference": "source_reference/local/Cantarella.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Cantarella.py",
+        "sha256": "ae2a87d5a5230d4465dccf02272d1b9fc662f592fe8dd5776a2feb1a0fc8b1b0",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Cantarella.py.txt"
+      }
     },
     {
       "character": "Zani",
-      "native_file": "src/char/ZaniOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Zani.py",
-      "sha256": "fab21a467c00a7ad2d259add9e51a3ef097d653f4b42b06ed88e92f0976c82e7"
+      "native_file": "src/official/generated/Zani.cpp",
+      "header_file": "src/char/ZaniOriginal.h",
+      "native_sha256": "035f55375955cf9e8ba6e24683c57d75a432261eeab29e5bfb6f7716a4cdda4c",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Zani.py",
+      "sha256": "3a45cdcd1f030c5b0080bca6d58a387fe1067619af2e98487d02e7dc3646c35c",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Zani.py.txt",
+      "official_methods": 30,
+      "official_statements": 377,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Zani.py",
+        "sha256": "fab21a467c00a7ad2d259add9e51a3ef097d653f4b42b06ed88e92f0976c82e7",
+        "reference": "source_reference/local/Zani.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Zani.py",
+        "sha256": "3a45cdcd1f030c5b0080bca6d58a387fe1067619af2e98487d02e7dc3646c35c",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Zani.py.txt"
+      }
     },
     {
       "character": "Ciaccona",
-      "native_file": "src/char/CiacconaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Ciaccona.py",
-      "sha256": "5d5be8237c7c63350aa4dddc964431be7c2a20ecf976bde44789c3572f2a2c6b"
+      "native_file": "src/official/generated/Ciaccona.cpp",
+      "header_file": "src/char/CiacconaOriginal.h",
+      "native_sha256": "69cf05acdedb519eb31fb5baedb86846cb51106594c15e8accde242178608af9",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Ciaccona.py",
+      "sha256": "372e64420210b809a6a96360858267d958cccc9e252ade047f4d2ced26c231d9",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Ciaccona.py.txt",
+      "official_methods": 17,
+      "official_statements": 142,
+      "previous_origin": {
+        "source_kind": "github",
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/f5f38c8d9e2b7f7e91edad77bd5fab14df3f162d/src/char/Ciaccona.py",
+        "sha256": "372e64420210b809a6a96360858267d958cccc9e252ade047f4d2ced26c231d9",
+        "reference": "source_reference/upstream/v3.7.3/src/char/Ciaccona.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Ciaccona.py",
+        "sha256": "372e64420210b809a6a96360858267d958cccc9e252ade047f4d2ced26c231d9",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Ciaccona.py.txt"
+      }
     },
     {
       "character": "Cartethyia",
-      "native_file": "src/char/CartethyiaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Cartethyia.py",
-      "sha256": "344b4b5ceb51b286ce9b782105d9c5c7954efe27c799693dbc57aef620910d2e"
+      "native_file": "src/official/generated/Cartethyia.cpp",
+      "header_file": "src/char/CartethyiaOriginal.h",
+      "native_sha256": "6a70c0b5864a4b507c9a6007f1f70a14cd3cd6035c02ac72b6cb7fe9bea5ab9f",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Cartethyia.py",
+      "sha256": "344b4b5ceb51b286ce9b782105d9c5c7954efe27c799693dbc57aef620910d2e",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Cartethyia.py.txt",
+      "official_methods": 16,
+      "official_statements": 216,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Cartethyia.py",
+        "sha256": "344b4b5ceb51b286ce9b782105d9c5c7954efe27c799693dbc57aef620910d2e",
+        "reference": "source_reference/local/Cartethyia.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Cartethyia.py",
+        "sha256": "344b4b5ceb51b286ce9b782105d9c5c7954efe27c799693dbc57aef620910d2e",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Cartethyia.py.txt"
+      }
     },
     {
       "character": "Lupa",
-      "native_file": "src/char/LupaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lupa.py",
-      "sha256": "df66950099eaf2ca055beb7bbeefaa2805f4903fd9e355f3410d4d63d01976a0"
+      "native_file": "src/official/generated/Lupa.cpp",
+      "header_file": "src/char/LupaOriginal.h",
+      "native_sha256": "010ff1648b0d7f1745e21fde433d8b432961aa9e5a23efc46300732d628da613",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Lupa.py",
+      "sha256": "df66950099eaf2ca055beb7bbeefaa2805f4903fd9e355f3410d4d63d01976a0",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Lupa.py.txt",
+      "official_methods": 10,
+      "official_statements": 128,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lupa.py",
+        "sha256": "df66950099eaf2ca055beb7bbeefaa2805f4903fd9e355f3410d4d63d01976a0",
+        "reference": "source_reference/local/Lupa.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Lupa.py",
+        "sha256": "df66950099eaf2ca055beb7bbeefaa2805f4903fd9e355f3410d4d63d01976a0",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Lupa.py.txt"
+      }
     },
     {
       "character": "Phrolova",
-      "native_file": "src/char/Phrolova.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Phrolova.py",
-      "sha256": "a3e584d03a0a845903edc4cf5031471e3bdbb6e1427668a62ddd3ed128a7b92a"
+      "native_file": "src/official/generated/Phrolova.cpp",
+      "header_file": "src/char/Phrolova.h",
+      "native_sha256": "6cf97b2aa7d00911e3697e04ef12112378bc41785887eab5588c671432fce942",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Phrolova.py",
+      "sha256": "700f01dd92c24bd45ac24b74791dbdcbff1c7d6a0a36f46a55d06edd76326b00",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Phrolova.py.txt",
+      "official_methods": 9,
+      "official_statements": 77,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Phrolova.py",
+        "sha256": "a3e584d03a0a845903edc4cf5031471e3bdbb6e1427668a62ddd3ed128a7b92a",
+        "reference": "source_reference/local/Phrolova.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Phrolova.py",
+        "sha256": "700f01dd92c24bd45ac24b74791dbdcbff1c7d6a0a36f46a55d06edd76326b00",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Phrolova.py.txt"
+      }
     },
     {
       "character": "Augusta",
-      "native_file": "src/char/AugustaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Augusta.py",
-      "sha256": "b7bcd3d51a63fe062ca77f187a3d34e5dbb5d29aa6d353dafd865527edef4948"
+      "native_file": "src/official/generated/Augusta.cpp",
+      "header_file": "src/char/AugustaOriginal.h",
+      "native_sha256": "8f758a4afc1690b7e05b4d79a98c1f21e3fb03fde26a0ae18f463eea1ef4755e",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Augusta.py",
+      "sha256": "b7bcd3d51a63fe062ca77f187a3d34e5dbb5d29aa6d353dafd865527edef4948",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Augusta.py.txt",
+      "official_methods": 10,
+      "official_statements": 82,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Augusta.py",
+        "sha256": "b7bcd3d51a63fe062ca77f187a3d34e5dbb5d29aa6d353dafd865527edef4948",
+        "reference": "source_reference/local/Augusta.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Augusta.py",
+        "sha256": "b7bcd3d51a63fe062ca77f187a3d34e5dbb5d29aa6d353dafd865527edef4948",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Augusta.py.txt"
+      }
     },
     {
       "character": "Iuno",
-      "native_file": "src/char/IunoOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Iuno.py",
-      "sha256": "b25c5bb96ad7d5461036efe3af508e400ce84b859e7f2da8339b77bca38b676c"
+      "native_file": "src/official/generated/Iuno.cpp",
+      "header_file": "src/char/IunoOriginal.h",
+      "native_sha256": "8b20376ba34093fb0b3cd331ab31f00682a985ec0381088495867656772dda2a",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Iuno.py",
+      "sha256": "b25c5bb96ad7d5461036efe3af508e400ce84b859e7f2da8339b77bca38b676c",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Iuno.py.txt",
+      "official_methods": 7,
+      "official_statements": 53,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Iuno.py",
+        "sha256": "b25c5bb96ad7d5461036efe3af508e400ce84b859e7f2da8339b77bca38b676c",
+        "reference": "source_reference/local/Iuno.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Iuno.py",
+        "sha256": "b25c5bb96ad7d5461036efe3af508e400ce84b859e7f2da8339b77bca38b676c",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Iuno.py.txt"
+      }
     },
     {
       "character": "Galbrena",
-      "native_file": "src/char/Galbrena.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Galbrena.py",
-      "sha256": "fc7aba89e26bd4550d155da6592bb4e99ee779ade1f95033630631ff5ae0949a"
+      "native_file": "src/official/generated/Galbrena.cpp",
+      "header_file": "src/char/Galbrena.h",
+      "native_sha256": "a0d5a5ed9e5a258a532d705b58abe25eaa6d47e2921cfa40bb433fe4d33bc8da",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Galbrena.py",
+      "sha256": "fc7aba89e26bd4550d155da6592bb4e99ee779ade1f95033630631ff5ae0949a",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Galbrena.py.txt",
+      "official_methods": 3,
+      "official_statements": 38,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Galbrena.py",
+        "sha256": "fc7aba89e26bd4550d155da6592bb4e99ee779ade1f95033630631ff5ae0949a",
+        "reference": "source_reference/local/Galbrena.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Galbrena.py",
+        "sha256": "fc7aba89e26bd4550d155da6592bb4e99ee779ade1f95033630631ff5ae0949a",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Galbrena.py.txt"
+      }
     },
     {
       "character": "Qiuyuan",
-      "native_file": "src/char/Qiuyuan.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Qiuyuan.py",
-      "sha256": "34b5f8e2899e4dfeba3fdd1b16ee2d6fe4a66ac55cbafae861dd4fb9d946e014"
+      "native_file": "src/official/generated/Qiuyuan.cpp",
+      "header_file": "src/char/Qiuyuan.h",
+      "native_sha256": "a5486e29a4bcb749a84d00fe701127cf894874f4c5b3dd2926ad8e37b6ecbf38",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Qiuyuan.py",
+      "sha256": "34b5f8e2899e4dfeba3fdd1b16ee2d6fe4a66ac55cbafae861dd4fb9d946e014",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Qiuyuan.py.txt",
+      "official_methods": 2,
+      "official_statements": 25,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Qiuyuan.py",
+        "sha256": "34b5f8e2899e4dfeba3fdd1b16ee2d6fe4a66ac55cbafae861dd4fb9d946e014",
+        "reference": "source_reference/local/Qiuyuan.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Qiuyuan.py",
+        "sha256": "34b5f8e2899e4dfeba3fdd1b16ee2d6fe4a66ac55cbafae861dd4fb9d946e014",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Qiuyuan.py.txt"
+      }
     },
     {
       "character": "Chisa",
-      "native_file": "src/char/ChisaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Chisa.py",
-      "sha256": "b292bb1a6ada69bc29df61ce8f75306d068c5b8358b21cd424552720bb74091d"
+      "native_file": "src/official/generated/Chisa.cpp",
+      "header_file": "src/char/ChisaOriginal.h",
+      "native_sha256": "fca6df75e338addc7302f748c5f47831df4464b77fe41d4d968b2bea6cff1fc2",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Chisa.py",
+      "sha256": "b292bb1a6ada69bc29df61ce8f75306d068c5b8358b21cd424552720bb74091d",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Chisa.py.txt",
+      "official_methods": 7,
+      "official_statements": 66,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Chisa.py",
+        "sha256": "b292bb1a6ada69bc29df61ce8f75306d068c5b8358b21cd424552720bb74091d",
+        "reference": "source_reference/local/Chisa.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Chisa.py",
+        "sha256": "b292bb1a6ada69bc29df61ce8f75306d068c5b8358b21cd424552720bb74091d",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Chisa.py.txt"
+      }
     },
     {
       "character": "Denia",
-      "native_file": "src/char/DeniaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Denia.py",
-      "sha256": "9aa04c01c32ea2d8a4f23336f0a8d87a14f85130b76a9a406db501af7f8ec9fb"
+      "native_file": "src/official/generated/Denia.cpp",
+      "header_file": "src/char/DeniaOriginal.h",
+      "native_sha256": "8f97b0eada2b4449c31780cb50e7c083ce43f29dc8561305ccf0c82675214a0b",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Denia.py",
+      "sha256": "9aa04c01c32ea2d8a4f23336f0a8d87a14f85130b76a9a406db501af7f8ec9fb",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Denia.py.txt",
+      "official_methods": 4,
+      "official_statements": 44,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Denia.py",
+        "sha256": "9aa04c01c32ea2d8a4f23336f0a8d87a14f85130b76a9a406db501af7f8ec9fb",
+        "reference": "source_reference/local/Denia.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Denia.py",
+        "sha256": "9aa04c01c32ea2d8a4f23336f0a8d87a14f85130b76a9a406db501af7f8ec9fb",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Denia.py.txt"
+      }
     },
     {
       "character": "Douling",
-      "native_file": "src/char/DoulingOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Douling.py",
-      "sha256": "d95db938cd5de4f578c8db8263feaf332e858d679e4c19300b20e85454d0de94"
+      "native_file": "src/official/generated/Douling.cpp",
+      "header_file": "src/char/DoulingOriginal.h",
+      "native_sha256": "955e1ed565bf9c8cb837c02e23e7983d021c65c5f754e0d3e30dad35670d4d91",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Douling.py",
+      "sha256": "d95db938cd5de4f578c8db8263feaf332e858d679e4c19300b20e85454d0de94",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Douling.py.txt",
+      "official_methods": 8,
+      "official_statements": 65,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Douling.py",
+        "sha256": "d95db938cd5de4f578c8db8263feaf332e858d679e4c19300b20e85454d0de94",
+        "reference": "source_reference/local/Douling.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Douling.py",
+        "sha256": "d95db938cd5de4f578c8db8263feaf332e858d679e4c19300b20e85454d0de94",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Douling.py.txt"
+      }
     },
     {
       "character": "Linnai",
-      "native_file": "src/char/LinnaiOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Linnai.py",
-      "sha256": "b73576f00e90bf1044f7febb9be7458422cc0f9f1da96a257f42a771b721b67a"
+      "native_file": "src/official/generated/Linnai.cpp",
+      "header_file": "src/char/LinnaiOriginal.h",
+      "native_sha256": "a22dbcf4cc77cfcd261e8f172ab30e1ea6366d8c1be1a01bfcb13fb2b7c52161",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Linnai.py",
+      "sha256": "e342182e4b01460ed83b1385aacbdf431455c0f63f5bcfe6466c46410a0d221c",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Linnai.py.txt",
+      "official_methods": 12,
+      "official_statements": 79,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Linnai.py",
+        "sha256": "b73576f00e90bf1044f7febb9be7458422cc0f9f1da96a257f42a771b721b67a",
+        "reference": "source_reference/local/Linnai.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Linnai.py",
+        "sha256": "e342182e4b01460ed83b1385aacbdf431455c0f63f5bcfe6466c46410a0d221c",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Linnai.py.txt"
+      }
     },
     {
       "character": "Mornye",
-      "native_file": "src/char/MornyeOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Mornye.py",
-      "sha256": "af8ccf62850004d51a8e8f4b0ca1dcc640b8e86597c3013585de055aeddd2de4"
+      "native_file": "src/official/generated/Mornye.cpp",
+      "header_file": "src/char/MornyeOriginal.h",
+      "native_sha256": "4ca491f8e3e9cf3e04b9265ef247e09dc0de524ccea8ee1e04f2d1ff61b68082",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Mornye.py",
+      "sha256": "a86e660ab87c7424366127b0e3163ec8351da796e3c123da50dafafe2b76bd24",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Mornye.py.txt",
+      "official_methods": 9,
+      "official_statements": 75,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Mornye.py",
+        "sha256": "af8ccf62850004d51a8e8f4b0ca1dcc640b8e86597c3013585de055aeddd2de4",
+        "reference": "source_reference/local/Mornye.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Mornye.py",
+        "sha256": "a86e660ab87c7424366127b0e3163ec8351da796e3c123da50dafafe2b76bd24",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Mornye.py.txt"
+      }
     },
     {
       "character": "Aemeath",
-      "native_file": "src/char/AemeathOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Aemeath.py",
-      "sha256": "32416a70a583ac9245f0a08951b33eafe50910cd37e0bf3a53b663c09927f1a6"
+      "native_file": "src/official/generated/Aemeath.cpp",
+      "header_file": "src/char/AemeathOriginal.h",
+      "native_sha256": "7e9bb46f0eed1d0fb0e0ee96b73550d9491c7756bbf8cc2abfbe021b41290757",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Aemeath.py",
+      "sha256": "dd48cbf8eb3ef0a2a43b21fc65b51a794706dc5fa9198b1dc2166328bf604db8",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Aemeath.py.txt",
+      "official_methods": 13,
+      "official_statements": 73,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Aemeath.py",
+        "sha256": "32416a70a583ac9245f0a08951b33eafe50910cd37e0bf3a53b663c09927f1a6",
+        "reference": "source_reference/local/Aemeath.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Aemeath.py",
+        "sha256": "dd48cbf8eb3ef0a2a43b21fc65b51a794706dc5fa9198b1dc2166328bf604db8",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Aemeath.py.txt"
+      }
     },
     {
       "character": "Xigelika",
-      "native_file": "src/char/XigelikaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Xigelika.py",
-      "sha256": "41e04be60c4561156634404f0158566d6be0ac84fa01aea5107ec02ea28b231a"
+      "native_file": "src/official/generated/Xigelika.cpp",
+      "header_file": "src/char/XigelikaOriginal.h",
+      "native_sha256": "3943f05716e2c18bd29c035396fcbe85193bc15fee0fff794df09abaf7847e84",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Xigelika.py",
+      "sha256": "41e04be60c4561156634404f0158566d6be0ac84fa01aea5107ec02ea28b231a",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Xigelika.py.txt",
+      "official_methods": 8,
+      "official_statements": 58,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Xigelika.py",
+        "sha256": "41e04be60c4561156634404f0158566d6be0ac84fa01aea5107ec02ea28b231a",
+        "reference": "source_reference/local/Xigelika.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Xigelika.py",
+        "sha256": "41e04be60c4561156634404f0158566d6be0ac84fa01aea5107ec02ea28b231a",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Xigelika.py.txt"
+      }
     },
     {
       "character": "Luhesi",
-      "native_file": "src/char/LuhesiOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Luhesi.py",
-      "sha256": "d3e77331aa2c98c16036d0ed7ab65d71c96a4de4b6a7e31570eff4e5b3fc016e"
+      "native_file": "src/official/generated/Luhesi.cpp",
+      "header_file": "src/char/LuhesiOriginal.h",
+      "native_sha256": "e25eb4591cb9351ac2c5acf33cef8c11b2fd64e7be5884c72fcd21031b87c8d8",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Luhesi.py",
+      "sha256": "d3e77331aa2c98c16036d0ed7ab65d71c96a4de4b6a7e31570eff4e5b3fc016e",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Luhesi.py.txt",
+      "official_methods": 9,
+      "official_statements": 62,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Luhesi.py",
+        "sha256": "d3e77331aa2c98c16036d0ed7ab65d71c96a4de4b6a7e31570eff4e5b3fc016e",
+        "reference": "source_reference/local/Luhesi.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Luhesi.py",
+        "sha256": "d3e77331aa2c98c16036d0ed7ab65d71c96a4de4b6a7e31570eff4e5b3fc016e",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Luhesi.py.txt"
+      }
     },
     {
       "character": "Hiyuki",
-      "native_file": "src/char/HiyukiOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Hiyuki.py",
-      "sha256": "66fbe3804e12d37902546bacad4581b0283fd952b6c9d8605d9ca87a363e788e"
+      "native_file": "src/official/generated/Hiyuki.cpp",
+      "header_file": "src/char/HiyukiOriginal.h",
+      "native_sha256": "b1f42a42ff44d7075901333752f87a6fee4111a3d490e2e980a3fcb06efbc644",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Hiyuki.py",
+      "sha256": "66fbe3804e12d37902546bacad4581b0283fd952b6c9d8605d9ca87a363e788e",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Hiyuki.py.txt",
+      "official_methods": 9,
+      "official_statements": 114,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Hiyuki.py",
+        "sha256": "66fbe3804e12d37902546bacad4581b0283fd952b6c9d8605d9ca87a363e788e",
+        "reference": "source_reference/local/Hiyuki.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Hiyuki.py",
+        "sha256": "66fbe3804e12d37902546bacad4581b0283fd952b6c9d8605d9ca87a363e788e",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Hiyuki.py.txt"
+      }
     },
     {
       "character": "Lucilla",
-      "native_file": "src/char/LucillaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lucilla.py",
-      "sha256": "81aab1deac4e03db9e97d7eaa52f0bc9adf93c59f43e74651d6725f524f8b9ab"
+      "native_file": "src/official/generated/Lucilla.cpp",
+      "header_file": "src/char/LucillaOriginal.h",
+      "native_sha256": "c0563cddf3c1bc53002a0f361ccdb7367844c8687f9811ff820b80a10f62d5b0",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Lucilla.py",
+      "sha256": "81aab1deac4e03db9e97d7eaa52f0bc9adf93c59f43e74651d6725f524f8b9ab",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Lucilla.py.txt",
+      "official_methods": 9,
+      "official_statements": 71,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lucilla.py",
+        "sha256": "81aab1deac4e03db9e97d7eaa52f0bc9adf93c59f43e74651d6725f524f8b9ab",
+        "reference": "source_reference/local/Lucilla.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Lucilla.py",
+        "sha256": "81aab1deac4e03db9e97d7eaa52f0bc9adf93c59f43e74651d6725f524f8b9ab",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Lucilla.py.txt"
+      }
     },
     {
       "character": "Lucy",
-      "native_file": "src/char/LucyOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lucy.py",
-      "sha256": "cb4bc26a2c72b77feaeb945ea17b1fad908e76e2cb081f65f581978d2ec4e4e2"
+      "native_file": "src/official/generated/Lucy.cpp",
+      "header_file": "src/char/LucyOriginal.h",
+      "native_sha256": "87f6a9d3ea9149b6d209f343b495d5a729c95c4c347a5733de913fde4499f170",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Lucy.py",
+      "sha256": "cb4bc26a2c72b77feaeb945ea17b1fad908e76e2cb081f65f581978d2ec4e4e2",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Lucy.py.txt",
+      "official_methods": 5,
+      "official_statements": 84,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Lucy.py",
+        "sha256": "cb4bc26a2c72b77feaeb945ea17b1fad908e76e2cb081f65f581978d2ec4e4e2",
+        "reference": "source_reference/local/Lucy.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Lucy.py",
+        "sha256": "cb4bc26a2c72b77feaeb945ea17b1fad908e76e2cb081f65f581978d2ec4e4e2",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Lucy.py.txt"
+      }
     },
     {
       "character": "Rebecca",
-      "native_file": "src/char/RebeccaOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Rebecca.py",
-      "sha256": "eecf6992571363f8d0f0fb1d90f0aeffd4450b18b030e37040275761344de7d4"
+      "native_file": "src/official/generated/Rebecca.cpp",
+      "header_file": "src/char/RebeccaOriginal.h",
+      "native_sha256": "f8e076e320a0a2cc0e43bcd34b6b59f365557a6d4d8902e5d8ce00967207bd23",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Rebecca.py",
+      "sha256": "eecf6992571363f8d0f0fb1d90f0aeffd4450b18b030e37040275761344de7d4",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Rebecca.py.txt",
+      "official_methods": 7,
+      "official_statements": 60,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Rebecca.py",
+        "sha256": "eecf6992571363f8d0f0fb1d90f0aeffd4450b18b030e37040275761344de7d4",
+        "reference": "source_reference/local/Rebecca.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Rebecca.py",
+        "sha256": "eecf6992571363f8d0f0fb1d90f0aeffd4450b18b030e37040275761344de7d4",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Rebecca.py.txt"
+      }
     },
     {
       "character": "Qingxiao",
-      "native_file": "src/char/QingxiaoOriginal.h",
-      "source_kind": "local",
-      "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Qingxiao.py",
-      "sha256": "51cfc8e55b0d3b753feb1294fc6c17eb79d986ca02ebc8b06d7af0edabd0f268"
+      "native_file": "src/official/generated/Qingxiao.cpp",
+      "header_file": "src/char/QingxiaoOriginal.h",
+      "native_sha256": "f52b45312455d9483fa5627e9619f2d813891c1473c5283cb575ab37ebd9fea2",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Qingxiao.py",
+      "sha256": "51cfc8e55b0d3b753feb1294fc6c17eb79d986ca02ebc8b06d7af0edabd0f268",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Qingxiao.py.txt",
+      "official_methods": 6,
+      "official_statements": 58,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\Qingxiao.py",
+        "sha256": "51cfc8e55b0d3b753feb1294fc6c17eb79d986ca02ebc8b06d7af0edabd0f268",
+        "reference": "source_reference/local/Qingxiao.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Qingxiao.py",
+        "sha256": "51cfc8e55b0d3b753feb1294fc6c17eb79d986ca02ebc8b06d7af0edabd0f268",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Qingxiao.py.txt"
+      }
     },
     {
       "character": "Hsin",
-      "native_file": "src/char/HsinOriginal.h",
+      "native_file": "src/official/generated/Hsin.cpp",
+      "header_file": "src/char/HsinOriginal.h",
+      "native_sha256": "909a6142054825ea57f613f99bd5e7940b6ac27397d5d5743ecde1c36fabc797",
       "source_kind": "github",
-      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/36c557437de745cdef506bcfa148569d3e09cfcf/src/char/Hsin.py",
-      "sha256": "4bef74d4e4d5ecdcac77e1ec3ff14eaa690aba217e9e316c5badfdc71530a26f",
-      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Hsin.py",
+      "sha256": "25fa06aae7862293aa2f015d280435b845689df3a6167fe704330b9d218b2369",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/Hsin.py.txt",
+      "official_methods": 11,
+      "official_statements": 199,
+      "previous_origin": {
+        "source_kind": "github",
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/f5f38c8d9e2b7f7e91edad77bd5fab14df3f162d/src/char/Hsin.py",
+        "sha256": "4bef74d4e4d5ecdcac77e1ec3ff14eaa690aba217e9e316c5badfdc71530a26f",
+        "reference": "source_reference/upstream/v3.7.3/src/char/Hsin.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/Hsin.py",
+        "sha256": "25fa06aae7862293aa2f015d280435b845689df3a6167fe704330b9d218b2369",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/Hsin.py.txt"
+      }
+    },
+    {
+      "character": "JingRan",
+      "native_file": "src/official/generated/JingRan.cpp",
+      "header_file": "src/char/JingRanOriginal.h",
+      "native_sha256": "de4e04639c9a7acde555eff92523ad38a4479f207d0677e51e7ba23cd7d3702f",
+      "source_kind": "github",
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/JingRan.py",
+      "sha256": "6129226b23446500f27e273881ef2d4ab6f150af913860769c65f67d10526255",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/JingRan.py.txt",
+      "official_methods": 1,
+      "official_statements": 20,
+      "previous_origin": {
+        "source_kind": "local",
+        "source": "C:\\ok-ww222\\data\\apps\\ok-ww\\working\\src\\char\\JingRan.py",
+        "sha256": "6129226b23446500f27e273881ef2d4ab6f150af913860769c65f67d10526255",
+        "reference": "source_reference/local/JingRan.py.txt"
+      },
+      "previous_official_source": {
+        "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/JingRan.py",
+        "sha256": "6129226b23446500f27e273881ef2d4ab6f150af913860769c65f67d10526255",
+        "reference": "source_reference/upstream/master-0b37b5b/src/char/JingRan.py.txt"
+      }
     }
   ],
-  "hsin_features": [
+  "common": [
     {
-      "name": "char_hsin",
-      "template": "hsin_282_183.png",
-      "source_image": "images/35.png",
-      "bbox": [
-        3552,
-        442,
-        77,
-        86
-      ],
-      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/BaseChar.py",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/BaseChar.py.txt",
+      "sha256": "d9b1268ffb3293c235508ad43926f2679c2dba26259210709f0c2bcff21d5ffb"
     },
     {
-      "name": "hsin_lib1",
-      "template": "hsin_283_185.png",
-      "source_image": "images/6.png",
-      "bbox": [
-        3588,
-        1894,
-        83,
-        80
-      ],
-      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/char/CharFactory.py",
+      "reference": "source_reference/upstream/master-0b37b5b/src/char/CharFactory.py.txt",
+      "sha256": "f4b4bc2c21a6ecb2dcc49ad51dd2a7ce641e4cdd3622113a236cd4890f0b2ace"
     },
     {
-      "name": "hsin_h1",
-      "template": "hsin_284_188.png",
-      "source_image": "images/6.png",
-      "bbox": [
-        2826,
-        1893,
-        82,
-        79
-      ],
-      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/Labels.py",
+      "reference": "source_reference/upstream/master-0b37b5b/src/Labels.py.txt",
+      "sha256": "a5e445fff9ae21f680e7a214b4c4a1441a418bd441485f50828c6af42dd7f5f0"
     },
     {
-      "name": "hsin_h2",
-      "template": "hsin_285_189.png",
-      "source_image": "images/7.png",
-      "bbox": [
-        2825,
-        1890,
-        87,
-        79
-      ],
-      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/task/BaseCombatTask.py",
+      "reference": "source_reference/upstream/master-0b37b5b/src/task/BaseCombatTask.py.txt",
+      "sha256": "fb611a22839a6d45840e3188c3bfeaf0a3967ac669500726af849c4750cec813"
     },
     {
-      "name": "hsin_lib2",
-      "template": "hsin_286_190.png",
-      "source_image": "images/7.png",
-      "bbox": [
-        3587,
-        1891,
-        90,
-        93
-      ],
-      "commit": "36c557437de745cdef506bcfa148569d3e09cfcf"
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/task/BaseWWTask.py",
+      "reference": "source_reference/upstream/master-0b37b5b/src/task/BaseWWTask.py.txt",
+      "sha256": "f3a8eef7d4c9677358005d5264a57fbb02e1cd85d2a7b2010e5218a68c4ff105"
+    },
+    {
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/task/AutoCombatTask.py",
+      "reference": "source_reference/upstream/master-0b37b5b/src/task/AutoCombatTask.py.txt",
+      "sha256": "d32904cffcb81ada4308addd062211000cc0e441701837ee7dc3090661b44e34"
+    },
+    {
+      "source": "https://github.com/ok-oldking/ok-wuthering-waves/blob/0b37b5b79e771297536ff1155db1c23131297558/src/combat/CombatCheck.py",
+      "reference": "source_reference/upstream/master-0b37b5b/src/combat/CombatCheck.py.txt",
+      "sha256": "fb9833c4a9ea5fd5c6b86484c653291c8c36e661be1e899c80d9f5dde5dd2a92"
     }
-  ]
+  ],
+  "translation": {
+    "runtime": "native C++17; no Python interpreter",
+    "role_classes": 52,
+    "role_methods": 412,
+    "base_methods": 88,
+    "unmapped_ast": [],
+    "coverage": "evidence/official-translation-coverage-20261021.json",
+    "task_coverage": "evidence/official-task-coverage-20261021.json"
+  },
+  "historical_manifest": "source_reference/history/SOURCES-before-v030.json"
 }

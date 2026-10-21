@@ -1,19 +1,11 @@
-# 修改與貢獻
+# 開發
 
-角色手法以 SOURCES.md 的原碼為對照。修改時保留技能順序、辨識條件、等待時間與狀態更新的對應；若刻意改變手法，請在變更說明中寫清楚。
+正式入口為 `build.cmd`，會編譯全部原生角色流程與 GUI。`build.cmd native` 僅編譯核心，`build.cmd gui` 僅編譯 GUI。
 
-## 常用入口
+現行流程檔位於 `src/official/generated`，來源清單為 SOURCES.json。角色方法保留官方原名與來源行號，請同時核對角色原文及 BaseChar。
 
-- 修改角色：`src/char/<角色>.h`；切人優先序也在對應角色檔。
-- 共用技能與等待：`src/char/OriginalBaseChar.h`。
-- 戰鬥監看及切人確認：`src/task/BaseCombatTask.h`。
-- 辨識圖片與 ROI：`resource/image/original`、`src/combat/OriginalBoxes.h`、`OriginalTemplates.h`。
-- 新增角色時更新 `CharFactory.h`、`OriginalCharFactory.h`、Pipeline 與 SOURCES.md／SOURCES.json。
+開發用來源轉換：`python scripts/official_transpile.py`。未知語法會造成失敗。
 
-`source_reference` 保存來源的原始位元組，請勿因格式整理而修改。新增來源時記錄固定 commit 或對照原始檔雜湊。
+現行離線檢查：`powershell -File scripts/build-official.ps1 -Test`。官方 Python 對照工具需要來源 requirements.txt 所列的 NumPy／OpenCV；不會向遊戲送出輸入。`scripts/verify_official_comparison.py` 核對原始 JSONL、角色狀態、方法涵蓋與來源雜湊。
 
-## 編譯
-
-先執行 `scripts/setup-runtime.ps1`，再執行 `build.cmd`。SDK 標頭隨原碼保存。完整編譯會輸出核心和 GUI；`build.cmd native` 僅輸出核心。
-
-回報戰鬥問題時，提供角色隊伍、解析度、預期的原碼步驟、实际觀察及相關時間附近的紀錄。請明確區分離線檢查與遊戲實戰結果。
+v0.3.0 之前的靜態測試與歷史報告屬於當時版本，現行結果以 `evidence/official-comparison-20261021.json` 為準。實戰紀錄需保留版本、開始時間、隊伍與完整錯誤前後文。

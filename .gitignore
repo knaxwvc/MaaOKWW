@@ -14,10 +14,12 @@ dist/
 config.ini
 configs/
 backup/
+backups/
 logs/
 *.log
 stop.flag
 native_capture.png
+debug/
 DELIVERY.json
 
 # Editor and temporary files

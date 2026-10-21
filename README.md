@@ -2,31 +2,30 @@
 
 [![Windows build](https://github.com/knaxwvc/MaaOKWW/actions/workflows/windows.yml/badge.svg)](https://github.com/knaxwvc/MaaOKWW/actions/workflows/windows.yml)
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
-![Platform](https://img.shields.io/badge/Platform-Windows%20x64-blue)
 
-以 **C++ 與 MaaFramework** 為執行核心的鳴潮戰鬥 BOT。角色手法移植自 OK-WW，涵蓋目標與血條監看、鎖定、技能、普通攻擊、重擊、協奏及切人。
+鳴潮自動戰鬥工具，執行主體為 **C++／MaaFramework v5.14.0**。
 
-## 角色與來源
+v0.3.0 將 **52 名角色、412 個角色方法及 88 個 BaseChar 方法** 全部依官方 master `0b37b5b79e771297536ff1155db1c23131297558` 重新轉寫，並接入官方換人流程及最新的暫停／重啟清理。所有角色方法保留官方條件、手法、時間參數、迴圈、回呼與來源行號。
 
-共 **51 名角色**，每名保留獨立、可修改的 C++ 手法檔：
+## 啟動
 
-- **50 名既有角色**：來自 `C:\ok-ww222\data\apps\ok-ww\working\src\char` 本地原碼。
-- **心（Hsin）**：來自 [OK-WW 的 Hsin.py](https://github.com/ok-oldking/ok-wuthering-waves/blob/36c557437de745cdef506bcfa148569d3e09cfcf/src/char/Hsin.py)，固定 commit `36c557437de745cdef506bcfa148569d3e09cfcf`。
+1. 從 [v0.3.0 發布頁](https://github.com/knaxwvc/MaaOKWW/releases/tag/v0.3.0) 下載 `MaaOKWW-v0.3.0-win-x64.zip` 並完整解壓。
+2. 關閉舊版戰鬥視窗，雙擊 `啟動戰鬥.bat`。
+3. 在遊戲中組隊，按 F10 開始／暫停，F11 停止。
 
-[SOURCES.md](SOURCES.md) 列出全部角色與手法對應；[SOURCES.json](SOURCES.json) 記錄原始檔 SHA256。各角色檔開頭也保留來源。`source_reference/*.py.txt` 是原碼對照副本；執行 BOT 不使用 Python。
+自動辨識一／二／三人隊伍；單人可戰鬥，雙人與三人維持隊伍輪轉。輸入及截圖使用 Maa 的背景接口。
 
-## 下載與使用
+GUI 保留戰鬥設定、按鍵設定及戰鬥紀錄。「開啟角色原始碼」會開啟完整 C++ 流程資料夾。LOG 位於同資料夾 `native_run.log`，新版識別為 `20261021-okww-official-all52-30`。
 
-1. 從 [Releases](https://github.com/knaxwvc/MaaOKWW/releases) 下載 `MaaOKWW-v0.1.0-win-x64.zip` 並完整解壓。
-2. 自行開啟鳴潮。
-3. 雙擊 `啟動戰鬥.bat`，接受 Windows 權限提示。
-4. 選擇自動辨識隊伍，確認技能鍵，按「開始」。
+## 原碼與編譯
 
-**F10** 開始／停止，**F11** 停止。設定保存於 `config.ini`，戰鬥紀錄保存於 `native_run.log`。核心以 MaaFramework 的 Win32 背景截圖與輸入持續監看戰鬥。
+- 每名角色完整流程：`src/official/generated/角色名.cpp`。
+- 共用方法：`BaseChar.cpp`、`BaseCombatTask.cpp`。
+- 固定來源、逐檔 SHA256 與方法數：[SOURCES.md](SOURCES.md)、`SOURCES.json`。
+- 修改 C++ 後執行 `build.cmd`。需要 Visual Studio C++ Build Tools；標準編譯及執行不需要 Python。
+- `scripts/official_transpile.py` 是開發用的原文轉換器；執行它會依隨附官方原文重新產生 C++，覆寫產生檔中的手動修改。
 
-## 從原碼編譯
-
-需求：Windows x64、Git、Visual Studio 2022（含「使用 C++ 的桌面開發」或對應 Build Tools）。
+首次從 GitHub 原碼編譯與啟動：
 
 ```powershell
 git clone https://github.com/knaxwvc/MaaOKWW.git
@@ -37,33 +36,14 @@ Copy-Item config.example.ini config.ini
 .\啟動戰鬥.bat
 ```
 
-執行庫固定為官方 **MaaFramework v5.14.0**，安裝腳本先核對發行 ZIP 的 SHA256，再提取 DLL。原始辨識圖、OCR 模型、SDK 標頭與 Pipeline 隨原碼保留。
+執行庫安裝腳本固定 MaaFramework v5.14.0 並核對官方 ZIP 的 SHA256。詳細結構見 [架構](docs/ARCHITECTURE.md)，修改及離線對照方式見 [開發說明](CONTRIBUTING.md)。
 
-`build.cmd native` 只編譯核心。`scripts/package.ps1` 可將編譯結果、執行庫、辨識資源與對應原碼打包成 Windows ZIP。GitHub Actions 會執行 Windows 編譯並提供打包下載。
+## 本版核對
 
-## 專案結構
+156 組角色流程、10 組單人／雙人流程及 18 組頻譜／遮罩結果，均與直接執行官方原文一致；5 組等待旗標還原檢查通過。286 份官方辨識圖片的裁切範圍及像素一致。完整範圍及中斷情境見 [移植紀錄](docs/OFFICIAL_ALL52_20261021.md)。
 
-| 路徑 | 用途 |
-|---|---|
-| `src/char/` | 每名角色的手法、狀態與切人優先序 |
-| `src/char/OriginalBaseChar.h` | 共用技能、重擊、等待、普通點擊 |
-| `src/task/BaseCombatTask.h` | 戰鬥監看、Maa 輸入、辨識與切人確認 |
-| `src/combat/` | Maa 模板辨識／OCR，以及原碼的血條、協奏與能量判斷 |
-| `resource/image/original/` | 286 張原始解析度模板；本地 281 張、心 5 張 |
-| `resource/pipeline/` | Maa Pipeline 節點及辨識設定 |
-| `resource/model/` | 離線 OCR 模型 |
-| `source_reference/` | 50 名本地角色與心的原始手法副本 |
-| `scripts/` | 執行庫安裝與發行打包 |
+`live_combat_verified=false`：本版已編譯並完成離線對照，實戰由使用者驗收並提供 LOG。
 
-更多修改說明見 [架構文件](docs/ARCHITECTURE.md) 與 [CONTRIBUTING.md](CONTRIBUTING.md)。
+## 授權
 
-## 目前狀態
-
-目前完成 Windows 原生編譯、來源完整性檢查及必要離線辨識。本次 51 名角色版本尚未取得新版遊戲實戰紀錄。詳見 [驗證範圍](docs/VALIDATION.md)；實際問題可透過 [Issues](https://github.com/knaxwvc/MaaOKWW/issues) 回報。
-
-## 授權與上游
-
-本專案保留 OK-WW 的 [AGPL-3.0](LICENSE) 授權與 MaaFramework 的 LGPL-3.0 授權；授權文字保存於 `licenses/`。上游與第三方來源見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
-
-- [OK-WW](https://github.com/ok-oldking/ok-wuthering-waves)
-- [MaaFramework](https://github.com/MaaXYZ/MaaFramework)
+本專案依 [AGPL-3.0](LICENSE) 發布；[OK-WW](https://github.com/ok-oldking/ok-wuthering-waves) 原碼、[MaaFramework](https://github.com/MaaXYZ/MaaFramework) 與第三方元件的來源及授權見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 及 `licenses/`。本工具為獨立移植版本，非 OK-WW 或 MaaFramework 官方發行。
