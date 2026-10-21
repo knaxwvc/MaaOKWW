@@ -6,6 +6,9 @@
 struct CombatConfig {
     bool auto_target=true,use_liberation=true,check_levitator=true,switch_healer=true;
     bool chisa_dps=false,iuno_c6=false,open_world=true;
+    bool hsin_unison=false;
+    bool aemeath_mech_intro=false,aemeath_s1=false;
+    bool cartethyia_low_erosion=false,hiyuki_extended=false;
     int resonance='E',echo='Q',liberation='R',tool='T',execution='F';
     int team=0;
     static int read_key(const wchar_t* key,int fallback,const std::filesystem::path& path) {
@@ -25,6 +28,11 @@ struct CombatConfig {
         c.open_world=GetPrivateProfileIntW(L"Combat",L"OpenWorld",1,path.c_str())!=0;
         c.chisa_dps=GetPrivateProfileIntW(L"Characters",L"ChisaDPS",0,path.c_str())!=0;
         c.iuno_c6=GetPrivateProfileIntW(L"Characters",L"IunoC6",0,path.c_str())!=0;
+        c.hsin_unison=GetPrivateProfileIntW(L"Characters",L"HsinUnison",0,path.c_str())!=0;
+        c.aemeath_mech_intro=GetPrivateProfileIntW(L"Characters",L"AemeathMechIntro",0,path.c_str())!=0;
+        c.aemeath_s1=GetPrivateProfileIntW(L"Characters",L"AemeathS1",0,path.c_str())!=0;
+        c.cartethyia_low_erosion=GetPrivateProfileIntW(L"Characters",L"CartethyiaLowErosion",0,path.c_str())!=0;
+        c.hiyuki_extended=GetPrivateProfileIntW(L"Characters",L"HiyukiExtended",0,path.c_str())!=0;
         c.team=GetPrivateProfileIntW(L"Combat",L"Team",0,path.c_str());
         c.resonance=read_key(L"Resonance",'E',path);c.echo=read_key(L"Echo",'Q',path);
         c.liberation=read_key(L"Liberation",'R',path);c.tool=read_key(L"Tool",'T',path);c.execution=read_key(L"Execution",'F',path);

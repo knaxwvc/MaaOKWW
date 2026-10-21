@@ -13,6 +13,7 @@
 
 namespace fs = std::filesystem;
 
+#define MAAOKWW_API_HELPER_DEFINED
 template<class F> F api(HMODULE module, const char* name) {
     auto p = GetProcAddress(module, name);
     if (!p) throw std::runtime_error(std::string("Missing Maa API: ") + name);
@@ -24,6 +25,12 @@ struct WindowSearch { HWND hwnd = nullptr; };
 
 #include "task/BaseCombatTask.h"
 #include "combat/OriginalCooldown.h"
+#include "task/MaaNativeAction.h"
+#include "combat/MaaPerformanceProbe.h"
+#include "task/MaaTimerResolution.h"
+#include "task/MaaSessionLog.h"
+#include "combat/MaaGpuInference.h"
+#include "combat/MaaGpuOcrProbe.h"
 
 struct StaticImageController {
     std::vector<unsigned char> encoded;
@@ -58,21 +65,45 @@ BOOL CALLBACK find_game(HWND hwnd, LPARAM value) {
 
 int wmain(int argc, wchar_t** argv) {
     fs::path root = fs::absolute(argv[0]).parent_path();
-    std::ofstream log(root / "native_run.log", std::ios::app);
-    std::cout.rdbuf(log.rdbuf());
-    std::cerr.rdbuf(log.rdbuf());
-    std::cout << std::unitbuf;
-    std::cerr << std::unitbuf;
-    std::cout << "native_session build=20261002-hsin-local-rotations-4 root=" << root.generic_u8string() << '\n';
+    const bool read_only_probe=argc>1 && (wcscmp(argv[1],L"--hud-probe")==0 ||
+        wcscmp(argv[1],L"--performance-probe")==0 || wcscmp(argv[1],L"--cooldown-probe")==0 ||
+        wcscmp(argv[1],L"--probe")==0 || wcscmp(argv[1],L"--roster")==0 ||
+        wcscmp(argv[1],L"--roster-all")==0 || wcscmp(argv[1],L"--target-probe")==0 ||
+        wcscmp(argv[1],L"--ocr-probe")==0 || wcscmp(argv[1],L"--gpu-ocr-probe")==0);
+    std::ofstream log(root / (read_only_probe ? "native_probe.log" : "native_run.log"), std::ios::app);
+    MaaTimestampedLog timestamped_log(log.rdbuf());
+    MaaLogRedirect redirect_log(&timestamped_log);
+    std::cout << std::nounitbuf;
+    std::cerr << std::nounitbuf;
+    std::cerr.tie(nullptr);
+    std::cout << "native_session build=20261021-okww-official-all52-30 pid=" << GetCurrentProcessId()
+              << " mode=" << (read_only_probe ? "probe" : "combat") << " root=" << root.generic_u8string() << '\n' << std::flush;
+    const bool performance_probe=argc>=2 && wcscmp(argv[1],L"--performance-probe")==0;
+    const double poll_before=performance_probe?MaaTimerResolution::poll_sleep_ms():0;
+    MaaTimerResolution timer_resolution;
+    std::cout<<"maa_timer resolution_ms="<<(timer_resolution.enabled()?1:0)
+        <<" background_precision="<<timer_resolution.background_precision()<<'\n'<<std::flush;
+    if(performance_probe)std::cout<<"maa_poll_timer requested_ms=2 before_ms="<<poll_before
+        <<" after_ms="<<MaaTimerResolution::poll_sleep_ms()<<'\n'<<std::flush;
     try {
         if (argc < 2 || argc > 3) {
             std::wcerr << L"Usage: MaaOKWWNative.exe <pipeline-entry> [debug-image]\n";
             return 2;
         }
         fs::path bin = root / "bin";
+        fs::create_directories(bin/"plugins");
         if (!SetDllDirectoryW(bin.c_str())) throw std::runtime_error("SetDllDirectory failed");
         HMODULE dll = LoadLibraryW((bin / "MaaFramework.dll").c_str());
         if (!dll) throw std::runtime_error("MaaFramework.dll load failed");
+        // Recognition details remain available without per-frame debug images.
+        bool debug=false;
+        auto set_global=api<decltype(&MaaGlobalSetOption)>(dll,"MaaGlobalSetOption");
+        set_global(MaaGlobalOption_DebugMode,&debug,sizeof(debug));
+        set_global(MaaGlobalOption_SaveDraw,&debug,sizeof(debug));
+        if(argc>=2 && wcscmp(argv[1],L"--gpu-ocr-probe")==0){
+            const auto diagnostic=(root/"debug"/"ocr-probe").string();
+            set_global(MaaGlobalOption_LogDir,const_cast<char*>(diagnostic.c_str()),diagnostic.size());
+        }
 
         auto ctrl_win = api<decltype(&MaaWin32ControllerCreate)>(dll, "MaaWin32ControllerCreate");
         auto ctrl_custom = api<decltype(&MaaCustomControllerCreate)>(dll, "MaaCustomControllerCreate");
@@ -130,6 +161,7 @@ int wmain(int argc, wchar_t** argv) {
             do {
                 EnumWindows(find_game, reinterpret_cast<LPARAM>(&game));
                 if(game.hwnd)break;
+                if(read_only_probe)throw std::runtime_error("Live game window not found; probe sent no input");
                 if(fs::exists(root/"stop.flag"))return 0;
                 std::this_thread::sleep_for(std::chrono::milliseconds(100));
             }while(!game.hwnd);
@@ -140,6 +172,8 @@ int wmain(int argc, wchar_t** argv) {
             throw std::runtime_error("Maa controller connection failed");
 
         MaaResource* resource = res_create();
+        if(!resource)throw std::runtime_error("Maa resource creation failed");
+        const auto inference=maa_configure_ocr_gpu(root,dll,resource);
         std::string resource_path = (root / "resource").string();
         if (!resource || res_wait(resource, res_bundle(resource, resource_path.c_str())) != MaaStatus_Succeeded)
             throw std::runtime_error("Maa resource load failed");
@@ -198,6 +232,11 @@ int wmain(int argc, wchar_t** argv) {
                           << (team[slot].definition ? team[slot].definition->class_name : "unknown")
                           << " score=" << team[slot].confidence << '\n';
             status = MaaStatus_Succeeded;
+        } else if (entry == "--gpu-ocr-probe") {
+            if(argc!=3)throw std::runtime_error("GPU OCR probe requires a fixed screenshot");
+            status=run_gpu_ocr_probe(root,dll,resource,tasker,controller,inference);
+        } else if (entry == "--performance-probe") {
+            status=run_maa_performance_probe(root,dll,resource,tasker,controller);
         } else if (entry == "--hud-probe") {
             bool raw_size=true;
             if(!api<decltype(&MaaControllerSetOption)>(dll,"MaaControllerSetOption")(
@@ -223,7 +262,9 @@ int wmain(int argc, wchar_t** argv) {
             status = MaaStatus_Succeeded;
         } else if (entry == "--combat-one" || entry == "--combat-one-team1" ||
                    entry == "--combat-one-team2" || entry == "--combat-one-team3") {
-            status = run_combat(root, dll, controller, tasker, entry, argc);
+            status=run_maa_native_action(dll,resource,tasker,[&](MaaContext* context){
+                return run_combat(root,dll,controller,tasker,entry,argc,context)==MaaStatus_Succeeded;
+            });
         } else if (entry == "--target-probe") {
             const int regions[][4] = {{946, 629, 40, 40}, {880, 620, 45, 50}, {817, 624, 45, 45}};
             for (int roi = 0; roi < 3; ++roi) {
@@ -351,6 +392,7 @@ int wmain(int argc, wchar_t** argv) {
         res_destroy(resource);
         ctrl_destroy(controller);
         FreeLibrary(dll);
+        std::cout.flush();
         return status == MaaStatus_Succeeded ? 0 : 1;
     } catch (const std::exception& ex) {
         std::cerr << "Maa native error: " << ex.what() << '\n';

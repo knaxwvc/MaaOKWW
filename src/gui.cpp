@@ -15,6 +15,7 @@ static HFONT normal_font,title_font,heading_font;
 static HBRUSH background_brush,sidebar_brush;
 static PROCESS_INFORMATION child{};
 static bool running=false,closing=false;
+static std::wstring displayed_log;
 
 static HWND control(HWND parent,const wchar_t* type,const wchar_t* text,DWORD style,
     int x,int y,int width,int height,int id=0,HFONT font=nullptr) {
@@ -26,10 +27,12 @@ static bool checked(int i){return SendMessageW(options[i],BM_GETCHECK,0,0)==BST_
 static void set_checked(int i,bool value){SendMessageW(options[i],BM_SETCHECK,value?BST_CHECKED:BST_UNCHECKED,0);}
 static bool save_config() {
     auto path=root/L"config.ini";
-    const wchar_t* section[]={L"Combat",L"Combat",L"Combat",L"Combat",L"Characters",L"Characters",L"Combat"};
-    const wchar_t* names[]={L"AutoTarget",L"UseLiberation",L"CheckLevitator",L"SwitchHealer",L"ChisaDPS",L"IunoC6",L"OpenWorld"};
+    const wchar_t* section[]={L"Combat",L"Combat",L"Combat",L"Combat",L"Characters",L"Characters",L"Combat",L"Characters",L"Characters",L"Characters",L"Characters",L"Characters"};
+    const wchar_t* names[]={L"AutoTarget",L"UseLiberation",L"CheckLevitator",L"SwitchHealer",L"ChisaDPS",L"IunoC6",L"OpenWorld",L"HsinUnison",L"AemeathMechIntro",L"AemeathS1",L"CartethyiaLowErosion",L"HiyukiExtended"};
     bool ok=true;
     for(int i=0;i<7;++i)ok=WritePrivateProfileStringW(section[i],names[i],checked(i)?L"1":L"0",path.c_str()) && ok;
+    // Remove the mistaken v0.1.10 fixed-character setting on migration.
+    ok=WritePrivateProfileStringW(L"Combat",L"SingleCharacter",nullptr,path.c_str()) && ok;
     auto team=std::to_wstring(SendMessageW(team_list,CB_GETCURSEL,0,0));
     ok=WritePrivateProfileStringW(L"Combat",L"Team",team.c_str(),path.c_str()) && ok;
     const wchar_t* keys[]={L"Resonance",L"Echo",L"Liberation",L"Tool",L"Execution"};
@@ -61,7 +64,7 @@ static void launch_battle() {
     if(!CreateProcessW(nullptr,command.data(),nullptr,nullptr,FALSE,CREATE_NO_WINDOW,nullptr,root.c_str(),&startup,&child)) {
         request_stop();MessageBoxW(main_window,L"無法啟動戰鬥程序。請確認同資料夾內有 MaaOKWWNative.exe。",L"啟動失敗",MB_OK|MB_ICONERROR);return;
     }
-    SetWindowTextW(state_label,L"監控中：等待遊戲戰鬥畫面");
+    SetWindowTextW(state_label,L"監控中：自動辨識一／二／三人隊伍");
 }
 static void start_monitoring() {
     if(running || child.hProcess)return;
@@ -76,14 +79,63 @@ static std::wstring recent_log() {
     if(size>14000)in.seekg(size-std::streamoff(14000));else in.seekg(0);
     std::string bytes((std::istreambuf_iterator<char>(in)),std::istreambuf_iterator<char>());
     if(size>14000){auto first=bytes.find('\n');if(first!=std::string::npos)bytes.erase(0,first+1);}
+    // The native process may be writing the final line while this snapshot is read.
+    // Display complete UTF-8 log records only, so a partial character or entry is
+    // never passed to the edit control.
+    const auto last_complete=bytes.rfind('\n');
+    if(last_complete==std::string::npos)return displayed_log.empty()?L"等待紀錄…":displayed_log;
+    bytes.resize(last_complete+1);
     int length=MultiByteToWideChar(CP_UTF8,0,bytes.data(),int(bytes.size()),nullptr,0);
     if(length<=0)return L"等待紀錄…";
     std::wstring wide(size_t(length),L'\0');MultiByteToWideChar(CP_UTF8,0,bytes.data(),int(bytes.size()),wide.data(),length);
-    return wide;
+    // A multiline Win32 EDIT control uses CRLF in its text buffer and in the
+    // character positions accepted by EM_SETSEL. Keep the comparison string in
+    // that same representation; using LF-only offsets makes rolling-tail
+    // deletion drift by one character for every line and leaves old text behind.
+    std::wstring normalized;normalized.reserve(wide.size()+64);
+    for(size_t i=0;i<wide.size();++i){
+        if(wide[i]==L'\r'){
+            normalized+=L"\r\n";
+            if(i+1<wide.size() && wide[i+1]==L'\n')++i;
+        }else if(wide[i]==L'\n')normalized+=L"\r\n";
+        else normalized+=wide[i];
+    }
+    return normalized;
 }
 static void update_status() {
-    const auto log=recent_log();SetWindowTextW(status_box,log.c_str());
-    SendMessageW(status_box,EM_SETSEL,WPARAM(-1),LPARAM(-1));SendMessageW(status_box,EM_SCROLLCARET,0,0);
+    const auto log=recent_log();
+    if(log!=displayed_log){
+        size_t overlap=0,remove=0;
+        if(log.size()>=displayed_log.size() && log.compare(0,displayed_log.size(),displayed_log)==0)
+            overlap=displayed_log.size();
+        else if(!displayed_log.empty()){
+            const auto newline=log.find(L'\n');
+            if(newline!=std::wstring::npos){
+                const auto first_line=newline+1;
+                const auto found=displayed_log.find(log.data(),0,first_line);
+                if(found!=std::wstring::npos && (found==0 || displayed_log[found-1]==L'\n')){
+                    const auto shared=std::min(displayed_log.size()-found,log.size());
+                    if(displayed_log.compare(found,shared,log,0,shared)==0){remove=found;overlap=shared;}
+                }
+            }
+        }
+        if(overlap==0)SetWindowTextW(status_box,log.c_str());
+        else {
+            if(remove){
+                SendMessageW(status_box,EM_SETSEL,0,LPARAM(remove));
+                SendMessageW(status_box,EM_REPLACESEL,FALSE,reinterpret_cast<LPARAM>(L""));
+            }
+            if(overlap<log.size()){
+                const auto addition=log.substr(overlap);
+                const auto end=GetWindowTextLengthW(status_box);
+                SendMessageW(status_box,EM_SETSEL,WPARAM(end),LPARAM(end));
+                SendMessageW(status_box,EM_REPLACESEL,FALSE,reinterpret_cast<LPARAM>(addition.c_str()));
+            }
+        }
+        displayed_log=log;
+        SendMessageW(status_box,EM_SETSEL,WPARAM(-1),LPARAM(-1));
+        SendMessageW(status_box,EM_SCROLLCARET,0,0);
+    }
     if(child.hProcess && WaitForSingleObject(child.hProcess,0)==WAIT_OBJECT_0) {
         DWORD exit_code=1;GetExitCodeProcess(child.hProcess,&exit_code);
         CloseHandle(child.hThread);CloseHandle(child.hProcess);child={};
@@ -108,28 +160,29 @@ static LRESULT CALLBACK window_proc(HWND hwnd,UINT message,WPARAM wparam,LPARAM 
         state_label=control(hwnd,L"STATIC",L"已停止",0,216,67,650,25);
         control(hwnd,L"STATIC",L"隊伍策略",0,216,111,108,28);
         team_list=control(hwnd,L"COMBOBOX",L"",CBS_DROPDOWNLIST|WS_VSCROLL,330,107,535,220,20);
-        const wchar_t* teams[]={L"自動辨識目前隊伍（51 名角色，含心）",L"Aemeath／Linnai／Mornye",L"Hiyuki／Lucilla／Chisa",L"Qingxiao／Denia／ShoreKeeper"};
+        const wchar_t* teams[]={L"自動辨識目前隊伍（52 名角色，含心、景燃）",L"Aemeath／Linnai／Mornye",L"Hiyuki／Lucilla／Chisa",L"Qingxiao／Denia／ShoreKeeper"};
         for(auto item:teams)SendMessageW(team_list,CB_ADDSTRING,0,reinterpret_cast<LPARAM>(item));
         SendMessageW(team_list,CB_SETCURSEL,cfg.team>=0 && cfg.team<=3?cfg.team:0,0);
         control(hwnd,L"STATIC",L"戰鬥設定",0,216,155,450,28,0,heading_font);
-        const wchar_t* labels[]={L"自動鎖定敵人",L"使用共鳴解放",L"檢查漂浮狀態",L"戰鬥前後切換治療角色",L"千咲 DPS 模式",L"尤諾六命模式",L"大世界戰鬥模式"};
+        const wchar_t* labels[]={L"自動鎖定敵人",L"使用共鳴解放",L"檢查漂浮狀態",L"戰鬥前後切換治療角色",L"千咲 DPS 模式",L"尤諾六命模式",L"大世界戰鬥模式",L"心：同奏模式（與遊戲一致）",L"愛彌斯：機甲變奏取消",L"愛彌斯：一鏈開場",L"卡提希婭：低風蝕軸",L"緋雪：延長 Iai 路線"};
         for(int i=0;i<7;++i)options[i]=control(hwnd,L"BUTTON",labels[i],BS_AUTOCHECKBOX,216+(i%2)*330,190+(i/2)*33,310,27,30+i);
-        const bool values[]={cfg.auto_target,cfg.use_liberation,cfg.check_levitator,cfg.switch_healer,cfg.chisa_dps,cfg.iuno_c6,cfg.open_world};
+        const bool values[]={cfg.auto_target,cfg.use_liberation,cfg.check_levitator,cfg.switch_healer,cfg.chisa_dps,cfg.iuno_c6,cfg.open_world,cfg.hsin_unison,cfg.aemeath_mech_intro,cfg.aemeath_s1,cfg.cartethyia_low_erosion,cfg.hiyuki_extended};
         for(int i=0;i<7;++i)set_checked(i,values[i]);
         const wchar_t* key_names[]={L"共鳴技能",L"聲骸",L"共鳴解放",L"工具",L"處決"};
         const int key_values[]={cfg.resonance,cfg.echo,cfg.liberation,cfg.tool,cfg.execution};
         for(int i=0;i<5;++i) {
-            const int x=216+i*130;control(hwnd,L"STATIC",key_names[i],0,x,332,94,23);
-            wchar_t text[2]{wchar_t(key_values[i]),0};key_fields[i]=control(hwnd,L"EDIT",text,ES_CENTER|ES_UPPERCASE,x,357,94,28,50+i);
+            const int x=216+i*130;control(hwnd,L"STATIC",key_names[i],0,x,398,94,23);
+            wchar_t text[2]{wchar_t(key_values[i]),0};key_fields[i]=control(hwnd,L"EDIT",text,ES_CENTER|ES_UPPERCASE,x,423,94,28,50+i);
             SendMessageW(key_fields[i],EM_SETLIMITTEXT,8,0);
         }
-        start_button=control(hwnd,L"BUTTON",L"開始  F10",BS_DEFPUSHBUTTON,216,405,235,42,1);
-        stop_button=control(hwnd,L"BUTTON",L"停止  F11",BS_PUSHBUTTON,465,405,160,42,2);
-        control(hwnd,L"BUTTON",L"保存設定",BS_PUSHBUTTON,639,405,105,42,3);
-        control(hwnd,L"BUTTON",L"開啟紀錄",BS_PUSHBUTTON,758,405,106,42,4);
+        start_button=control(hwnd,L"BUTTON",L"開始  F10",BS_DEFPUSHBUTTON,216,471,235,42,1);
+        stop_button=control(hwnd,L"BUTTON",L"停止  F11",BS_PUSHBUTTON,465,471,160,42,2);
+        control(hwnd,L"BUTTON",L"保存設定",BS_PUSHBUTTON,639,471,105,42,3);
+        control(hwnd,L"BUTTON",L"開啟紀錄",BS_PUSHBUTTON,758,471,106,42,4);
         EnableWindow(stop_button,FALSE);
-        control(hwnd,L"STATIC",L"戰鬥紀錄",0,216,463,450,27,0,heading_font);
-        status_box=control(hwnd,L"EDIT",L"",WS_VSCROLL|ES_MULTILINE|ES_AUTOVSCROLL|ES_READONLY,216,499,648,178);
+        control(hwnd,L"STATIC",L"戰鬥紀錄",0,216,529,450,27,0,heading_font);
+        status_box=control(hwnd,L"EDIT",L"",WS_VSCROLL|ES_MULTILINE|ES_AUTOVSCROLL|ES_READONLY,216,565,648,178);
+        enable_options(true);
         RegisterHotKey(hwnd,1,MOD_NOREPEAT,VK_F10);RegisterHotKey(hwnd,2,MOD_NOREPEAT,VK_F11);
         SetTimer(hwnd,1,100,nullptr);update_status();return 0;
     }
@@ -139,7 +192,7 @@ static LRESULT CALLBACK window_proc(HWND hwnd,UINT message,WPARAM wparam,LPARAM 
         case 2:request_stop();break;
         case 3:if(!running)SetWindowTextW(state_label,save_config()?L"設定已保存":L"設定保存失敗");break;
         case 4:case 11:ShellExecuteW(hwnd,L"open",(root/L"native_run.log").c_str(),nullptr,root.c_str(),SW_SHOWNORMAL);break;
-        case 12:ShellExecuteW(hwnd,L"open",(root/L"src"/L"char").c_str(),nullptr,nullptr,SW_SHOWNORMAL);break;
+        case 12:ShellExecuteW(hwnd,L"open",(root/L"src"/L"official"/L"generated").c_str(),nullptr,nullptr,SW_SHOWNORMAL);break;
         }return 0;
     case WM_HOTKEY:if(wparam==1){if(running)request_stop();else start_monitoring();}else if(wparam==2)request_stop();return 0;
     case WM_TIMER:update_status();return 0;
@@ -166,8 +219,8 @@ int WINAPI wWinMain(HINSTANCE instance,HINSTANCE,PWSTR,int show) {
     heading_font=CreateFontW(-19,0,0,0,FW_SEMIBOLD,FALSE,FALSE,FALSE,DEFAULT_CHARSET,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY,DEFAULT_PITCH,L"Microsoft JhengHei UI");
     background_brush=CreateSolidBrush(RGB(250,250,252));sidebar_brush=CreateSolidBrush(RGB(240,242,247));
     WNDCLASSW wc{};wc.lpfnWndProc=window_proc;wc.hInstance=instance;wc.lpszClassName=L"MaaOKWWNativeWindow";wc.hCursor=LoadCursorW(nullptr,IDC_ARROW);wc.hbrBackground=background_brush;RegisterClassW(&wc);
-    HWND window=CreateWindowW(wc.lpszClassName,L"OK-WW · MaaFramework 戰鬥",WS_OVERLAPPED|WS_CAPTION|WS_SYSMENU|WS_MINIMIZEBOX,
-        CW_USEDEFAULT,CW_USEDEFAULT,915,733,nullptr,nullptr,instance,nullptr);ShowWindow(window,show);UpdateWindow(window);
+    HWND window=CreateWindowW(wc.lpszClassName,L"OK-WW · MaaFramework 戰鬥 v0.3.0 · OKWW master 0b37b5b",WS_OVERLAPPED|WS_CAPTION|WS_SYSMENU|WS_MINIMIZEBOX|WS_CLIPCHILDREN,
+        CW_USEDEFAULT,CW_USEDEFAULT,915,799,nullptr,nullptr,instance,nullptr);ShowWindow(window,show);UpdateWindow(window);
     MSG msg{};while(GetMessageW(&msg,nullptr,0,0)){TranslateMessage(&msg);DispatchMessageW(&msg);}
     DeleteObject(normal_font);DeleteObject(title_font);DeleteObject(heading_font);DeleteObject(background_brush);DeleteObject(sidebar_brush);
     ReleaseMutex(mutex);CloseHandle(mutex);return int(msg.wParam);
