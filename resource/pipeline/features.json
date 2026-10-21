@@ -3166,5 +3166,16 @@
     "pre_delay": 0,
     "post_delay": 0,
     "rate_limit": 0
+  },
+  "OKWW_char_jingran": {
+    "recognition": "TemplateMatch",
+    "template": "jingran_281_181.png",
+    "threshold": 0.8,
+    "order_by": "Score",
+    "action": "DoNothing",
+    "timeout": 0,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0
   }
 }
