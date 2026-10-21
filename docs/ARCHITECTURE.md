@@ -1,31 +1,27 @@
-# 架構與修改位置
+# v0.3.0 架構
 
-執行主體為 C++。MaaFramework 負責 Win32 截圖、模板辨識、OCR 與輸入；角色條件、手法、輪廓／色值判斷及切人規則保留為可修改的 C++ 檔。
+執行主體為 C++17／MaaFramework v5.14.0；角色流程依 OK-WW 固定提交 `0b37b5b79e771297536ff1155db1c23131297558` 轉寫。
 
-```mermaid
-flowchart TD
-  A[Maa 截圖] --> B[目標、血條與隊伍 HUD]
-  B --> C[對應角色 C++ 手法]
-  C --> D[Maa 背景輸入]
-  D --> E[確認畫面與技能狀態]
-  E --> F[更新角色狀態及切人條件]
-  F --> A
-```
+|路徑|用途|
+|---|---|
+|`src/gui.cpp`|Win32 GUI、設定、F10／F11、紀錄顯示及核心程序管理|
+|`src/main.cpp`|Maa 初始化、遊戲視窗連線、監看及戰鬥入口|
+|`src/official/generated/`|52 名角色、BaseChar 與共用換人方法的完整 C++ 流程|
+|`src/official/OfficialCharacter.*`|角色方法註冊、屬性及跨角色查找|
+|`src/official/OfficialTask.*`|官方 API 與 Maa 截圖、模板、OCR、背景輸入之間的接口|
+|`src/official/OfficialValue.h`|動態值、參數綁定、Tuple 真值、回呼與作用域|
+|`src/official/OfficialArray.h`|角色影像計算所用的陣列、遮罩及 FFT|
+|`src/char/`|角色型別與工廠；現行手法本體位於 generated 目錄|
+|`src/task/BaseCombatTask.h`|戰鬥監看、隊伍、技能確認及 Maa 輸入實作|
+|`src/combat/`|ROI、OCR、模板、血條、技能狀態及冷卻辨識|
+|`resource/`|Maa Pipeline、286 份原始模板與本地 OCR 模型|
+|`source_reference/upstream/master-0b37b5b/`|固定上游原文，原始行尾及雜湊保留|
+|`scripts/official_transpile.py`|開發時的 Python AST → C++ 轉換工具|
+|`src/tests/official_roles_test.cpp`|現行原生角色、隊伍與影像離線對照入口|
+|`evidence/official-*-20261021.*`|本版公開離線對照資料|
 
-## 角色與共用流程
+角色方法依官方原名註冊；產生檔含來源檔名、行號與來源提交。執行時的條件、迴圈及回呼皆為編譯後 C++，不載入 Python 解譯器。完整來源與方法數見 `SOURCES.json`。
 
-`CharFactory.h` 保存 51 名角色的辨識與屬性；`OriginalCharFactory.h` 建立各自的手法物件。每名角色的 `.h` 保留對應原碼分支，並在有覆寫時保存自己的 `get_switch_priority`。
+一／二／三人隊伍共用官方輪轉選擇器；單人返回目前角色，沒有 1／2／3 換人輸入。技能辨識來自畫面，輸入使用 Maa 的 Win32 背景接口。保留三連點規則、按鍵總時間與長按時間。
 
-`OriginalBaseChar.h` 提供共用技能、普通點擊、重擊、變奏等待及狀態更新。`BaseCombatTask.h` 接入 Maa API，持續監看戰鬥，處理畫面快取、角色重用、切人確認與停止。
-
-## 辨識
-
-`MaaFrameRecognition.h` 保留原始畫面尺寸，依 `OriginalBoxes.h`／`OriginalTemplates.h` 的來源尺寸縮放模板及 ROI，再透過 Maa TemplateMatch 判斷。原碼指定的灰階、白色預處理與形狀補判有對應處理。
-
-`OriginalCooldown.h` 接入 Maa OCR；`OriginalHealthBar.h`、`OriginalConcerto.h` 與 `OriginalVision.h` 保留血條、協奏及能量的原碼算法。輪廓與形狀補判使用 Maa 隨附的原生 OpenCV。
-
-## 时间
-
-`OriginalTiming.h` 處理原始輸入窗口與等待；`OriginalFreeze.h` 記錄動畫停時。角色檔中的秒數、技能順序與退出條件應與 SOURCES.md 對應原碼一起修改。
-
-歷史的輔助測試與較早架構檔保留於原碼；目前戰鬥入口以 `main.cpp` → `run_combat` → `OriginalCharFactory` 為準。
+截圖及辨識依 Maa 後端設定運作；GPU 辨識不代表讀取遊戲內部技能資料。本版離線對照結果不代表實戰成效。
