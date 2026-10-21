@@ -7,7 +7,7 @@
 // Generated directly from the 281 original OK-WW COCO annotations.
 struct OriginalBox { std::string_view name; int source_width, source_height; double x,y,width,height; };
 struct ScreenBox { int x,y,width,height; };
-inline constexpr std::array<OriginalBox,286> original_boxes{{
+inline constexpr std::array<OriginalBox,287> original_boxes{{
     {"gray_start_battle", 3840, 2160, 3579, 1875, 98, 184},
     {"account_drop_down", 2048, 1152, 1273, 496, 60, 58},
     {"echo_merge", 3840, 2160, 149, 1967, 60, 63},
@@ -294,6 +294,7 @@ inline constexpr std::array<OriginalBox,286> original_boxes{{
     {"hsin_h1", 3840, 2160, 2826, 1893, 82, 79},
     {"hsin_h2", 3840, 2160, 2825, 1890, 87, 79},
     {"hsin_lib2", 3840, 2160, 3587, 1891, 90, 93},
+    {"char_jingran",3840,2160,3542,464,85,61},
 }};
 inline const OriginalBox* find_original_box(std::string_view name) {
     for (const auto& box : original_boxes) if (box.name==name) return &box;

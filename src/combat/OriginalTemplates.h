@@ -2,7 +2,7 @@
 #include <array>
 #include <string_view>
 struct OriginalTemplate {std::string_view name,file;int source_width,source_height,width,height;};
-inline constexpr std::array<OriginalTemplate,286> original_templates{{
+inline constexpr std::array<OriginalTemplate,287> original_templates{{
     {"gray_start_battle","157_0.png",3840,2160,98,184},
     {"account_drop_down","221_1.png",2048,1152,60,58},
     {"echo_merge","134_2.png",3840,2160,60,63},
@@ -289,6 +289,7 @@ inline constexpr std::array<OriginalTemplate,286> original_templates{{
     {"hsin_h1","hsin_284_188.png",3840,2160,82,79},
     {"hsin_h2","hsin_285_189.png",3840,2160,87,79},
     {"hsin_lib2","hsin_286_190.png",3840,2160,90,93},
+    {"char_jingran","jingran_281_181.png",3840,2160,85,61},
 }};
 inline const OriginalTemplate* find_original_template(std::string_view filename) {
     for(const auto& item:original_templates)if(item.file==filename)return &item;
